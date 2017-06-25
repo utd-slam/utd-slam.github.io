@@ -19,7 +19,7 @@
     });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -28,6 +28,14 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    $('li.dropdown').hover(function() {
+        $('a', this).attr('aria-expanded', 'true');
+        $(this).addClass('open');
+    }, function() {
+        $('a', this).attr('aria-expanded', 'false');
+        $(this).removeClass('open')
+    });
 
 })(jQuery); // End of use strict

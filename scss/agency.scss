@@ -79,6 +79,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Custom Navigation Bar
+.dropdown-menu{
+  background:black;
+}
+.navbar-right .dropdown-menu {
+  right: auto;
+  left: 0;
+}
+.navbar-right .dropdown-submenu {
+  top: 0;
+  right: auto;
+  left: 100%;
+  margin-top: -6px;
+}
 
 .navbar-custom {
     background-color: $gray-darker;
@@ -288,8 +301,8 @@ section {
                     h4 {
                         margin: 0;
                     }
-                }                
-            }            
+                }
+            }
         }
         .portfolio-caption {
             max-width: 400px;
@@ -574,7 +587,7 @@ section#contact {
        font-weight: 700;
        color: $gray-lighter;
     }
-    :-ms-input-placeholder {  
+    :-ms-input-placeholder {
        @include heading-font;
        font-weight: 700;
        color: $gray-lighter;
@@ -704,8 +717,8 @@ ul.social-buttons {
                 -webkit-transform: rotate(90deg);
                 /* Safari and Chrome */
                 z-index:1052;
-            }            
-        }        
+            }
+        }
     }
     .modal-backdrop {
         opacity: 0;

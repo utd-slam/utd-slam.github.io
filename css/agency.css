@@ -182,6 +182,19 @@ fieldset[disabled] .btn-xl.active {
   letter-spacing: 1px;
   color: white;
 }
+.dropdown-menu{
+  background:black;
+}
+.navbar-right .dropdown-menu {
+  right: auto;
+  left: 0;
+}
+.navbar-right .dropdown-submenu {
+  top: 0;
+  right: auto;
+  left: 100%;
+  margin-top: -6px;
+}
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
   color: #80abc8;
@@ -200,10 +213,10 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 25px 0;
+    /*padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
+    transition: padding 0.3s;*/
     border: none;
   }
   .navbar-custom .navbar-brand {
@@ -219,7 +232,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #222222;
-    padding: 10px 0;
+    /*padding: 10px 0;*/
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
