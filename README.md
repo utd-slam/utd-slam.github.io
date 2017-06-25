@@ -1,2 +1,2 @@
 # website
-Website for the OSU Speech, Language, and Memory Lab.
+Website for the OSU Speech, Language, and Music Lab.
