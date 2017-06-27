@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SLAM Lab</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top" style="background-color:#222">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="margin-top: 20px; margin-bottom: 20px;">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a href="#page-top"><img src="img/logos/SLAM-Lab.png" height="80"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right" style="margin-top: 20px; margin-bottom: 20px;">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#vision" class="dropdown-toggle" data-toggle="dropdown">SLAMERS</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Director</a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li><a href="#">Dr. Yune S. Lee</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Staff</a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li><a href="#">Matthew Heard</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Students</a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li><a href="#">Aiesha Polakampalli</a></li>
+                                    <li><a href="#">Allison Byrer</a></li>
+                                    <li><a href="#">Kate Corbeil</a></li>
+                                    <li><a href="#">Kathy Guo</a></li>
+                                    <li><a href="#">Kevie Bovaird</a></li>
+                                    <li><a href="#">Korrin Perry</a></li>
+                                    <li><a href="#">Runzhou Cao</a></li>
+                                    <li><a href="#">Sanghoon Ahn</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#projects" class="dropdown-toggle" data-toggle="dropdown">Projects</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Rhythm and Speech Perception</a></li>
+                            <li><a href="#">Changes in Neural Activity Following <br>Cochlea Implant (CI)</a></li>
+                            <li><a href="#">Non-Invasive Rhythm Stimulation for <br>Parkinson’s Disease Patients</a></li>
+                            <li><a href="#">Music-Based Intervention Program for <br>School-Age Children</a></li>
+                            <li><a href="#">Rhythm Video Game Therapy for <br>Chronic Aphaisa</a></li>
+                            <li><a href="projects.html">More</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#publication">Publications</a>
+                    </li>
+                    <li>
+                        <a href="#gallery">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="#event">Events</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <!--<header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in">Welcome To SLAM Lab!</div>
+                <hr>
+                <div class="intro-heading" color="#eee">Using cutting edge technology, we investigate relations between speech, language, and music in the context of communication and neurodegenerative disorders</div>
+                <a href="#vision" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>-->
+
+    <!-- Projects Section -->
+    <section id="vision">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Vision</h2>
+                    <p>The vision of SLAM lab is to provide interesting and valuable findings to the neuroscience community. In particular, we investigate relations between speech, language, and music (SLAM) in the context of communication disorders associated with developmental, aging, and brain injury. To this end, we use multidisciplinary approaches involving neuroimaging (fMRI, fNIRS, PET), genetics, and behavioral experiments.</p>
+                </div>
+            </div>
+            <br><br><br>
+
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Meet the Team</h2>
+                    <h3 class="section-subheading text-muted">Here are the unique individuals that work hard to make our vision happen.</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Director</h2>
+            </div>
+            <br><br>
+            <div class="row" id="yunel">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/photo_YuneLee.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Dr. Yune S. Lee</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Dr. Yune S. Lee, Ph.D. in Cognitive Neuroscience, is the Director of SLAM Lab and an Assistant Professor in the Department of Speech and Hearing Science &amp; Center for Brain Injury at the Ohio State University. His research interests include:
+                    <ul>
+                          <li>Neural and cognitive connections among speech, language, and music (SLAM),</li>
+                          <li>Music-based NeuroRehabilitation in brain injury (aphasia, TBI, etc.) and hearing loss/disorders (Cochlear Implant, Tinnitus, etc.), Functional Neuroimaging (fMRI, fNIRS, PET, etc.).</li>
+                    </ul><br>
+                    If you are interested in pursuing or participating in SLAM Lab research, you may contact him by phone at <a href="tel:1-614-292-1743">(614) 292-1743</a>, by email at <a href="mailto:lee.7966@osu.edu">lee.7966@osu.edu</a>, or through this <a href="#contact">form</a>.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Lab Manager</h2>
+            </div>
+            <br><br>
+            <div class="row" id="matthewh">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/matthew.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Matthew Heard</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Matt recently graduated with a Neuroscience degree at the Ohio State University. As a part of SLAM Lab, he will be analyzing the perception of key signature and content of melodies. Outside of class, he plays the Sousaphone in The Ohio State University Marching Band, fences, and plays the guitar.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <h2>Undergraduate Students</h2>
+            </div>
+            <br><br>
+            <div class="row" id="aieshap">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/Aiesha.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Aiesha Polakampalli</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Aiesha is a third-year Neuroscience major from Gahanna, OH. At SLAM Lab, she is involved with data collection at COSI to study the link between rhythm and speech perception. In the future, she hopes to become a neurologist. On campus, she is actively involved with Mentor-A-Buckeye and Girls Circle Project.</p>
+                </div>
+            </div>
+            <div class="row" id="allisonb">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/allison.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Allison Byrer</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>What Allision finds most interesting about phsycology are the disorders and diseases of the brain. She has a specific interest in Alzheimer's disease and other dementia disorders. In the future, she hopes to find a career that allows her to examine these issues more closely, whether it be through related research or patient counseling.</p>
+                </div>
+            </div>
+            <div class="row" id="katec">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/KateCorbeil.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Kate Corbeil</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Kate is a third-year undergraduate student majoring in Speech and Hearing Science and minoring in Developmental Psychology and Disability Studies. Currently, she is designing a working memory experiment to explore the relationship between working memory and innate rhythm processing and has enjoyed studying these potential mechanisms underlying speech and language disorders through the SLAM Lab. She plans to pursue Speech-Language Pathology at the graduate level in Fall 2018, using knowledge and skills gained from her research experience as catalysts towards future research and clinical work.</p>
+                </div>
+            </div>
+            <div class="row" id="kathyg">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/kathy.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Kathy Guo</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Kathy is a second-year Computer Science and Engineering major and is interested in obtaining a minor in Business Analytics. She is interested in software development as well as database management. She recently joined SLAM Lab because of her interests in psychology and music. At SLAM Lab, she will be helping to develop a therapeutic game called TheraBeats.</p>
+                </div>
+            </div>
+            <div class="row" id="kevieb">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/kevieb.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Kevie Bovaird</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Kevie is duel-majoring in Percussion Performance &amp; Music Education and minoring in Neuroscience. Her hobbies include playing a tabletop RPG called Pathfinder (a popular version of Dungeons &amp; Dragons) and reading. Her favorite author is Terry Pratchett.</p>
+                </div>
+            </div>
+            <div class="row" id="korrinp">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/korrinp.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Korrin Perry</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Korrin lives in California but is “dominantly” from Cincinnati, Ohio (she lived in Asia for 6 years so she has moved around a decent amount). She is a Neuroscience major and Philosophy minor at the Ohio State University. Korrin is the President of Kappa Alpha Theta, was a Buckeyethon Captain for the 2017 dance marathon, and is a member of the Advocates for Women of the World club at Ohio State. Her goal is to be a child psychologist after going to graduate school next year!</p>
+                </div>
+            </div>
+            <div class="row" id="runzhouc">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/runzhouc.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Runzhou Cao</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Runzhou Cao is a senior Computer Science major at the OSU. His job at SLAM Lab is to design rhythm test procedures and to implement the scoring system in the therapeutic game, TheraBeats.</p>
+                </div>
+            </div>
+            <div class="row" id="sanghoona">
+                <div class="col-sm-4">
+                    <div class="team-member team-member-small">
+                        <a class="portfolio-link" data-toggle="modal">
+                            <img src="img/team/sanghoon.jpg" class="img-responsive img-circle" alt="">
+                        </a>
+                        <h4 style="margin:25px 0">Sanghoon Ahn</h4>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <p>Sanghoon is a junior in the OSU neuroscience program. He has a vested interested in neurological diseases, and his ambition is to become a neurosurgeon. Sanghoon also enjoys reading, biking and traveling.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; SLAM Lab 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Internal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

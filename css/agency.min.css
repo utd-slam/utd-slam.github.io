@@ -26,3 +26,6 @@ hr {
     width: 100%;
     height; 100%;
 }
+.team-member-small img {
+    width: 200px !important;
+}
