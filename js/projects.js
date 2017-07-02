@@ -23,6 +23,8 @@ $(function() {
         if (i % 3 == 0) {
             newRow = document.createElement("div");
             newRow.className += 'row';
+            newRow.setAttribute('id', i/3);
+            newRow.setAttribute('style', 'padding-top: 100px; margin-top: -100px;');
             base[0].appendChild(newRow);
         }
 
