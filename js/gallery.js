@@ -88,6 +88,7 @@ function setupGallery(id, parent) {
     var gallery = document.createElement("div");
     gallery.className += 'tz-gallery';
     gallery.setAttribute('id', id);
+    gallery.setAttribute('style', 'padding-top: 240px; margin-top: -200px;');
 
         var row = document.createElement("div");
         row.className += 'row';
