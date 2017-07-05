@@ -11,6 +11,7 @@ $(function() {
     firebase.initializeApp(config);
 
     // Get elements
+    const internalSection = document.getElementById('internal');
     const loginSection = document.getElementById('loginSection');
     const userInfo = document.getElementById('userInfo');
     const emailTxt = document.getElementById('userEmail');
@@ -18,6 +19,10 @@ $(function() {
     const loginBtn = document.getElementById('signin');
     const logoutBtn = document.getElementById('signout');
     var error = document.getElementById('error');
+
+    // Set section min height
+    var height = "min-height:" + window.innerHeight + "px";
+    internalSection.setAttribute('style', height);
 
     // Add log in event
     loginBtn.addEventListener('click', e => {
