@@ -1,6 +1,4 @@
 title: SLAM Lab
 description: SLAM is the auditory neuroscience lab at the OSU Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.
 logo: img/logos/SLAM-Lab.png
-gems:
-    - jekyll-seo-tag
-    - jekyll-sitemap
+gems: [jekyll-seo-tag, jekyll-sitemap]
