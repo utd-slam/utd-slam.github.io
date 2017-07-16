@@ -6,6 +6,9 @@
 .dropdown-menu{
   background:black;
 }
+.dropdown-menu>li>a{
+    padding: 10px 20px;
+}
 .navbar-right .dropdown-menu {
   right: auto;
   left: 0;
