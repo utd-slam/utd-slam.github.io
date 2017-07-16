@@ -44,7 +44,7 @@ function loadnew() {
     var base = document.getElementById('gallery').children;
 
     if (shimadzu) {
-        addHeader('Shimadzu, Japan', base[0]);
+        addHeader('Shimadzu, Japan', 'June 6, 2017', base[0]);
         setupGallery('shimadzu', base[0]);
 
         for (var i = 0; i < shimadzuLinks.length; i++) {
@@ -53,7 +53,7 @@ function loadnew() {
     }
 
     if (therabeat) {
-        addHeader('Demonstrating Therabeat at ShowOHI/O', base[0]);
+        addHeader('Demonstrating Therabeat at ShowOHI/O', 'April 8, 2017', base[0]);
         setupGallery('therabeat', base[0]);
 
         for (var i = 0; i < therabeatLinks.length; i++) {
@@ -62,7 +62,7 @@ function loadnew() {
     }
 
     if (cosi) {
-        addHeader('COSI Rhythm and Speech Perception Lab', base[0]);
+        addHeader('COSI Rhythm and Speech Perception Lab', 'January 2017 - Present', base[0]);
         setupGallery('cosi', base[0]);
 
         for (var i = 0; i < cosiLinks.length; i++) {
@@ -73,13 +73,19 @@ function loadnew() {
     baguetteBox.run('.tz-gallery');
 }
 
-function addHeader(name, parent) {
+function addHeader(header, subheader, parent) {
     var newDiv = document.createElement("div");
     newDiv.className += 'row tz-header';
 
         var headerText = document.createElement("h2");
-        headerText.textContent = name;
+        headerText.textContent = header;
         newDiv.appendChild(headerText);
+
+        if(subheader.length > 0){
+            var subheaderText = document.createElement("h4");
+            subheaderText.textContent = subheader;
+            newDiv.appendChild(subheaderText);
+        }
 
     parent.appendChild(newDiv);
 }
