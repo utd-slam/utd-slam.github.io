@@ -273,13 +273,17 @@
                         <h4>Dr. Yune S. Lee</h4>
                         <p class="text-muted">Director</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            <li><a href="#yunel-email" data-toggle="collapse"><i class="fa fa-envelope"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-phone"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="#yunel-phone" data-toggle="collapse"><i class="fa fa-phone"></i></a>
                             </li>
                         </ul>
+                        <div id="yunel-email" class="collapse">
+                            <br>lee.7966@osu.edu
+                        </div>
+                        <div id="yunel-phone" class="collapse">
+                            <br>(614) 292-1743
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -290,30 +294,42 @@
                         <h4>Matthew Heard</h4>
                         <p class="text-muted">Lab Manager</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                            <li><a href="#matthewh-email" data-toggle="collapse"><i class="fa fa-envelope"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-phone"></i></a>
+                            <li><a href="#matthewh-phone" data-toggle="collapse"><i class="fa fa-phone"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/in/matthew-heard-895799144/"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="https://github.com/HeardMatthew"><i class="fa fa-github"></i></a>
                             </li>
                         </ul>
+                        <div id="matthewh-email" class="collapse">
+                            <br>heardmatthew49@gmail.com
+                        </div>
+                        <div id="matthewh-phone" class="collapse">
+                            <br>(214) 458-7255
+                        </div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <a href="people.html#sanghoona" class="portfolio-link">
-                            <img src="img/team/sanghoon.jpg" class="img-responsive img-circle" alt="">
+                        <a href="people.html#sanghoona" class="portfolio-link" id="undergrad-link">
+                            <img src="img/team/sanghoon.jpg" class="img-responsive img-circle" id="undergrad-img" alt="">
                         </a>
-                        <h4>Sanghoon Ahn</h4>
-                        <p class="text-muted">Student Researcher</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-envelope"></i></a>
+                        <h4 id="undergrad-name">Sanghoon Ahn</h4>
+                        <p class="text-muted">Undergraduate Student</p>
+                        <ul class="list-inline social-buttons" id="undergrad-social">
+                            <li><a href="#undergrad-email" data-toggle="collapse"><i class="fa fa-envelope"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-phone"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="#undergrad-phone" data-toggle="collapse"><i class="fa fa-phone"></i></a>
                             </li>
                         </ul>
+                        <div id="undergrad-email" class="collapse">
+                            <br>ahnsanghoon1996@gmail.com
+                        </div>
+                        <div id="undergrad-phone" class="collapse">
+                            <br>(614) 495-6425
+                        </div>
                     </div>
                 </div>
             </div>
@@ -637,6 +653,9 @@
 
     <!-- Navigation JavaScript -->
     <script src="js/navigation.js"></script>
+
+    <!-- Undergrad highlight JavaScript -->
+    <script src="js/undergrad.random.js"></script>
 
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
