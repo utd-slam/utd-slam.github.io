@@ -1,6 +1,6 @@
 $(function() {
     var select = document.getElementById("selectNumber");
-    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan"];
+    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol"];
     for (var i = 0; i < options.length; i++) {
         var opt = options[i];
         var el = document.createElement("option");
@@ -17,15 +17,17 @@ function loadnew() {
     $('.tz-header').remove();
     $('.tz-gallery').remove();
 
-    var cosi = 0, therabeat = 0, shimadzu = 0;
+    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0;
     if (document.getElementById("0").selected == true){
-        cosi = therabeat = shimadzu = 1;
+        cosi = therabeat = shimadzu = protocol = 1;
     } else if (document.getElementById("1").selected == true){
         cosi = 1;
     } else if (document.getElementById("2").selected == true){
         therabeat = 1;
-    } else {
+    } else if (document.getElementById("3").selected == true){
         shimadzu = 1;
+    } else {
+        protocol = 1;
     }
 
     /* Begin defining gallery images here */
@@ -39,9 +41,21 @@ function loadnew() {
     var cosiLinks = ['img/gallery/cosi/1.jpg', 'img/gallery/cosi/2.jpg', 'img/gallery/cosi/3.jpg', 'img/gallery/cosi/4.jpg', 'img/gallery/cosi/5.jpg', 'img/gallery/cosi/6.jpg', 'img/gallery/cosi/7.jpg'];
     var th_cosiLinks = ['img/gallery/cosi/thumb/1.jpg', 'img/gallery/cosi/thumb/2.jpg', 'img/gallery/cosi/thumb/3.jpg', 'img/gallery/cosi/thumb/4.jpg', 'img/gallery/cosi/thumb/5.jpg', 'img/gallery/cosi/thumb/6.jpg', 'img/gallery/cosi/thumb/7.jpg'];
 
+    var firstFMRILinks = ['img/gallery/first-fmri-new-protocol/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/IMG_1158.jpg'];
+    var th_firstFMRILinks = ['img/gallery/first-fmri-new-protocol/thumb/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/thumb/IMG_1158.jpg'];
+
     /* End defining gallery images */
 
     var base = document.getElementById('gallery').children;
+
+    if (protocol) {
+        addHeader('New FMRI Protocol', 'July 19, 2017', base[0]);
+        setupGallery('protocol', base[0]);
+
+        for (var i = 0; i < firstFMRILinks.length; i++) {
+            insertThumbnail(firstFMRILinks[i], th_firstFMRILinks[i], 'protocol');
+        }
+    }
 
     if (shimadzu) {
         addHeader('Shimadzu, Japan', 'June 6, 2017', base[0]);
