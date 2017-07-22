@@ -274,6 +274,12 @@ section {
     text-transform: none;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 // Portfolio Section
 
     .portfolio-item {

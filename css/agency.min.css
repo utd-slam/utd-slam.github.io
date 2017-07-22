@@ -32,3 +32,8 @@ hr {
 .team-member-small img {
     width: 200px !important;
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
