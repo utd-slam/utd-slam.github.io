@@ -12,7 +12,7 @@ function changeImage()
         setTimeout("changeImage()", 5000);
 }
 
-var imgs = ['img/header/cosi.jpg', 'img/header/japan.jpg', 'img/header/showohio.jpg', 'img/header/brain.jpg'];
+var imgs = ['img/header/cosi.jpg', 'img/header/japan.jpg', 'img/header/fmri.jpg', 'img/header/brain.jpg'];
 var i = 0;
 
 setTimeout("changeImage()", 100);
