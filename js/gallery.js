@@ -1,6 +1,6 @@
 $(function() {
     var select = document.getElementById("selectNumber");
-    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol"];
+    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol", "Arlington Court Nursing Home Seminar"];
     for (var i = 0; i < options.length; i++) {
         var opt = options[i];
         var el = document.createElement("option");
@@ -17,17 +17,19 @@ function loadnew() {
     $('.tz-header').remove();
     $('.tz-gallery').remove();
 
-    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0;
+    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0, arlington = 0;
     if (document.getElementById("0").selected == true){
-        cosi = therabeat = shimadzu = protocol = 1;
+        cosi = therabeat = shimadzu = protocol = arlington = 1;
     } else if (document.getElementById("1").selected == true){
         cosi = 1;
     } else if (document.getElementById("2").selected == true){
         therabeat = 1;
     } else if (document.getElementById("3").selected == true){
         shimadzu = 1;
-    } else {
+    } else if (document.getElementById("4").selected == true){
         protocol = 1;
+    } else {
+        arlington = 1;
     }
 
     /* Begin defining gallery images here */
@@ -44,9 +46,21 @@ function loadnew() {
     var firstFMRILinks = ['img/gallery/first-fmri-new-protocol/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/IMG_1158.jpg'];
     var th_firstFMRILinks = ['img/gallery/first-fmri-new-protocol/thumb/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/thumb/IMG_1158.jpg'];
 
+    var arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/1.jpg', 'img/gallery/arlington-nursing-home/2.jpg', 'img/gallery/arlington-nursing-home/3.jpg'];
+    var th_arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/thumb/1.jpg', 'img/gallery/arlington-nursing-home/thumb/2.jpg', 'img/gallery/arlington-nursing-home/thumb/3.jpg'];
+
     /* End defining gallery images */
 
     var base = document.getElementById('gallery').children;
+
+    if (arlington) {
+        addHeader('Arlington Court Nursing Home Seminar', 'July 21, 2017', base[0]);
+        setupGallery('arlington', base[0]);
+
+        for (var i = 0; i < arlingtonCourtLinks.length; i++) {
+            insertThumbnail(arlingtonCourtLinks[i], th_arlingtonCourtLinks[i], 'arlington');
+        }
+    }
 
     if (protocol) {
         addHeader('New FMRI Protocol', 'July 19, 2017', base[0]);
