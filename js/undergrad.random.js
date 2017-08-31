@@ -16,6 +16,8 @@ $(function() {
 
     undergrads.push(new Undergrad('Allison Byrer', 'people.html#allisonb', 'img/team/allison.jpg', 'byrer.7@osu.edu', '(614) 805-1847', []));
 
+    undergrads.push(new Undergrad('Jihyung Kil', 'people.html#jihyungk', 'img/team/jihyung.jpg', 'kil.5@osu.edu', '(714) 616-4107', []));
+
     var katec_social = [];
     katec_social.push(new Social('fa-linkedin', 'http://www.linkedin.com/in/katherine-corbeil-220a52112'));
     undergrads.push(new Undergrad('Kate Corbeil', 'people.html#katec', 'img/team/KateCorbeil.jpg', 'corbeil.4@osu.edu', '(440) 665-9201', katec_social));
