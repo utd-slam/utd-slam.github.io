@@ -14,10 +14,6 @@ $(function() {
     /* Add people */
     undergrads.push(new Undergrad('Aiesha Polakampalli', 'people.html#aieshap', 'img/team/Aiesha.jpg', 'polakampalli.2@osu.edu', '(614) 937-7072', []));
 
-    var geoffg_social = [];
-    geoffg_social.push(new Social('fa-linkedin', 'https://www.linkedin.com/in/geoff-d-green-ii-093510124/'));
-    undergrads.push(new Undergrad('Geoff Green', 'people.html#geoffg', 'img/team/geoffGreen.jpg', 'green.1425@osu.edu', '(314) 413-4034', geoffg_social));
-
     undergrads.push(new Undergrad('Jihyung Kil', 'people.html#jihyungk', 'img/team/jihyung.jpg', 'kil.5@osu.edu', '(714) 616-4107', []));
 
     var katec_social = [];
