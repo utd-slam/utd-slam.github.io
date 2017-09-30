@@ -34,6 +34,10 @@ $(function() {
     undergrads.push(new Undergrad('Korrin Perry', 'people.html#korrinp', 'img/team/korrinp.jpg', 'perry.2016@osu.edu', '(513) 313-1173', korrinp_social));
 
     undergrads.push(new Undergrad('Sanghoon Ahn', 'people.html#sanghoona', 'img/team/sanghoon.jpg', 'ahnsanghoon1996@gmail.com', '(614) 495-6425', []));
+
+    var shelleyg_social = [];
+    shelleyg_social.push(new Social('fa-linkedin', 'https://www.linkedin.com/in/goodenshelley/'));
+    undergrads.push(new Undergrad('Shelley Chee-Mei Gooden', 'people.html#shelleyg', 'img/team/shelleyg.jpg', 'gooden.52@osu.edu', '(937) 304-8128', shelleyg_social));
     /* End of add people */
 
     // random number between 0 and num of grads - 1
