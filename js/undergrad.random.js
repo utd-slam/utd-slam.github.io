@@ -16,6 +16,8 @@ $(function() {
 
     undergrads.push(new Undergrad('Caroline Conway', 'people.html#carolinec', 'img/team/carolinec.jpg', 'conway.247@osu.edu', '(513) 549-9138', []));
 
+    undergrads.push(new Undergrad('David Bendoly', 'people.html#davidb', 'img/team/member.png', 'bendoly.1@osu.edu', '(216) 678-0084', []));
+
     undergrads.push(new Undergrad('Jihyung Kil', 'people.html#jihyungk', 'img/team/jihyung.jpg', 'kil.5@osu.edu', '(714) 616-4107', []));
 
     var katec_social = [];
