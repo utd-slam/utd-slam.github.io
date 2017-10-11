@@ -1,7 +1,23 @@
 $(function() {
-    var undergrads = [];
-    var Undergrad = makeStruct("name biolink img email phone other");
-    var Social =  makeStruct("iconID link");
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBuBtm-lim5I635HwWwVjfdfJ6Wtwo-0I4",
+        authDomain: "slam-lab.firebaseapp.com",
+        databaseURL: "https://slam-lab.firebaseio.com",
+        projectId: "slam-lab",
+        storageBucket: "slam-lab.appspot.com",
+        messagingSenderId: "762491185440"
+    };
+    firebase.initializeApp(config);
+    var people = firebase.database;
+    var ref = firebase.database().ref("people");
+    ref.on('value', gotData, errorData);
+});
+
+function gotData(data){
+    //var students = [];
+    //var Student = makeStruct("name img email phone social");
+    //var Social =  makeStruct("iconID link");
 
     var social = document.getElementById('undergrad-social');
     var link = document.getElementById('undergrad-link');
@@ -10,52 +26,34 @@ $(function() {
     var email = document.getElementById('undergrad-email');
     var phone = document.getElementById('undergrad-phone');
 
+    const studentSection = document.getElementById('students');
 
-    /* Add people */
-    undergrads.push(new Undergrad('Aiesha Polakampalli', 'people.html#aieshap', 'img/team/Aiesha.jpg', 'polakampalli.2@osu.edu', '(614) 937-7072', []));
+    var people = data.val();
+    var ids = Object.keys(people);
 
-    undergrads.push(new Undergrad('Caroline Conway', 'people.html#carolinec', 'img/team/carolinec.jpg', 'conway.247@osu.edu', '(513) 549-9138', []));
-
-    undergrads.push(new Undergrad('David Bendoly', 'people.html#davidb', 'img/team/member.png', 'bendoly.1@osu.edu', '(216) 678-0084', []));
-
-    undergrads.push(new Undergrad('Jihyung Kil', 'people.html#jihyungk', 'img/team/jihyung.jpg', 'kil.5@osu.edu', '(714) 616-4107', []));
-
-    var katec_social = [];
-    katec_social.push(new Social('fa-linkedin', 'http://www.linkedin.com/in/katherine-corbeil-220a52112'));
-    undergrads.push(new Undergrad('Kate Corbeil', 'people.html#katec', 'img/team/KateCorbeil.jpg', 'corbeil.4@osu.edu', '(440) 665-9201', katec_social));
-
-    var kathyg_social = [];
-    kathyg_social.push(new Social('fa-linkedin', 'http://www.linkedin.com/in/kathy-guo'));
-    kathyg_social.push(new Social('fa-github', 'http://github.com/kguo901'));
-    undergrads.push(new Undergrad('Kathy Guo', 'people.html#kathyg', 'img/team/kathy.jpg', 'guo.901@osu.edu', '(614) 956-9181', kathyg_social));
-
-    var kevieb_social = [];
-    kevieb_social.push(new Social('fa-linkedin', 'https://www.linkedin.com/in/kevie-bovaird-617161144/s'));
-    undergrads.push(new Undergrad('Kevie Bovaird', 'people.html#kevieb', 'img/team/kevieb.jpg', 'keviebovaird@gmail.com', '(925) 998-8455', kevieb_social));
-
-    var korrinp_social = [];
-    korrinp_social.push(new Social('fa-linkedin', 'https://www.linkedin.com/in/korrin-perry-21aa0011a/'));
-    undergrads.push(new Undergrad('Korrin Perry', 'people.html#korrinp', 'img/team/korrinp.jpg', 'perry.2016@osu.edu', '(513) 313-1173', korrinp_social));
-
-    undergrads.push(new Undergrad('Sanghoon Ahn', 'people.html#sanghoona', 'img/team/sanghoon.jpg', 'ahnsanghoon1996@gmail.com', '(614) 495-6425', []));
-
-    var shelleyg_social = [];
-    shelleyg_social.push(new Social('fa-linkedin', 'https://www.linkedin.com/in/goodenshelley/'));
-    undergrads.push(new Undergrad('Shelley Chee-Mei Gooden', 'people.html#shelleyg', 'img/team/shelleyg.jpg', 'gooden.52@osu.edu', '(937) 304-8128', shelleyg_social));
-    /* End of add people */
-
-    // random number between 0 and num of grads - 1
-    var index = Math.floor(Math.random() * undergrads.length);
-    link.href = undergrads[index].biolink;
-    image.src = undergrads[index].img;
-    name.innerHTML = undergrads[index].name;
-    email.innerHTML = '<br>' + undergrads[index].email;
-    phone.innerHTML = '<br>' + undergrads[index].phone;
-    var other = undergrads[index].other;
-    for (var i = 0; i < other.length; i++) {
-        addIcon(other[i].iconID, other[i].link, social);
+    var i = Math.floor(Math.random() * ids.length);
+    var k = ids[i];
+    var otherSocial = [];
+    var socialData = people[k].social;
+    if(!socialData){
+        socialData = [];
     }
-});
+
+    image.src = people[k].img;
+    name.innerHTML = people[k].name;
+    email.innerHTML = '<br>' + people[k].email;
+    phone.innerHTML = '<br>' + people[k].phone;
+
+    var socialTypes = Object.keys(socialData);
+    for (var j = 0; j < socialTypes.length; j++){
+        var type = socialTypes[j];
+        addIcon(socialData[type].fa_icon, socialData[type].link, social);
+    }
+}
+
+function errorData(error){
+    console.log(error);
+}
 
 function addIcon(id, link, parent) {
     var listEle = document.createElement("li");
@@ -70,7 +68,7 @@ function addIcon(id, link, parent) {
 
     parent.appendChild(listEle);
 }
-
+/*
 function makeStruct(names) {
     var names = names.split(' ');
     var count = names.length;
@@ -80,4 +78,4 @@ function makeStruct(names) {
         }
     }
     return constructor;
-}
+}*/
