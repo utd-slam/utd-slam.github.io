@@ -40,6 +40,7 @@ function gotData(data){
         var student = new Student(people[k].name, k, people[k].bio, people[k].img, people[k].email, people[k].phone, social);
         renderStudent(student, studentSection);
     }
+    firebase.database().goOffline();
 }
 
 function errorData(error){

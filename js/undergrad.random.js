@@ -49,6 +49,7 @@ function gotData(data){
         var type = socialTypes[j];
         addIcon(socialData[type].fa_icon, socialData[type].link, social);
     }
+    firebase.database().goOffline();
 }
 
 function errorData(error){
