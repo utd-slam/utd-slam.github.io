@@ -4,6 +4,8 @@ $(function() {
 
     /* Add publications */
 
+    allPublications.push(new Publication('Neural bases of action abstraction', 'Lorna C. Quandt, Yune-Sang Lee, Anjan Chatterjee, 2017', 'img/publications/golf.png', 'doc/2017_Quandt.pdf'));
+
     allPublications.push(new Publication('Patterns of neural activity predict picture-naming performance of a patient with chronic aphasia', 'Yune-Sang Lee, Jihad T. Zreik, Roy H. Hamilton, 2017', 'img/publications/question-mark.jpg', 'doc/Lee-et-al-2017.pdf'));
 
     allPublications.push(new Publication('Acoustic richness modulates the neural networks supporting intelligible speech processing', 'Yune-Sang Lee, Nam Eun Min, Arthur Wingfield, Murray Grossman, Jonathan E. Peelle, 2016', 'img/publications/headphones.jpg', 'doc/Lee-et-al-2016.pdf'));
