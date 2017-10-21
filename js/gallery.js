@@ -1,6 +1,6 @@
 $(function() {
     var select = document.getElementById("selectNumber");
-    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol", "Arlington Court Nursing Home Seminar"];
+    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol", "Arlington Court Nursing Home Seminar", "fNIRS Demo Experiment"];
     for (var i = 0; i < options.length; i++) {
         var opt = options[i];
         var el = document.createElement("option");
@@ -17,9 +17,9 @@ function loadnew() {
     $('.tz-header').remove();
     $('.tz-gallery').remove();
 
-    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0, arlington = 0;
+    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0, arlington = 0, fnirs = 0;
     if (document.getElementById("0").selected == true){
-        cosi = therabeat = shimadzu = protocol = arlington = 1;
+        cosi = therabeat = shimadzu = protocol = arlington = fnirs = 1;
     } else if (document.getElementById("1").selected == true){
         cosi = 1;
     } else if (document.getElementById("2").selected == true){
@@ -28,8 +28,10 @@ function loadnew() {
         shimadzu = 1;
     } else if (document.getElementById("4").selected == true){
         protocol = 1;
-    } else {
+    } else if (document.getElementById("5").selected == true){
         arlington = 1;
+    } else {
+        fnirs = 1;
     }
 
     /* Begin defining gallery images here */
@@ -49,9 +51,21 @@ function loadnew() {
     var arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/1.jpg', 'img/gallery/arlington-nursing-home/2.jpg', 'img/gallery/arlington-nursing-home/3.jpg'];
     var th_arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/thumb/1.jpg', 'img/gallery/arlington-nursing-home/thumb/2.jpg', 'img/gallery/arlington-nursing-home/thumb/3.jpg'];
 
+    var fnirsDemoLinks = ['img/gallery/fnirs-demo/1.jpg', 'img/gallery/fnirs-demo/2.jpg'];
+    var th_fnirsDemoLinks = ['img/gallery/fnirs-demo/thumb/1.jpg', 'img/gallery/fnirs-demo/thumb/2.jpg'];
+
     /* End defining gallery images */
 
     var base = document.getElementById('gallery').children;
+
+    if (fnirs) {
+        addHeader('fNIRS Demo Experiment', 'October 13, 2017', base[0]);
+        setupGallery('fnirs', base[0]);
+
+        for (var i = 0; i < fnirsDemoLinks.length; i++) {
+            insertThumbnail(fnirsDemoLinks[i], th_fnirsDemoLinks[i], 'fnirs');
+        }
+    }
 
     if (arlington) {
         addHeader('Arlington Court Nursing Home Seminar', 'July 21, 2017', base[0]);
