@@ -35,14 +35,17 @@ $(function() {
             newRow.className += 'row';
             base[0].appendChild(newRow);
         }
-
         var newCol = document.createElement("div");
         newCol.className += 'col-md-4 col-sm-6 portfolio-item';
+
+            var publicationLink = document.createElement("a");
+            publicationLink.href = allPublications[i].link;
+            newCol.appendChild(publicationLink);
 
             var image = document.createElement('img');
             image.setAttribute('src', allPublications[i].img);
             image.className += 'img-responsive';
-            newCol.appendChild(image);
+            publicationLink.appendChild(image);
 
             var newText = document.createElement("div");
             newText.className += 'portfolio-caption';
