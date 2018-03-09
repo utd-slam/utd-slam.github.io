@@ -2,6 +2,7 @@ var canvas = document.getElementById('can'),
     context = canvas.getContext('2d');
 var img = document.createElement('img');
 var canvas_link = document.getElementById('canvas-link');
+var timer = 0;
 
 /*function changeImage()
 {
@@ -34,7 +35,7 @@ function changeText()
         if(j >= header.length){
             j = 0;
         }
-        setTimeout("changeText()", 5000);
+        timer = setTimeout("changeText()", 5000);
 }
 
 function addRibbon()
@@ -61,6 +62,18 @@ function updateDots(){
      dots[j].className += " active";
 }
 
+function currentSlide(num){
+    if(timer){
+        clearTimeout(timer);
+        timer = 0;
+    }
+    var n = parseInt(num);
+    if(n >= 0 && n < header.length){
+        j = n;
+        changeText();
+    }
+}
+
 //'img/header/japan.jpg',
 var imgs = ['img/header/cosi.jpg', 'img/header/brain.jpg',  'img/header/fmri.jpg', 'img/header/graduate.jpg'];
 var ribbonLinks = ['', 'events.html', 'index.html#recent-events', 'index.html#recent-events'];
@@ -74,4 +87,4 @@ var text = ['We are the auditory neuroscience lab at the Ohio State University\'
 
 var j = 0;
 
-setTimeout("changeText()", 100);
+timer = setTimeout("changeText()", 100);
