@@ -41,6 +41,10 @@ function gotData(data){
         renderStudent(student, studentSection);
     }
     firebase.database().goOffline();
+
+    if(window.location.href.includes('#alumniSection')){
+        window.scrollTo(0,document.body.scrollHeight);
+    }
 }
 
 function errorData(error){
