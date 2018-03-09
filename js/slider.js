@@ -62,13 +62,14 @@ function updateDots(){
 }
 
 //'img/header/japan.jpg',
-var imgs = ['img/header/cosi.jpg', 'img/header/brain.jpg',  'img/header/fmri.jpg'];
-var ribbonLinks = ['', 'events.html', 'index.html#recent-events'];
-var ribbons = ['', 'img/ribbons/upcoming_events.png', 'img/ribbons/recent_news.png'];
-var header = ['Welcome to SLAM Lab!', 'Traumatic Brain Injury Summit', "New Members"];
+var imgs = ['img/header/cosi.jpg', 'img/header/brain.jpg',  'img/header/fmri.jpg', 'img/header/graduate.jpg'];
+var ribbonLinks = ['', 'events.html', 'index.html#recent-events', 'index.html#recent-events'];
+var ribbons = ['', 'img/ribbons/upcoming_events.png', 'img/ribbons/recent_news.png', 'img/ribbons/recent_news.png'];
+var header = ['Welcome to SLAM Lab!', 'Traumatic Brain Injury Summit', "New Members","Special Announcement"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
 'March 14 - Yune Lee, Jon Godbout, and Lise Worthen-Chaudhari are presenting their work on traumatic brain injury at the Brain Injury Association of Ohio’s 2018 TBI Summit, sponsored by CBI. <a href="https://www.biausa.org/find-bia/states/events/2018-ohio-brain-injury-summit"><i class="fa fa-link"></i> MORE</a>',
-'SLAM Lab welcomes new members, Kristen McCormack and Parris Miller!'
+'SLAM Lab welcomes new members, Kristen McCormack and Parris Miller!',
+'Congratualtions to SLAMERS Matt Heard and Geoff Green for gaining acceptace to Graduate programs at OSU!'
 ];
 
 var j = 0;
