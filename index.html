@@ -101,10 +101,14 @@
     <!-- Header -->
     <header id="home-header" style="background-color:black">
         <div class="container" id="welcome">
+            <a id="canvas-link">
+                <canvas id="can"></canvas>
+            </a>
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To SLAM Lab!</div>
+
+                <div id="slide-title" class="intro-lead-in">Welcome To SLAM Lab!</div>
                 <hr>
-                <div class="intro-heading" color="#eee">We are the auditory neuroscience lab at the Ohio State University's Department of Speech &amp; Hearing Science. We study the connection between speech, language, and music in the brain.</div>
+                <div id="slide-text" class="intro-heading" color="#eee">We are the auditory neuroscience lab at the Ohio State University's Department of Speech &amp; Hearing Science. We study the connection between speech, language, and music in the brain.</div>
 
                 <div class="row text-center">
                     <div class="col-md-4" style="padding:25px">
@@ -126,6 +130,11 @@
                         </a>
                     </div>
                 </div>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span>
+                  <span class="dot" onclick="currentSlide(2)"></span>
+                  <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
             </div>
         </div>
     </header>
@@ -137,6 +146,15 @@
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Recent News</h2>
                     <h3 class="section-subheading text-muted"></h3>
+                </div>
+            </div>
+            <div class="row text-center" style="background:#eee">
+                <div class="col-md-6" style="padding:0">
+                    <img src="img/events/recent/matt_geoff.png" style="max-width:100%; max-height:100%">
+                </div>
+                <div class="col-md-6 vcenter" style="padding:25px">
+                    <h4>Special Announcement</h4>
+                    <p>Congratualtions to SLAMERS Matt Heard and Geoff Green for gaining acceptace to Graduate programs at OSU! Matt will be participating in the Neursience Gradautate Program (NGP), and Geoff will be pursuing a Phd. in Speech Engineering Science.<p>
                 </div>
             </div>
             <div class="row text-center" style="background:#eee">
@@ -155,15 +173,6 @@
                 <div class="col-md-6 vcenter" style="padding:25px">
                     <h4>Rhythm Sensitivity Presentation</h4>
                     <p>Sanghoon Ahn presented his research, "Rhythm sensitivity assists in overcoming acoustic and syntactic challenges during speech listening", in Baltimore, MD on November 13.<p>
-                </div>
-            </div>
-            <div class="row text-center" style="background:#eee">
-                <div class="col-md-6" style="padding:25px">
-                    <h4>Undergraduate Research Forum</h4>
-                    <p>Sanghoon Ahn presented his poster about "Rhythm sensitivity assists in overcoming acoustic and syntactic challenges during speech listening" on September 14, 2017 at the OSU Undergraduate Research Forum. <a href="http://www.neurolang.org/?page=poster_detail&show=authors&sort=board_a&go&session=Thursday%2C%20November%209_6%3A15%20%E2%80%93%207%3A30%20pm_Harborview%20and%20Loch%20Raven%20Ballrooms&id=400">More.</a><p>
-                </div>
-                <div class="col-md-6" style="padding:0">
-                    <img src="img/events/recent/undergrad-research-forum.jpg" style="max-width:100%; max-height:100%">
                 </div>
             </div>
         </div>
