@@ -81,7 +81,7 @@ var ribbons = ['', 'img/ribbons/upcoming_events.png', 'img/ribbons/recent_news.p
 var header = ['Welcome to SLAM Lab!', 'Brain Health & Performance Summit', "New Members","Special Announcement"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
 'April 5 - Dr. Yune S. Lee will be presenting Ohio State Lightning Talks at the Brain Health and Performance Summit from 1-1:50 pm. <a href="https://wexnermedical.osu.edu/neurological-institute/brain-health-and-performance-summit/agenda"><i class="fa fa-link"></i> MORE</a>',
-'SLAM Lab welcomes new members, Kristen McCormack and Parris Miller!',
+'SLAM Lab welcomes new member Andy Chen!',
 'Congratualtions to SLAMERS Matt Heard and Geoff Green for gaining acceptace to Graduate programs at OSU!'
 ];
 
