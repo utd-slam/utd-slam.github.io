@@ -10,7 +10,7 @@ $(function() {
 
     allPublications.push(new Publication('Acoustic richness modulates the neural networks supporting intelligible speech processing', 'Yune-Sang Lee, Nam Eun Min, Arthur Wingfield, Murray Grossman, Jonathan E. Peelle, 2016. Hearing Research, 333, 108-117.', 'img/publications/headphones.jpg', 'doc/Lee-et-al-2016.pdf'));
 
-    allPublications.push(new Publication('Melody recognition revisited: influence of melodic Gestalt on the encoding of relational pitch information', 'Yune-Sang Lee, Petr Janata, Carlton Frost, Zachary Martinez, Richard Granger, 2015. Psychon Bull Rev, 22, 163–169.', 'img/publications/music-sheet.jpg', 'doc/Lee_melodic_gestalt2015.pdf'));
+    allPublications.push(new Publication('Melody recognition revisited: influence of melodic Gestalt on the encoding of relational pitch information', 'Yune-Sang Lee, Petr Janata, Carlton Frost, Zachary Martinez, Richard Granger, 2015. Psych. Bull. Rev., 22, 163–169.', 'img/publications/music-sheet.jpg', 'doc/Lee_melodic_gestalt2015.pdf'));
 
     allPublications.push(new Publication('Multivariate sensitivity to voice during auditory categorization', 'Yune Sang Lee, Jonathan E. Peelle, David Kraemer, Samuel Lloyd, Richard Granger, 2015. J Neurophysiol, 114, 1819–1826.', 'img/publications/man-with-a-megaphone.jpg', 'doc/Lee_voice_sound2015.pdf'));
 
