@@ -3,7 +3,10 @@ $(function() {
     var Publication = makeStruct("title credit img link");
 
     /* Add publications */
+    /*allPublications.push(new Publication('Individual differences in hearing ability', 'Lee, YS, Wingfield, A, Min NE, Jester, C, Kotloff, E, Grossman M, and Peelle, JE. (In Press). eNeuro.', 'img/publications/golf.png', 'doc/2017_Quandt.pdf'));
 
+    allPublications.push(new Publication('Music, the Brain, and Health', 'Lee, YS, Thaut C., Santoni, C. (In Press). Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/golf.png', 'doc/2017_Quandt.pdf'));
+*/
     allPublications.push(new Publication('Neural bases of action abstraction', 'Lorna C. Quandt, Yune-Sang Lee, Anjan Chatterjee, 2017. Biological Psychology, 129, 314–323.', 'img/publications/golf.png', 'doc/2017_Quandt.pdf'));
 
     allPublications.push(new Publication('Patterns of neural activity predict picture-naming performance of a patient with chronic aphasia', 'Yune-Sang Lee, Jihad T. Zreik, Roy H. Hamilton, 2017. Neuropsychologia, 94, 52–60.', 'img/publications/question-mark.jpg', 'doc/Lee-et-al-2017.pdf'));
