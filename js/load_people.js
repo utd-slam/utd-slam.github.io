@@ -20,7 +20,8 @@ function gotData(data){
     var social = [];
 
     // Get parent section
-    const studentSection = document.getElementById('students');
+    const undergradSection = document.getElementById('undergradstudents');
+    const gradSection = document.getElementById('gradstudents');
 
     var people = data.val();
     var ids = Object.keys(people);
@@ -38,7 +39,11 @@ function gotData(data){
             social.push(new Social(socialData[type].fa_icon, socialData[type].link));
         }
         var student = new Student(people[k].name, k, people[k].bio, people[k].img, people[k].email, people[k].phone, social);
-        renderStudent(student, studentSection);
+        if(people[k].edulevel === 'undergrad'){
+            renderStudent(student, undergradSection);
+        } else {
+            renderStudent(student, gradSection);
+        }
     }
     firebase.database().goOffline();
 
