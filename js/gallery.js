@@ -1,6 +1,6 @@
 $(function() {
     var select = document.getElementById("selectNumber");
-    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol", "Arlington Court Nursing Home Seminar", "fNIRS Demo Experiment", "Rock Climbing"];
+    var options = ["COSI Rhythm and Speech Perception Lab", "Demonstrating Therabeat at ShowOHI/O", "Shimadzu, Japan", "New FMRI Protocol", "Arlington Court Nursing Home Seminar", "fNIRS Demo Experiment", "Rock Climbing", "Summer 2018"];
     for (var i = 0; i < options.length; i++) {
         var opt = options[i];
         var el = document.createElement("option");
@@ -17,9 +17,9 @@ function loadnew() {
     $('.tz-header').remove();
     $('.tz-gallery').remove();
 
-    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0, arlington = 0, fnirs = 0, rockcl = 0;
+    var cosi = 0, therabeat = 0, shimadzu = 0, protocol = 0, arlington = 0, fnirs = 0, rockcl = 0, su18 = 0;
     if (document.getElementById("0").selected == true){
-        cosi = therabeat = shimadzu = protocol = arlington = fnirs = rockcl = 1;
+        cosi = therabeat = shimadzu = protocol = arlington = fnirs = rockcl = su18 = 1;
     } else if (document.getElementById("1").selected == true){
         cosi = 1;
     } else if (document.getElementById("2").selected == true){
@@ -32,8 +32,10 @@ function loadnew() {
         arlington = 1;
     } else if (document.getElementById("6").selected == true){
         fnirs = 1;
-    } else {
+    } else if (document.getElementById("7").selected == true){
         rockcl = 1;
+    } else {
+        su18 = 1;
     }
 
     /* Begin defining gallery images here */
@@ -61,9 +63,20 @@ function loadnew() {
     var th_rockclLinks = ["img/gallery/rock-climbing/thumb/20180423_144050.jpg", "img/gallery/rock-climbing/thumb/20180423_144339.jpg", "img/gallery/rock-climbing/thumb/20180423_144433.jpg", "img/gallery/rock-climbing/thumb/20180423_144504.jpg", "img/gallery/rock-climbing/thumb/20180423_144642.jpg", "img/gallery/rock-climbing/thumb/20180423_144739.jpg", "img/gallery/rock-climbing/thumb/20180423_150346_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_150403.jpg", "img/gallery/rock-climbing/thumb/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_151824.jpg", "img/gallery/rock-climbing/thumb/20180423_151855_HDR.jpg",
      "img/gallery/rock-climbing/thumb/20180423_152018.jpg", "img/gallery/rock-climbing/thumb/20180423_152035.jpg", "img/gallery/rock-climbing/thumb/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152656.jpg", "img/gallery/rock-climbing/thumb/20180423_152815.jpg", "img/gallery/rock-climbing/thumb/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_153932.jpg"];
 
+     var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png'];
+     var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png'];
     /* End defining gallery images */
 
     var base = document.getElementById('gallery').children;
+
+    if (su18) {
+        addHeader('Summer 2018', 'May - August 2018', base[0]);
+        setupGallery('su18', base[0]);
+
+        for (var i = 0; i < su18Links.length; i++) {
+            insertThumbnail(su18Links[i], th_su18Links[i], 'su18');
+        }
+    }
 
     if (rockcl) {
         addHeader('Rock Climbing', 'April 23, 2018', base[0]);
@@ -120,7 +133,7 @@ function loadnew() {
     }
 
     if (cosi) {
-        addHeader('COSI Rhythm and Speech Perception Lab', 'January 2017 - Present', base[0]);
+        addHeader('COSI Rhythm and Speech Perception Lab', 'January 2017', base[0]);
         setupGallery('cosi', base[0]);
 
         for (var i = 0; i < cosiLinks.length; i++) {
