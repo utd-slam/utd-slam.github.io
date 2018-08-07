@@ -71,7 +71,7 @@ function renderStudent(studentInfo, parent) {
                 var name = nameWrapper(studentInfo.name);
                 newIconWrap.appendChild(name);
 
-                var contactIcons = socialIcons(studentInfo.id, studentInfo.email, studentInfo.phone,studentInfo.social);
+                var contactIcons = socialIcons(studentInfo.id, studentInfo.email,studentInfo.social);
                 newIconWrap.appendChild(contactIcons);
 
         newcol = colWrapper(8);
@@ -123,22 +123,20 @@ function profileImage(link){
     return profileLink;
 }
 
-function socialIcons(id, email, phone, social){
+function socialIcons(id, email, social){
     var wrapper = document.createElement("div");
 
     var list = document.createElement("ul");
     list.className = "list-inline social-buttons";
 
-    var iconTxt = '<li><a href="#' + id + '-email" data-toggle="collapse"><i class="fa fa-envelope"></i></a></li>' +
-        '<li><a href="#' + id + '-phone" data-toggle="collapse"><i class="fa fa-phone"></i></a></li>'
+    var iconTxt = '<li><a href="#' + id + '-email" data-toggle="collapse"><i class="fa fa-envelope"></i></a></li>';
     for (var i = 0; i < social.length; i++) {
         iconTxt += '<li><a href="'+ social[i].link +'"><i class="fa '+ social[i].iconID +'"></i></a></li>'
     }
     list.innerHTML = iconTxt;
     wrapper.appendChild(list);
 
-    var contactInfo = '<div id="' + id + '-email" class="collapse"><br>' + email + '</div>' +
-    '<div id="' + id + '-phone" class="collapse"><br>' + phone + '</div>';
+    var contactInfo = '<div id="' + id + '-email" class="collapse"><br>' + email + '</div>'
     wrapper.innerHTML += contactInfo;
     return wrapper;
 }

@@ -24,7 +24,6 @@ function gotData(data){
     var image = document.getElementById('undergrad-img');
     var name = document.getElementById('undergrad-name');
     var email = document.getElementById('undergrad-email');
-    var phone = document.getElementById('undergrad-phone');
 
     const studentSection = document.getElementById('students');
 
@@ -42,7 +41,6 @@ function gotData(data){
     image.src = people[k].img;
     name.innerHTML = people[k].name;
     email.innerHTML = '<br>' + people[k].email;
-    phone.innerHTML = '<br>' + people[k].phone;
 
     var socialTypes = Object.keys(socialData);
     for (var j = 0; j < socialTypes.length; j++){
