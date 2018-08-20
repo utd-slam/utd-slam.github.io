@@ -99,41 +99,7 @@
             </div>
 
             <div id="staffSection" style="padding-top: 100px; margin-top: -100px;"></div>
-<!--
-            <div class="row">
-                <h2>Lab Manager</h2>
-            </div>
-            <br><br>
-            <div class="row" id="matthewh" style="padding-top: 100px; margin-top: -100px;">
-                <div class="col-sm-4">
-                    <div class="team-member team-member-small">
-                        <a class="portfolio-link" data-toggle="modal">
-                            <img src="img/team/matthew.jpg" class="img-responsive img-circle" alt="">
-                        </a>
-                        <h4 style="margin:25px 0">Matthew Heard</h4>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#matthewh-email" data-toggle="collapse"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="#matthewh-phone" data-toggle="collapse"><i class="fa fa-phone"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/in/matthew-heard-895799144/"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                            <li><a href="https://github.com/HeardMatthew"><i class="fa fa-github"></i></a>
-                            </li>
-                        </ul>
-                        <div id="matthewh-email" class="collapse">
-                            <br>heardmatthew49@gmail.com
-                        </div>
-                        <div id="matthewh-phone" class="collapse">
-                            <br>(214) 458-7255
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <p>Matt graduated from The Ohio State University in 2017 with a degree in Neuroscience and a minor in Physics. He is analyzing the neural correlates of grammar and rhythm in a series of behavioral and fMRI studies. He also played the Sousaphone in The Ohio State University Marching Band from 2014 to 2017. In his free time, Matt fences epee and plays the guitar. </p>
-                </div>
-            </div>
--->
+
             <div class="row">
                 <h2>Research Assistants</h2>
             </div>
@@ -238,26 +204,7 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; SLAM Lab 2017</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://www.facebook.com/osuslam/"><i class="fa fa-facebook"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="internal.html">Internal</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <footer id="footer">
     </footer>
 
     <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
@@ -286,6 +233,9 @@
         $('li.dropdown').hover(function() {$('a', this).attr('aria-expanded', 'true'), $(this).addClass('open')}, function() {$('a', this).attr('aria-expanded', 'false'), $(this).removeClass('open')})
     </script>
     <script src="js/navigation.js"></script>
+
+    <!-- Footer -->
+    <script>$(function(){ $("#footer").load("footer.html") });</script>
 
     <!-- Start of StatCounter Code for Default Guide -->
     <script type="text/javascript">
