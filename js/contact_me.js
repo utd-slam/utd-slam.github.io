@@ -1,5 +1,5 @@
 // Contact Form Scripts
-
+// NOTE: currently not in use
 $(function() {
 
     $("#contactForm input,#contactForm textarea").jqBootstrapValidation({

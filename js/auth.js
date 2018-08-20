@@ -1,3 +1,8 @@
+/**
+ * Load login to the internal section of website for lab members. Asks users for
+ * login information in order to get access to member-only information.
+ * NOTE: This functionality is not complete
+ */
 $(function() {
     // Initialize Firebase
     var config = {
