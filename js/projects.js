@@ -1,21 +1,29 @@
+var allProjects = [];
+var Project = makeStruct("title img modalID");
+
+/**
+ * Add projects
+ * Newest projects at the TOP
+ */
+
+allProjects.push(new Project('Rhythm Video Game Therapy for Chronic Aphaisa', 'img/portfolio/drum.jpg', '#portfolioModal5'));
+
+allProjects.push(new Project('Music-Based Intervention Program for School-Age Children', 'img/portfolio/kids-girl-pencil-drawing-159823.jpg', '#portfolioModal4'));
+
+allProjects.push(new Project('Non-Invasive Rhythm Stimulation for Parkinson’s Disease Patients', 'img/portfolio/emotional-50309_640.jpg', '#portfolioModal3'));
+
+allProjects.push(new Project('Changes in Neural Activity Following Cochlea Implant (CI)', 'img/portfolio/Synapse_in_brain.jpg', '#portfolioModal2'));
+
+allProjects.push(new Project('Rhythm and Speech Perception', 'img/portfolio/pexels-photo-28317.jpg', '#portfolioModal1'));
+
+/* End of add projects */
+
+
+/**
+ * NOTE: script only populates thumbnails on the projects page, NOT the popup modals
+ * HTML for modals are defined towards the bottom of projects.html
+ */
 $(function() {
-    var allProjects = [];
-    var Project = makeStruct("title img modalID");
-
-    /* Add projects */
-
-    allProjects.push(new Project('Rhythm Video Game Therapy for Chronic Aphaisa', 'img/portfolio/drum.jpg', '#portfolioModal5'));
-
-    allProjects.push(new Project('Music-Based Intervention Program for School-Age Children', 'img/portfolio/kids-girl-pencil-drawing-159823.jpg', '#portfolioModal4'));
-
-    allProjects.push(new Project('Non-Invasive Rhythm Stimulation for Parkinson’s Disease Patients', 'img/portfolio/emotional-50309_640.jpg', '#portfolioModal3'));
-
-    allProjects.push(new Project('Changes in Neural Activity Following Cochlea Implant (CI)', 'img/portfolio/Synapse_in_brain.jpg', '#portfolioModal2'));
-
-    allProjects.push(new Project('Rhythm and Speech Perception', 'img/portfolio/pexels-photo-28317.jpg', '#portfolioModal1'));
-
-    /* End of add projects */
-
     var base = document.getElementById('projects').children;
     var newRow;
 

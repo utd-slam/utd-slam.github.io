@@ -1,3 +1,7 @@
+/**
+ * Load bios for graduate and undergraduate students from firebase
+ */
+
 $(function() {
     // Initialize Firebase
     var config = {
@@ -19,7 +23,7 @@ function gotData(data){
     var Social =  makeStruct("iconID link");
     var social = [];
 
-    // Get parent section
+    // Get parent sections
     const undergradSection = document.getElementById('undergradstudents');
     const gradSection = document.getElementById('gradstudents');
 
