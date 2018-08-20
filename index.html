@@ -39,64 +39,8 @@
 </head>
 
 <body id="page-top" class="index">
-
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="margin-top: 20px; margin-bottom: 20px;">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a href="index.html#page-top"><img src="img/logos/SLAM-Lab.png" height="80"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right" style="margin-top: 20px; margin-bottom: 20px;">
-                    <li class="hidden">
-                        <a href="index.html#page-top"></a>
-                    </li>
-                    <li>
-                        <a href="#welcome" style="padding:0"></a>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="people.html" class="dropdown-toggle" data-toggle="dropdown">SLAMERS</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="people.html#vision">Vision</a></li>
-                            <li><a href="people.html#directorSection">Director</a></li>
-                            <li><a href="people.html#staffSection">Staff</a></li>
-                            <li><a href="people.html#studentSection">Students</a></li>
-                            <li><a href="people.html#alumniSection">Alumni</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#projects" style="padding:0"></a>
-                        <a href="projects.html">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#publication" style="padding:0"></a>
-                        <a href="publications.html">Publications</a>
-                    </li>
-                    <li>
-                        <a href="#gallery" style="padding:0"></a>
-                        <a href="gallery.html">Gallery</a>
-                    </li>
-                    <li>
-                        <a href="#event" style="padding:0"></a>
-                        <a href="events.html">Events</a>
-                    </li>
-                    <li>
-                        <a href="#contact" style="padding:0"></a>
-                        <a href="index.html#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top"></nav>
 
     <!-- Header -->
     <header id="home-header" style="background-color:black">
@@ -509,14 +453,17 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
 
     <!-- Navigation JavaScript -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script>
+        $(function(){ $("#mainNav").load("navigation.html") });
+        $('li.dropdown').hover(function() {$('a', this).attr('aria-expanded', 'true'), $(this).addClass('open')}, function() {$('a', this).attr('aria-expanded', 'false'), $(this).removeClass('open')})
+    </script>
     <script src="js/navigation.js"></script>
 
     <!-- Other JavaScript -->
