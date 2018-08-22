@@ -3,38 +3,18 @@ var Album = makeStruct("title links thumbLinks time id");
 
 /**
  * Begin defining gallery albums
- * If you are adding a new album, define everything below
+ * If you are adding a new album, define everything below. Most Recent at the top.
  */
 
-// Create 'COSI Rhythm and Speech Perception Lab' album
-var cosiLinks = ['img/gallery/cosi/1.jpg', 'img/gallery/cosi/2.jpg', 'img/gallery/cosi/3.jpg', 'img/gallery/cosi/4.jpg', 'img/gallery/cosi/5.jpg', 'img/gallery/cosi/6.jpg', 'img/gallery/cosi/7.jpg'];
-var th_cosiLinks = ['img/gallery/cosi/thumb/1.jpg', 'img/gallery/cosi/thumb/2.jpg', 'img/gallery/cosi/thumb/3.jpg', 'img/gallery/cosi/thumb/4.jpg', 'img/gallery/cosi/thumb/5.jpg', 'img/gallery/cosi/thumb/6.jpg', 'img/gallery/cosi/thumb/7.jpg'];
-gallery.push(new Album('COSI Rhythm and Speech Perception Lab', cosiLinks, th_cosiLinks, 'January 2017', 'cosi'));
+// Create 'Summer 2018' album
+var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png'];
+var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png'];
+gallery.push(new Album('Summer 2018', su18Links, th_su18Links, 'May - August 2018', 'su18'));
 
-// Create 'Demonstrating Therabeat at ShowOHI/O' album
-var therabeatLinks = ['img/gallery/therabeat-showohio/1.jpg', 'img/gallery/therabeat-showohio/2.jpg', 'img/gallery/therabeat-showohio/3.jpg', 'img/gallery/therabeat-showohio/4.jpg'];
-var th_therabeatLinks = ['img/gallery/therabeat-showohio/thumb/1.jpg', 'img/gallery/therabeat-showohio/thumb/2.jpg', 'img/gallery/therabeat-showohio/thumb/3.jpg', 'img/gallery/therabeat-showohio/thumb/4.jpg'];
-gallery.push(new Album('Demonstrating Therabeat at ShowOHI/O', therabeatLinks, th_therabeatLinks, 'April 8, 2017', 'therabeat'));
-
-// Create 'Shimadzu, Japan' album
-var shimadzuLinks = ['img/gallery/shimadzu-japan/IMG_0807.jpg', 'img/gallery/shimadzu-japan/IMG_0814.jpg', 'img/gallery/shimadzu-japan/IMG_0817.jpg', 'img/gallery/shimadzu-japan/IMG_0819.jpg', 'img/gallery/shimadzu-japan/IMG_0828.jpg', 'img/gallery/shimadzu-japan/IMG_0836.jpg'];
-var th_shimadzuLinks = ['img/gallery/shimadzu-japan/thumb/IMG_0807.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0814.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0817.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0819.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0828.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0836.jpg'];
-gallery.push(new Album('Shimadzu, Japan', shimadzuLinks, th_shimadzuLinks, 'June 6, 2017', 'shimadzu'));
-
-// Create 'New FMRI Protocol' album
-var firstFMRILinks = ['img/gallery/first-fmri-new-protocol/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/IMG_1158.jpg'];
-var th_firstFMRILinks = ['img/gallery/first-fmri-new-protocol/thumb/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/thumb/IMG_1158.jpg'];
-gallery.push(new Album('New FMRI Protocol', firstFMRILinks, th_firstFMRILinks, 'July 19, 2017', 'protocol'));
-
-// Create 'Arlington Court Nursing Home Seminar' album
-var arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/1.jpg', 'img/gallery/arlington-nursing-home/2.jpg', 'img/gallery/arlington-nursing-home/3.jpg'];
-var th_arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/thumb/1.jpg', 'img/gallery/arlington-nursing-home/thumb/2.jpg', 'img/gallery/arlington-nursing-home/thumb/3.jpg'];
-gallery.push(new Album('Arlington Court Nursing Home Seminar', arlingtonCourtLinks, th_arlingtonCourtLinks, 'July 21, 2017', 'arlington'));
-
-// Create 'fNIRS Demo Experiment' album
-var fnirsDemoLinks = ['img/gallery/fnirs-demo/1.jpg', 'img/gallery/fnirs-demo/2.jpg'];
-var th_fnirsDemoLinks = ['img/gallery/fnirs-demo/thumb/1.jpg', 'img/gallery/fnirs-demo/thumb/2.jpg'];
-gallery.push(new Album('fNIRS Demo Experiment', fnirsDemoLinks, th_fnirsDemoLinks, 'October 13, 2017', 'fnirs'));
+// Create 'HumCog Summer Institute' album
+var humcog18Links = ['img/gallery/humcog-2018/IMG_3154.JPG', 'img/gallery/humcog-2018/Slide5.JPG', 'img/gallery/humcog-2018/Slide20.JPG', 'img/gallery/humcog-2018/Slide27.JPG', 'img/gallery/humcog-2018/Slide53.JPG', 'img/gallery/humcog-2018/Slide89.JPG', 'img/gallery/humcog-2018/Slide91.JPG', 'img/gallery/humcog-2018/Slide109.JPG', 'img/gallery/humcog-2018/Slide111.JPG', 'img/gallery/humcog-2018/Slide112.JPG', 'img/gallery/humcog-2018/Slide114.JPG', 'img/gallery/humcog-2018/Slide116.JPG', 'img/gallery/humcog-2018/Slide187.JPG'];
+var th_humcog18Links = ['img/gallery/humcog-2018/thumb/IMG_3154.JPG', 'img/gallery/humcog-2018/thumb/Slide5.JPG', 'img/gallery/humcog-2018/thumb/Slide20.JPG', 'img/gallery/humcog-2018/thumb/Slide27.JPG', 'img/gallery/humcog-2018/thumb/Slide53.JPG', 'img/gallery/humcog-2018/thumb/Slide89.JPG', 'img/gallery/humcog-2018/thumb/Slide91.JPG', 'img/gallery/humcog-2018/thumb/Slide109.JPG', 'img/gallery/humcog-2018/thumb/Slide111.JPG', 'img/gallery/humcog-2018/thumb/Slide112.JPG', 'img/gallery/humcog-2018/thumb/Slide114.JPG', 'img/gallery/humcog-2018/thumb/Slide116.JPG', 'img/gallery/humcog-2018/thumb/Slide187.JPG'];
+gallery.push(new Album('HumCog Summer Institute', humcog18Links, th_humcog18Links, 'August 8, 2018', 'humcog18'));
 
 // Create 'Rock Climbing' album
 var rockclLinks = ["img/gallery/rock-climbing/20180423_144050.jpg", "img/gallery/rock-climbing/20180423_144339.jpg", "img/gallery/rock-climbing/20180423_144433.jpg", "img/gallery/rock-climbing/20180423_144504.jpg", "img/gallery/rock-climbing/20180423_144642.jpg", "img/gallery/rock-climbing/20180423_144739.jpg", "img/gallery/rock-climbing/20180423_150346_HDR.jpg", "img/gallery/rock-climbing/20180423_150403.jpg",
@@ -43,10 +23,35 @@ var th_rockclLinks = ["img/gallery/rock-climbing/thumb/20180423_144050.jpg", "im
 "img/gallery/rock-climbing/thumb/20180423_152018.jpg", "img/gallery/rock-climbing/thumb/20180423_152035.jpg", "img/gallery/rock-climbing/thumb/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152656.jpg", "img/gallery/rock-climbing/thumb/20180423_152815.jpg", "img/gallery/rock-climbing/thumb/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_153932.jpg"];
 gallery.push(new Album('Rock Climbing', rockclLinks, th_rockclLinks, 'April 23, 2018', 'rockcl'));
 
-// Create 'Summer 2018' album
-var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png'];
-var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png'];
-gallery.push(new Album('Summer 2018', su18Links, th_su18Links, 'May - August 2018', 'su18'));
+// Create 'fNIRS Demo Experiment' album
+var fnirsDemoLinks = ['img/gallery/fnirs-demo/1.jpg', 'img/gallery/fnirs-demo/2.jpg'];
+var th_fnirsDemoLinks = ['img/gallery/fnirs-demo/thumb/1.jpg', 'img/gallery/fnirs-demo/thumb/2.jpg'];
+gallery.push(new Album('fNIRS Demo Experiment', fnirsDemoLinks, th_fnirsDemoLinks, 'October 13, 2017', 'fnirs'));
+
+// Create 'Arlington Court Nursing Home Seminar' album
+var arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/1.jpg', 'img/gallery/arlington-nursing-home/2.jpg', 'img/gallery/arlington-nursing-home/3.jpg'];
+var th_arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/thumb/1.jpg', 'img/gallery/arlington-nursing-home/thumb/2.jpg', 'img/gallery/arlington-nursing-home/thumb/3.jpg'];
+gallery.push(new Album('Arlington Court Nursing Home Seminar', arlingtonCourtLinks, th_arlingtonCourtLinks, 'July 21, 2017', 'arlington'));
+
+// Create 'New FMRI Protocol' album
+var firstFMRILinks = ['img/gallery/first-fmri-new-protocol/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/IMG_1158.jpg'];
+var th_firstFMRILinks = ['img/gallery/first-fmri-new-protocol/thumb/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/thumb/IMG_1158.jpg'];
+gallery.push(new Album('New FMRI Protocol', firstFMRILinks, th_firstFMRILinks, 'July 19, 2017', 'protocol'));
+
+// Create 'Shimadzu, Japan' album
+var shimadzuLinks = ['img/gallery/shimadzu-japan/IMG_0807.jpg', 'img/gallery/shimadzu-japan/IMG_0814.jpg', 'img/gallery/shimadzu-japan/IMG_0817.jpg', 'img/gallery/shimadzu-japan/IMG_0819.jpg', 'img/gallery/shimadzu-japan/IMG_0828.jpg', 'img/gallery/shimadzu-japan/IMG_0836.jpg'];
+var th_shimadzuLinks = ['img/gallery/shimadzu-japan/thumb/IMG_0807.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0814.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0817.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0819.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0828.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0836.jpg'];
+gallery.push(new Album('Shimadzu, Japan', shimadzuLinks, th_shimadzuLinks, 'June 6, 2017', 'shimadzu'));
+
+// Create 'Demonstrating Therabeat at ShowOHI/O' album
+var therabeatLinks = ['img/gallery/therabeat-showohio/1.jpg', 'img/gallery/therabeat-showohio/2.jpg', 'img/gallery/therabeat-showohio/3.jpg', 'img/gallery/therabeat-showohio/4.jpg'];
+var th_therabeatLinks = ['img/gallery/therabeat-showohio/thumb/1.jpg', 'img/gallery/therabeat-showohio/thumb/2.jpg', 'img/gallery/therabeat-showohio/thumb/3.jpg', 'img/gallery/therabeat-showohio/thumb/4.jpg'];
+gallery.push(new Album('Demonstrating Therabeat at ShowOHI/O', therabeatLinks, th_therabeatLinks, 'April 8, 2017', 'therabeat'));
+
+// Create 'COSI Rhythm and Speech Perception Lab' album
+var cosiLinks = ['img/gallery/cosi/1.jpg', 'img/gallery/cosi/2.jpg', 'img/gallery/cosi/3.jpg', 'img/gallery/cosi/4.jpg', 'img/gallery/cosi/5.jpg', 'img/gallery/cosi/6.jpg', 'img/gallery/cosi/7.jpg'];
+var th_cosiLinks = ['img/gallery/cosi/thumb/1.jpg', 'img/gallery/cosi/thumb/2.jpg', 'img/gallery/cosi/thumb/3.jpg', 'img/gallery/cosi/thumb/4.jpg', 'img/gallery/cosi/thumb/5.jpg', 'img/gallery/cosi/thumb/6.jpg', 'img/gallery/cosi/thumb/7.jpg'];
+gallery.push(new Album('COSI Rhythm and Speech Perception Lab', cosiLinks, th_cosiLinks, 'January 2017', 'cosi'));
 
 /**
  * End defining gallery albums
