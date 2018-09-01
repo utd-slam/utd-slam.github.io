@@ -10,12 +10,12 @@ var Album = makeStruct("title links thumbLinks time id");
 var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png'];
 var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png'];
 gallery.push(new Album('Summer 2018', su18Links, th_su18Links, 'May - August 2018', 'su18'));
-
+/*
 // Create 'HumCog Summer Institute' album
 var humcog18Links = ['img/gallery/humcog-2018/IMG_3154.JPG', 'img/gallery/humcog-2018/Slide5.JPG', 'img/gallery/humcog-2018/Slide20.JPG', 'img/gallery/humcog-2018/Slide27.JPG', 'img/gallery/humcog-2018/Slide53.JPG', 'img/gallery/humcog-2018/Slide89.JPG', 'img/gallery/humcog-2018/Slide91.JPG', 'img/gallery/humcog-2018/Slide109.JPG', 'img/gallery/humcog-2018/Slide111.JPG', 'img/gallery/humcog-2018/Slide112.JPG', 'img/gallery/humcog-2018/Slide114.JPG', 'img/gallery/humcog-2018/Slide116.JPG', 'img/gallery/humcog-2018/Slide187.JPG'];
 var th_humcog18Links = ['img/gallery/humcog-2018/thumb/IMG_3154.jpg', 'img/gallery/humcog-2018/thumb/Slide5.jpg', 'img/gallery/humcog-2018/thumb/Slide20.jpg', 'img/gallery/humcog-2018/thumb/Slide27.jpg', 'img/gallery/humcog-2018/thumb/Slide53.jpg', 'img/gallery/humcog-2018/thumb/Slide89.jpg', 'img/gallery/humcog-2018/thumb/Slide91.jpg', 'img/gallery/humcog-2018/thumb/Slide109.jpg', 'img/gallery/humcog-2018/thumb/Slide111.jpg', 'img/gallery/humcog-2018/thumb/Slide112.jpg', 'img/gallery/humcog-2018/thumb/Slide114.jpg', 'img/gallery/humcog-2018/thumb/Slide116.jpg', 'img/gallery/humcog-2018/thumb/Slide187.jpg'];
 gallery.push(new Album('HumCog Summer Institute', humcog18Links, th_humcog18Links, 'August 8, 2018', 'humcog18'));
-
+*/
 // Create 'Rock Climbing' album
 var rockclLinks = ["img/gallery/rock-climbing/20180423_144050.jpg", "img/gallery/rock-climbing/20180423_144339.jpg", "img/gallery/rock-climbing/20180423_144433.jpg", "img/gallery/rock-climbing/20180423_144504.jpg", "img/gallery/rock-climbing/20180423_144642.jpg", "img/gallery/rock-climbing/20180423_144739.jpg", "img/gallery/rock-climbing/20180423_150346_HDR.jpg", "img/gallery/rock-climbing/20180423_150403.jpg",
 "img/gallery/rock-climbing/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/20180423_151824.jpg", "img/gallery/rock-climbing/20180423_151855_HDR.jpg", "img/gallery/rock-climbing/20180423_152018.jpg", "img/gallery/rock-climbing/20180423_152035.jpg", "img/gallery/rock-climbing/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/20180423_152656.jpg", "img/gallery/rock-climbing/20180423_152815.jpg", "img/gallery/rock-climbing/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/20180423_153932.jpg"];
