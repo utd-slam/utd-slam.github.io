@@ -6,10 +6,16 @@ var Album = makeStruct("title links thumbLinks time id");
  * If you are adding a new album, define everything below. Most Recent at the top.
  */
 
+// Create 'SLAM Lab Party at Kevie's' album
+var partyLinks = ['img/gallery/slam-lab-party/2.jpg', 'img/gallery/slam-lab-party/3.jpg', 'img/gallery/slam-lab-party/4.jpg', 'img/gallery/slam-lab-party/5.jpg', 'img/gallery/slam-lab-party/6.jpg', 'img/gallery/slam-lab-party/7.jpg', 'img/gallery/slam-lab-party/8.jpg', 'img/gallery/slam-lab-party/9.jpg', 'img/gallery/slam-lab-party/10.jpg', 'img/gallery/slam-lab-party/11.jpg', 'img/gallery/slam-lab-party/12.jpg'];
+var th_partyLinks = ['img/gallery/slam-lab-party/thumb/2.jpg', 'img/gallery/slam-lab-party/thumb/3.jpg', 'img/gallery/slam-lab-party/thumb/4.jpg', 'img/gallery/slam-lab-party/thumb/5.jpg', 'img/gallery/slam-lab-party/thumb/6.jpg', 'img/gallery/slam-lab-party/thumb/7.jpg', 'img/gallery/slam-lab-party/thumb/8.jpg', 'img/gallery/slam-lab-party/thumb/9.jpg', 'img/gallery/slam-lab-party/thumb/10.jpg', 'img/gallery/slam-lab-party/thumb/11.jpg', 'img/gallery/slam-lab-party/thumb/12.jpg'];
+gallery.push(new Album('SLAM Lab Party at Kevie\'s', partyLinks, th_partyLinks, 'August 25, 2018', 'party'));
+
 // Create 'Summer 2018' album
-var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png'];
-var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png'];
+var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png', 'img/gallery/summer-2018/4.jpg', 'img/gallery/summer-2018/Slide116.JPG'];
+var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png', 'img/gallery/summer-2018/thumb/4.jpg', 'img/gallery/summer-2018/thumb/Slide116.jpg'];
 gallery.push(new Album('Summer 2018', su18Links, th_su18Links, 'May - August 2018', 'su18'));
+
 /*
 // Create 'HumCog Summer Institute' album
 var humcog18Links = ['img/gallery/humcog-2018/IMG_3154.JPG', 'img/gallery/humcog-2018/Slide5.JPG', 'img/gallery/humcog-2018/Slide20.JPG', 'img/gallery/humcog-2018/Slide27.JPG', 'img/gallery/humcog-2018/Slide53.JPG', 'img/gallery/humcog-2018/Slide89.JPG', 'img/gallery/humcog-2018/Slide91.JPG', 'img/gallery/humcog-2018/Slide109.JPG', 'img/gallery/humcog-2018/Slide111.JPG', 'img/gallery/humcog-2018/Slide112.JPG', 'img/gallery/humcog-2018/Slide114.JPG', 'img/gallery/humcog-2018/Slide116.JPG', 'img/gallery/humcog-2018/Slide187.JPG'];
