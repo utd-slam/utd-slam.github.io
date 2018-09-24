@@ -81,7 +81,7 @@ var ribbons = ['', 'img/ribbons/recent_news.png', 'img/ribbons/recent_news.png']
 var header = ['Welcome to SLAM Lab!', "New Members","Special Announcement"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
 'SLAM Lab welcomes new members Emily Cushing and Marley Musara!',
-'Congratualtions to SLAMERS Matt Heard and Geoff Green for gaining acceptace to Graduate programs at OSU!'
+'Matt\'s rhythm & grammar neuroimaging study is featured in the NSF press release! Good Job!'
 ];
 
 var j = 0;

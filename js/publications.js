@@ -10,7 +10,7 @@ var Publication = makeStruct("title credit img link");
 allPublications.push(new Publication('Music, the Brain, and Health', 'Lee, YS, Thaut C., Santoni, C. (In Press). Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/golf.png', 'doc/2017_Quandt.pdf'));
 */
 
-allPublications.push(new Publication('How is vocal pitch regulated by the human motor cortex?', 'Belyk, M., Lee, YS, Brown, S., 2018. Royal Society Open Science, 5:172208.', 'img/publications/singer.jpg', 'http://rsos.royalsocietypublishing.org/content/5/8/172208'));
+allPublications.push(new Publication('How is vocal pitch regulated by the human motor cortex?', 'M. Belyk, Yune S. Lee, S. Brown, 2018. Royal Society Open Science, 5:172208.', 'img/publications/singer.jpg', 'http://rsos.royalsocietypublishing.org/content/5/8/172208'));
 
 allPublications.push(new Publication('Differences in Hearing Acuity among “Normal-Hearing” Young Adults', 'Yune S. Lee, Arthur Wingfield, Nam-Eun Min, Ethan Kotloff, Murray Grossman and Jonathan E. Peelle, 2018. eNeuro.', 'img/publications/hearing-acuity.jpg', 'http://www.eneuro.org/content/early/2018/05/21/ENEURO.0263-17.2018'));
 
@@ -22,7 +22,7 @@ allPublications.push(new Publication('Acoustic richness modulates the neural net
 
 allPublications.push(new Publication('Melody recognition revisited: influence of melodic Gestalt on the encoding of relational pitch information', 'Yune-Sang Lee, Petr Janata, Carlton Frost, Zachary Martinez, Richard Granger, 2015. Psych. Bull. Rev., 22, 163–169.', 'img/publications/music-sheet.jpg', 'doc/Lee_melodic_gestalt2015.pdf'));
 
-allPublications.push(new Publication('Multivariate sensitivity to voice during auditory categorization', 'Yune Sang Lee, Jonathan E. Peelle, David Kraemer, Samuel Lloyd, Richard Granger, 2015. J Neurophysiol, 114, 1819–1826.', 'img/publications/man-with-a-megaphone.jpg', 'doc/Lee_voice_sound2015.pdf'));
+allPublications.push(new Publication('Multivariate sensitivity to voice during auditory categorization', 'Yune Sang Lee, Jonathan E. Peelle, David Kraemer, Samuel Lloyd, Richard Granger, 2015. Journal of Neurophysiology, 114, 1819–1826.', 'img/publications/man-with-a-megaphone.jpg', 'doc/Lee_voice_sound2015.pdf'));
 
 allPublications.push(new Publication('Individual differences in the morphometry and activation of time perception networks are influenced by dopamine genotype', 'Martin Wiener, Yune-Sang Lee, FalkW. Lohoff, H. Branch Coslett, 2014. NeuroImage, 89, 10–22.', 'img/publications/time.jpg', 'doc/Wiener-et-al-2014.pdf'));
 
