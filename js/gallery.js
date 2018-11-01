@@ -5,6 +5,10 @@ var Album = makeStruct("title links thumbLinks time id");
  * Begin defining gallery albums
  * If you are adding a new album, define everything below. Most Recent at the top.
  */
+ // Create 'SLAM Lab Party at Kevie's Part 2' album
+ var party2Links = ['img/gallery/slam-lab-party2/20181020_185605.jpg', 'img/gallery/slam-lab-party2/20181020_192936.jpg', 'img/gallery/slam-lab-party2/20181020_194309.jpg', 'img/gallery/slam-lab-party2/20181020_211731.jpg', 'img/gallery/slam-lab-party2/20181020_211736.jpg', 'img/gallery/slam-lab-party2/20181020_211745.jpg', 'img/gallery/slam-lab-party2/20181020_215546.jpg'];
+ var th_party2Links = ['img/gallery/slam-lab-party2/thumb/20181020_185605.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_192936.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_194309.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211731.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211736.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211745.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_215546.jpg',];
+ gallery.push(new Album('SLAM Lab Party at Kevie\'s Part 2', party2Links, th_party2Links, 'October 20, 2018', 'party2'));
 
 // Create 'SLAM Lab Party at Kevie's' album
 var partyLinks = ['img/gallery/slam-lab-party/2.jpg', 'img/gallery/slam-lab-party/3.jpg', 'img/gallery/slam-lab-party/4.jpg', 'img/gallery/slam-lab-party/5.jpg', 'img/gallery/slam-lab-party/6.jpg', 'img/gallery/slam-lab-party/7.jpg', 'img/gallery/slam-lab-party/8.jpg', 'img/gallery/slam-lab-party/9.jpg', 'img/gallery/slam-lab-party/10.jpg', 'img/gallery/slam-lab-party/11.jpg', 'img/gallery/slam-lab-party/12.jpg'];
