@@ -75,7 +75,7 @@ function currentSlide(num){
 }
 
 //'img/header/japan.jpg',
-var imgs = ['img/header/fmri.jpg', 'img/header/newmember.jpg', 'img/header/party.jpg', 'img/header/welcome1.jpg'];
+var imgs = ['img/header/fmri.jpg', 'img/header/newmember.jpg', 'img/header/party.jpg', 'img/header/fnirs.jpg'];
 var ribbonLinks = ['', 'index.html#recent-events', 'index.html#recent-events', 'events.html'];
 var ribbons = ['', 'img/ribbons/recent_news.png', 'img/ribbons/recent_news.png', 'img/ribbons/upcoming_events.png'];
 var header = ['Welcome to SLAM Lab!', "New Members","Special Announcement", "MASCATS Talk"];
