@@ -3,8 +3,13 @@ var Album = makeStruct("title links thumbLinks time id");
 
 /**
  * Begin defining gallery albums
- * If you are adding a new album, define everything below. Most Recent at the top.
+ * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
+ // Videos
+ var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://www.youtube.com/watch?v=-PPORILUc7Q'];
+ var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG'];
+ gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, '2018-2019', 'video'));
+
  // Create 'SLAM Lab Party at Kevie's Part 2' album
  var party2Links = ['img/gallery/slam-lab-party2/20181020_185605.jpg', 'img/gallery/slam-lab-party2/20181020_192936.jpg', 'img/gallery/slam-lab-party2/20181020_194309.jpg', 'img/gallery/slam-lab-party2/20181020_211731.jpg', 'img/gallery/slam-lab-party2/20181020_211736.jpg', 'img/gallery/slam-lab-party2/20181020_211745.jpg', 'img/gallery/slam-lab-party2/20181020_215546.jpg'];
  var th_party2Links = ['img/gallery/slam-lab-party2/thumb/20181020_185605.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_192936.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_194309.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211731.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211736.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211745.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_215546.jpg',];
