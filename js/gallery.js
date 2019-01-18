@@ -6,8 +6,8 @@ var Album = makeStruct("title links thumbLinks time id");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
  // Videos
- var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://www.youtube.com/watch?v=-PPORILUc7Q'];
- var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG'];
+ var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://www.youtube.com/watch?v=-PPORILUc7Q', 'https://www.youtube.com/watch?v=gId3gLocel4&feature=youtu.be', 'https://www.youtube.com/watch?v=g8FNi57MqgI'];
+ var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG', 'img/gallery/videos/thumb/mattm_talk.JPG', 'img/gallery/videos/thumb/kevieb_talk.JPG'];
  gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, '2018-2019', 'video'));
 
  // Create 'SLAM Lab Party at Kevie's Part 2' album
