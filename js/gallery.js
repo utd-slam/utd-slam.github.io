@@ -1,5 +1,5 @@
 var gallery = [];
-var Album = makeStruct("title links thumbLinks time id");
+var Album = makeStruct("title links thumbLinks thumbLabel time id");
 
 /**
  * Begin defining gallery albums
@@ -8,22 +8,24 @@ var Album = makeStruct("title links thumbLinks time id");
  // Videos
  var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://youtu.be/JrsQw5tLWk4', 'https://www.youtube.com/watch?v=gId3gLocel4&feature=youtu.be', 'https://www.youtube.com/watch?v=g8FNi57MqgI'];
  var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG', 'img/gallery/videos/thumb/mattm_talk.JPG', 'img/gallery/videos/thumb/kevieb_talk.JPG'];
- gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, '2018-2019', 'video'));
+ var th_videoLabels = ['Aphasia Rhythm Highlight Reel', 'Drum Dance Rehab (DDR)', 'Human Perception of Rhythm Similarity', 'The Basic Aptitude of Music (BAM) Test'];
+ gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, th_videoLabels, '2018-2019', 'video'));
 
  // Create 'SLAM Lab Party at Kevie's Part 2' album
  var party2Links = ['img/gallery/slam-lab-party2/20181020_185605.jpg', 'img/gallery/slam-lab-party2/20181020_192936.jpg', 'img/gallery/slam-lab-party2/20181020_194309.jpg', 'img/gallery/slam-lab-party2/20181020_211731.jpg', 'img/gallery/slam-lab-party2/20181020_211736.jpg', 'img/gallery/slam-lab-party2/20181020_211745.jpg', 'img/gallery/slam-lab-party2/20181020_215546.jpg'];
  var th_party2Links = ['img/gallery/slam-lab-party2/thumb/20181020_185605.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_192936.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_194309.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211731.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211736.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211745.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_215546.jpg',];
- gallery.push(new Album('SLAM Lab Party at Kevie\'s Part 2', party2Links, th_party2Links, 'October 20, 2018', 'party2'));
+ gallery.push(new Album('SLAM Lab Party at Kevie\'s Part 2', party2Links, th_party2Links, Array(th_party2Links.length).fill(''), 'October 20, 2018', 'party2'));
 
 // Create 'SLAM Lab Party at Kevie's' album
 var partyLinks = ['img/gallery/slam-lab-party/2.jpg', 'img/gallery/slam-lab-party/3.jpg', 'img/gallery/slam-lab-party/4.jpg', 'img/gallery/slam-lab-party/5.jpg', 'img/gallery/slam-lab-party/6.jpg', 'img/gallery/slam-lab-party/7.jpg', 'img/gallery/slam-lab-party/8.jpg', 'img/gallery/slam-lab-party/9.jpg', 'img/gallery/slam-lab-party/10.jpg', 'img/gallery/slam-lab-party/11.jpg', 'img/gallery/slam-lab-party/12.jpg'];
 var th_partyLinks = ['img/gallery/slam-lab-party/thumb/2.jpg', 'img/gallery/slam-lab-party/thumb/3.jpg', 'img/gallery/slam-lab-party/thumb/4.jpg', 'img/gallery/slam-lab-party/thumb/5.jpg', 'img/gallery/slam-lab-party/thumb/6.jpg', 'img/gallery/slam-lab-party/thumb/7.jpg', 'img/gallery/slam-lab-party/thumb/8.jpg', 'img/gallery/slam-lab-party/thumb/9.jpg', 'img/gallery/slam-lab-party/thumb/10.jpg', 'img/gallery/slam-lab-party/thumb/11.jpg', 'img/gallery/slam-lab-party/thumb/12.jpg'];
-gallery.push(new Album('SLAM Lab Party at Kevie\'s', partyLinks, th_partyLinks, 'August 25, 2018', 'party'));
+gallery.push(new Album('SLAM Lab Party at Kevie\'s', partyLinks, th_partyLinks, Array(th_partyLinks.length).fill(''), 'August 25, 2018', 'party'));
 
 // Create 'Summer 2018' album
 var su18Links = ['img/gallery/summer-2018/1.jpg', 'img/gallery/summer-2018/2.jpg', 'img/gallery/summer-2018/3.png', 'img/gallery/summer-2018/4.jpg', 'img/gallery/summer-2018/Slide116.JPG'];
 var th_su18Links = ['img/gallery/summer-2018/thumb/1.jpg', 'img/gallery/summer-2018/thumb/2.jpg', 'img/gallery/summer-2018/thumb/3.png', 'img/gallery/summer-2018/thumb/4.jpg', 'img/gallery/summer-2018/thumb/Slide116.jpg'];
-gallery.push(new Album('Summer 2018', su18Links, th_su18Links, 'May - August 2018', 'su18'));
+var th_su18Labels = ['ICMPC Rhythm Symposium', 'Aphasia Team with Debbie', 'fNIRS Installation in SLAM Lab North', 'SLAM Lab\'s Last Day with Amanda', 'Dr. Lee and Kevie at HumCog'];
+gallery.push(new Album('Summer 2018', su18Links, th_su18Links, th_su18Labels, 'May - August 2018', 'su18'));
 
 /*
 // Create 'HumCog Summer Institute' album
@@ -36,37 +38,37 @@ var rockclLinks = ["img/gallery/rock-climbing/20180423_144050.jpg", "img/gallery
 "img/gallery/rock-climbing/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/20180423_151824.jpg", "img/gallery/rock-climbing/20180423_151855_HDR.jpg", "img/gallery/rock-climbing/20180423_152018.jpg", "img/gallery/rock-climbing/20180423_152035.jpg", "img/gallery/rock-climbing/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/20180423_152656.jpg", "img/gallery/rock-climbing/20180423_152815.jpg", "img/gallery/rock-climbing/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/20180423_153932.jpg"];
 var th_rockclLinks = ["img/gallery/rock-climbing/thumb/20180423_144050.jpg", "img/gallery/rock-climbing/thumb/20180423_144339.jpg", "img/gallery/rock-climbing/thumb/20180423_144433.jpg", "img/gallery/rock-climbing/thumb/20180423_144504.jpg", "img/gallery/rock-climbing/thumb/20180423_144642.jpg", "img/gallery/rock-climbing/thumb/20180423_144739.jpg", "img/gallery/rock-climbing/thumb/20180423_150346_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_150403.jpg", "img/gallery/rock-climbing/thumb/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_151824.jpg", "img/gallery/rock-climbing/thumb/20180423_151855_HDR.jpg",
 "img/gallery/rock-climbing/thumb/20180423_152018.jpg", "img/gallery/rock-climbing/thumb/20180423_152035.jpg", "img/gallery/rock-climbing/thumb/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152656.jpg", "img/gallery/rock-climbing/thumb/20180423_152815.jpg", "img/gallery/rock-climbing/thumb/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_153932.jpg"];
-gallery.push(new Album('Rock Climbing', rockclLinks, th_rockclLinks, 'April 23, 2018', 'rockcl'));
+gallery.push(new Album('Rock Climbing', rockclLinks, th_rockclLinks, Array(th_rockclLinks.length).fill(''), 'April 23, 2018', 'rockcl'));
 
 // Create 'fNIRS Demo Experiment' album
 var fnirsDemoLinks = ['img/gallery/fnirs-demo/1.jpg', 'img/gallery/fnirs-demo/2.jpg'];
 var th_fnirsDemoLinks = ['img/gallery/fnirs-demo/thumb/1.jpg', 'img/gallery/fnirs-demo/thumb/2.jpg'];
-gallery.push(new Album('fNIRS Demo Experiment', fnirsDemoLinks, th_fnirsDemoLinks, 'October 13, 2017', 'fnirs'));
+gallery.push(new Album('fNIRS Demo Experiment', fnirsDemoLinks, th_fnirsDemoLinks, Array(th_fnirsDemoLinks.length).fill(''), 'October 13, 2017', 'fnirs'));
 
 // Create 'Arlington Court Nursing Home Seminar' album
 var arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/1.jpg', 'img/gallery/arlington-nursing-home/2.jpg', 'img/gallery/arlington-nursing-home/3.jpg'];
 var th_arlingtonCourtLinks = ['img/gallery/arlington-nursing-home/thumb/1.jpg', 'img/gallery/arlington-nursing-home/thumb/2.jpg', 'img/gallery/arlington-nursing-home/thumb/3.jpg'];
-gallery.push(new Album('Arlington Court Nursing Home Seminar', arlingtonCourtLinks, th_arlingtonCourtLinks, 'July 21, 2017', 'arlington'));
+gallery.push(new Album('Arlington Court Nursing Home Seminar', arlingtonCourtLinks, th_arlingtonCourtLinks, Array(th_arlingtonCourtLinks.length).fill(''), 'July 21, 2017', 'arlington'));
 
 // Create 'New FMRI Protocol' album
 var firstFMRILinks = ['img/gallery/first-fmri-new-protocol/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/IMG_1158.jpg'];
 var th_firstFMRILinks = ['img/gallery/first-fmri-new-protocol/thumb/IMG_1156.jpg', 'img/gallery/first-fmri-new-protocol/thumb/IMG_1158.jpg'];
-gallery.push(new Album('New FMRI Protocol', firstFMRILinks, th_firstFMRILinks, 'July 19, 2017', 'protocol'));
+gallery.push(new Album('New FMRI Protocol', firstFMRILinks, th_firstFMRILinks, Array(th_firstFMRILinks.length).fill(''), 'July 19, 2017', 'protocol'));
 
 // Create 'Shimadzu, Japan' album
 var shimadzuLinks = ['img/gallery/shimadzu-japan/IMG_0807.jpg', 'img/gallery/shimadzu-japan/IMG_0814.jpg', 'img/gallery/shimadzu-japan/IMG_0817.jpg', 'img/gallery/shimadzu-japan/IMG_0819.jpg', 'img/gallery/shimadzu-japan/IMG_0828.jpg', 'img/gallery/shimadzu-japan/IMG_0836.jpg'];
 var th_shimadzuLinks = ['img/gallery/shimadzu-japan/thumb/IMG_0807.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0814.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0817.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0819.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0828.jpg', 'img/gallery/shimadzu-japan/thumb/IMG_0836.jpg'];
-gallery.push(new Album('Shimadzu, Japan', shimadzuLinks, th_shimadzuLinks, 'June 6, 2017', 'shimadzu'));
+gallery.push(new Album('Shimadzu, Japan', shimadzuLinks, th_shimadzuLinks, Array(th_shimadzuLinks.length).fill(''), 'June 6, 2017', 'shimadzu'));
 
 // Create 'Demonstrating Therabeat at ShowOHI/O' album
 var therabeatLinks = ['img/gallery/therabeat-showohio/1.jpg', 'img/gallery/therabeat-showohio/2.jpg', 'img/gallery/therabeat-showohio/3.jpg', 'img/gallery/therabeat-showohio/4.jpg'];
 var th_therabeatLinks = ['img/gallery/therabeat-showohio/thumb/1.jpg', 'img/gallery/therabeat-showohio/thumb/2.jpg', 'img/gallery/therabeat-showohio/thumb/3.jpg', 'img/gallery/therabeat-showohio/thumb/4.jpg'];
-gallery.push(new Album('Demonstrating Therabeat at ShowOHI/O', therabeatLinks, th_therabeatLinks, 'April 8, 2017', 'therabeat'));
+gallery.push(new Album('Demonstrating Therabeat at ShowOHI/O', therabeatLinks, th_therabeatLinks, Array(th_therabeatLinks.length).fill(''), 'April 8, 2017', 'therabeat'));
 
 // Create 'COSI Rhythm and Speech Perception Lab' album
 var cosiLinks = ['img/gallery/cosi/1.jpg', 'img/gallery/cosi/2.jpg', 'img/gallery/cosi/3.jpg', 'img/gallery/cosi/4.jpg', 'img/gallery/cosi/5.jpg', 'img/gallery/cosi/6.jpg', 'img/gallery/cosi/7.jpg'];
 var th_cosiLinks = ['img/gallery/cosi/thumb/1.jpg', 'img/gallery/cosi/thumb/2.jpg', 'img/gallery/cosi/thumb/3.jpg', 'img/gallery/cosi/thumb/4.jpg', 'img/gallery/cosi/thumb/5.jpg', 'img/gallery/cosi/thumb/6.jpg', 'img/gallery/cosi/thumb/7.jpg'];
-gallery.push(new Album('COSI Rhythm and Speech Perception Lab', cosiLinks, th_cosiLinks, 'January 2017', 'cosi'));
+gallery.push(new Album('COSI Rhythm and Speech Perception Lab', cosiLinks, th_cosiLinks, Array(th_cosiLinks.length).fill(''), 'January 2017', 'cosi'));
 
 /**
  * End defining gallery albums
@@ -100,7 +102,7 @@ function loadGallery() {
             setupGallery(album.id, base[0]);
 
             for (var j = 0; j < album.links.length; j++) {
-                insertThumbnail(album.links[j], album.thumbLinks[j], album.id);
+                insertThumbnail(album.links[j], album.thumbLinks[j], album.thumbLabel[j], album.id);
             }
         }
     }
@@ -138,7 +140,7 @@ function setupGallery(id, parent) {
     parent.appendChild(gallery);
 }
 
-function insertThumbnail(link, thumbnailLink, galleryID) {
+function insertThumbnail(link, thumbnailLink, thumbnailText, galleryID) {
     var newCol = document.createElement("div");
     newCol.className += 'col-sm-6 col-md-4';
 
@@ -154,6 +156,14 @@ function insertThumbnail(link, thumbnailLink, galleryID) {
                 newLink.appendChild(newImg);
 
             thumbnail.appendChild(newLink);
+
+            if(thumbnailText.length > 0){
+                var thumbLabel = document.createElement("h4");
+                thumbLabel.textContent = thumbnailText;
+                thumbLabel.setAttribute('style', 'padding: 25px; text-transform: none; text-align: center;');
+
+                thumbnail.appendChild(thumbLabel);
+            }
 
         newCol.appendChild(thumbnail);
 
