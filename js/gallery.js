@@ -8,7 +8,7 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  // Videos
  var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://youtu.be/JrsQw5tLWk4', 'https://www.youtube.com/watch?v=gId3gLocel4&feature=youtu.be', 'https://www.youtube.com/watch?v=g8FNi57MqgI'];
  var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG', 'img/gallery/videos/thumb/mattm_talk.JPG', 'img/gallery/videos/thumb/kevieb_talk.JPG'];
- var th_videoLabels = ['Aphasia Rhythm Highlight Reel', 'Drum Dance Rehab (DDR)', 'Human Perception of Rhythm Similarity', 'The Basic Aptitude of Music (BAM) Test'];
+ var th_videoLabels = ['Aphasia Rhythm Therapy', 'Drum Dance Rehab (DDR)', 'Human Perception of Rhythm Similarity', 'The Basic Aptitude of Music (BAM) Test'];
  gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, th_videoLabels, '2018-2019', 'video', 'research'));
 
  // Create 'SLAM Lab Party at Kevie's Part 2' album
