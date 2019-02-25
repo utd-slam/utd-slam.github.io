@@ -6,4 +6,11 @@ $(function() {
             window.location.href = this.getAttribute("href");
         });
     }
+
+    var nav = document.getElementsByClassName("nav")[0];
+    for (var i = 0; i < elements.length; i++) {
+        nav[i].addEventListener('click', function(){
+            nav[i].classList.add("active");
+        });
+    }
 });
