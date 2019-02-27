@@ -19,8 +19,11 @@ $(function() {
 });
 
 function gotData(data){
-    var undergraduate = new Array(50);
-    var graduate = new Array(50);
+    var undergraduate = new Array(10);
+    var graduate = new Array(10);
+    var ugCount = 0;
+    var gCount = 0;
+
     var Student = makeStruct("name id bio img email phone social");
     var Social =  makeStruct("iconID link");
     var social = [];
@@ -47,17 +50,20 @@ function gotData(data){
         var student = new Student(people[k].name, k, people[k].bio, people[k].img, people[k].email, people[k].phone, social);
         if(people[k].edulevel === 'undergrad'){
             undergraduate[parseInt(people[k].order)-1] = student;
+            ugCount++;
         } else {
             graduate[parseInt(people[k].order)-1] = student;
+            gCount++;
         }
 
     }
-    for(var i = 0; i < undergraduate.length; i++){
+    for(var i = 0; i < ugCount; i++){
         renderStudent(undergraduate[i], undergradSection);
     }
-    for(var i = 0; i < graduate.length; i++){
+    for(var i = 0; i < gCount; i++){
         renderStudent(graduate[i], gradSection);
     }
+
     firebase.database().goOffline();
 
     if(window.location.href.includes('#alumniSection')){
