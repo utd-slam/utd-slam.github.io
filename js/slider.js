@@ -78,12 +78,11 @@ function currentSlide(num){
 var imgs = ['img/header/fmri.jpg', 'img/header/newmember.jpg', 'img/header/movienight.jpg', 'img/header/fnirs.jpg'];
 var ribbonLinks = ['', 'index.html#recent-events', 'index.html#recent-events', 'events.html'];
 var ribbons = ['', 'img/ribbons/recent_news.png', 'img/ribbons/recent_news.png', 'img/ribbons/upcoming_events.png'];
-var header = ['Welcome to SLAM Lab!', "New Members","Special Announcement", "MASCATS Talk"];
+var header = ['Welcome to SLAM Lab!', "New Members","Special Announcement", "Ohio TBI Summit Evening Reception"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
 'SLAM Lab welcomes new members Emily Cushing and Marley Musara!',
 'Matt\'s rhythm & grammar neuroimaging study is featured in the NSF press release! Good Job!',
-'Dr. Lee will be speaking at the Music and Science Colloquium and Teaching Series (MASCATS) on Nov 26.'
-];
+'Dr. Lee and lab members will be present their work on DDR/TheraBeat from 5-7pm at the Fawcett Center on March 13.'];
 
 var j = 0;
 

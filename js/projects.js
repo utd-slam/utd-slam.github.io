@@ -10,7 +10,7 @@ allProjects.push(new Project('Rhythm Video Game Therapy for Chronic Aphaisa', 'i
 
 allProjects.push(new Project('Music-Based Intervention Program for School-Age Children', 'img/portfolio/kids-girl-pencil-drawing-159823.jpg', '#portfolioModal4'));
 
-allProjects.push(new Project('Non-Invasive Rhythm Stimulation for Parkinson’s Disease Patients', 'img/portfolio/emotional-50309_640.jpg', '#portfolioModal3'));
+allProjects.push(new Project('Drum Dance Rehabilitation for Parkinson\'s Disease', 'img/portfolio/emotional-50309_640.jpg', '#portfolioModal3'));
 
 allProjects.push(new Project('Changes in Neural Activity Following Cochlea Implant (CI)', 'img/portfolio/Synapse_in_brain.jpg', '#portfolioModal2'));
 

@@ -10,7 +10,7 @@ allPublications.push(new Publication('Impact of Subtle Hearing Loss on the Cogni
 
 allPublications.push(new Publication('Music, the Brain, and Health: Speech and Language', 'YS Lee, C. Thaut, C. Santoni, 2018. Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/BrainMusicHealth.jpg', 'doc/Music-Induced Speech and Language Rehabilitation.pdf'));
 
-allPublications.push(new Publication('How is vocal pitch regulated by the human motor cortex?', 'M. Belyk, Yune S. Lee, S. Brown, 2018. Royal Society Open Science, 5:172208.', 'img/publications/singer.jpg', 'http://rsos.royalsocietypublishing.org/content/5/8/172208'));
+allPublications.push(new Publication('How does human motor cortex regulate vocal pitch in singers?', 'M. Belyk, Yune S. Lee, S. Brown, 2018. Royal Society Open Science, 5:172208.', 'img/publications/singer.jpg', 'http://rsos.royalsocietypublishing.org/content/5/8/172208'));
 
 allPublications.push(new Publication('Differences in Hearing Acuity among “Normal-Hearing” Young Adults', 'Yune S. Lee, Arthur Wingfield, Nam-Eun Min, Ethan Kotloff, Murray Grossman and Jonathan E. Peelle, 2018. eNeuro.', 'img/publications/hearing-acuity.jpg', 'http://www.eneuro.org/content/early/2018/05/21/ENEURO.0263-17.2018'));
 
