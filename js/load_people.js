@@ -19,6 +19,8 @@ $(function() {
 });
 
 function gotData(data){
+    var undergraduate = new Array(50);
+    var graduate = new Array(50);
     var Student = makeStruct("name id bio img email phone social");
     var Social =  makeStruct("iconID link");
     var social = [];
@@ -44,10 +46,17 @@ function gotData(data){
         }
         var student = new Student(people[k].name, k, people[k].bio, people[k].img, people[k].email, people[k].phone, social);
         if(people[k].edulevel === 'undergrad'){
-            renderStudent(student, undergradSection);
+            undergraduate[parseInt(people[k].order)-1] = student;
         } else {
-            renderStudent(student, gradSection);
+            graduate[parseInt(people[k].order)-1] = student;
         }
+
+    }
+    for(var i = 0; i < undergraduate.length; i++){
+        renderStudent(undergraduate[i], undergradSection);
+    }
+    for(var i = 0; i < graduate.length; i++){
+        renderStudent(graduate[i], gradSection);
     }
     firebase.database().goOffline();
 
