@@ -5,6 +5,13 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * Begin defining gallery albums
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
+
+
+// Create 'TBI Summit Evening Reception' album
+var tbiSummitLinks = ['img/gallery/tbi-summit-evening/1.jpg', 'img/gallery/tbi-summit-evening/2.jpg'];
+var th_tbiSummitLinks = ['img/gallery//tbi-summit-evening/thumb/1.jpg', 'img/gallery/tbi-summit-evening/thumb/2.jpg'];
+gallery.push(new Album('TBI Summit Evening ', tbiSummitLinks, th_tbiSummitLinks, Array(th_tbiSummitLinks.length).fill(''), 'March 13, 2019', 'tbi', 'research'));
+
  // Videos
  var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://youtu.be/JrsQw5tLWk4', 'https://www.youtube.com/watch?v=gId3gLocel4&feature=youtu.be', 'https://www.youtube.com/watch?v=g8FNi57MqgI'];
  var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG', 'img/gallery/videos/thumb/mattm_talk.JPG', 'img/gallery/videos/thumb/kevieb_talk.JPG'];
