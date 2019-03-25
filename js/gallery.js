@@ -6,10 +6,14 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'CogFest' album
+var cogfestLinks = ['img/gallery/cogfest/1.jpg', 'img/gallery/cogfest/2.jpg'];
+var th_cogfestLinks = ['img/gallery/cogfest/thumb/1.jpg', 'img/gallery/cogfest/thumb/2.jpg'];
+gallery.push(new Album('CogFest', cogfestLinks, th_cogfestLinks, Array(th_cogfestLinks.length).fill(''), 'March 25, 2019', 'cogfest', 'research'));
 
 // Create 'TBI Summit Evening Reception' album
 var tbiSummitLinks = ['img/gallery/tbi-summit-evening/1.jpg', 'img/gallery/tbi-summit-evening/2.jpg'];
-var th_tbiSummitLinks = ['img/gallery//tbi-summit-evening/thumb/1.jpg', 'img/gallery/tbi-summit-evening/thumb/2.jpg'];
+var th_tbiSummitLinks = ['img/gallery/tbi-summit-evening/thumb/1.jpg', 'img/gallery/tbi-summit-evening/thumb/2.jpg'];
 gallery.push(new Album('TBI Summit Evening Reception', tbiSummitLinks, th_tbiSummitLinks, Array(th_tbiSummitLinks.length).fill(''), 'March 13, 2019', 'tbi', 'research'));
 
  // Videos
