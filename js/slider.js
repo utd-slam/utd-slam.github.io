@@ -77,7 +77,7 @@ function currentSlide(num){
 //'img/header/japan.jpg',
 var imgs = ['img/header/fmri.jpg', 'img/header/newmember.jpg', 'img/header/movienight.jpg', 'img/header/fnirs.jpg'];
 var ribbonLinks = ['', 'index.html#recent-events', 'index.html#recent-events', 'events.html'];
-var ribbons = ['', 'img/ribbons/recent_news.png', 'img/ribbons/recent_news.png', 'img/ribbons/upcoming_events.png'];
+var ribbons = ['',  'img/ribbons/recent_news.png', 'img/ribbons/recent_news.png', 'img/ribbons/upcoming_events.png'];
 var header = ['Welcome to SLAM Lab!', "New Members","Special Announcement", "Ohio TBI Summit Evening Reception"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
 'SLAM Lab welcomes new members Megan Hoadley, Cristina Pérez Diukina and Yue Zhang!',
