@@ -6,6 +6,11 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'KathyStory' album
+var kathyStoryLinks = ['img/gallery/kathyStory/1.jpeg', 'img/gallery/kathyStory/2.jpeg', 'img/gallery/kathyStory/3.jpeg'];
+var th_kathyStoryLinks = ['img/gallery/kathyStory/thumb/1.jpg', 'img/gallery/kathyStory/thumb/2.jpg', 'img/gallery/kathyStory/thumb/3.jpg'];
+gallery.push(new Album('Kathy Story Shooted at Chromedge Studios', kathyStoryLinks, th_kathyStoryLinks, Array(th_kathyStoryLinks.length).fill(''), 'March 11, 2019', 'kathyStory', 'other'));
+
 // Create 'CogFest' album
 var cogfestLinks = ['img/gallery/cogfest/1.jpg', 'img/gallery/cogfest/2.jpg'];
 var th_cogfestLinks = ['img/gallery/cogfest/thumb/1.jpg', 'img/gallery/cogfest/thumb/2.jpg'];
