@@ -5,10 +5,9 @@ var Publication = makeStruct("title credit img link");
  * Add publications
  * Newest publications at the TOP
  */
+allPublications.push(new Publication('Music, the Brain, and Health: Speech and Language', 'YS Lee, C. Thaut, C. Santoni, 2019. Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/BrainMusicHealth.jpg', 'doc/Lee_neurologic_music_therapy2019.pdf'));
 
 allPublications.push(new Publication('Impact of Subtle Hearing Loss on the Cognition of Young Adults', 'Yune S. Lee, 2018. The Hearing Journal, 71(10), 30.', 'img/publications/young-adults.jpg', 'doc/Impact_of_Subtle_Hearing_Loss_on_the_Cognition_of.pdf'));
-
-allPublications.push(new Publication('Music, the Brain, and Health: Speech and Language', 'YS Lee, C. Thaut, C. Santoni, 2018. Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/BrainMusicHealth.jpg', 'doc/Lee_neurologic_music_therapy2019.pdf'));
 
 allPublications.push(new Publication('How does human motor cortex regulate vocal pitch in singers?', 'M. Belyk, Yune S. Lee, S. Brown, 2018. Royal Society Open Science, 5:172208.', 'img/publications/singer.jpg', 'http://rsos.royalsocietypublishing.org/content/5/8/172208'));
 
