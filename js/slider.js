@@ -75,14 +75,14 @@ function currentSlide(num){
 }
 
 //'img/header/japan.jpg',
-var imgs = ['img/header/fmri.jpg', 'img/header/acrm.jpg', 'img/header/funding.jpg',  'img/header/kathy.jpg'];
+var imgs = ['img/header/fmri.jpg', 'img/header/heard_lee_ale_header.jpg', 'img/header/acrm.jpg', 'img/header/funding.jpg'];
 var ribbonLinks = ['', 'index.html#recent-events', 'index.html#recent-events','index.html#recent-events'];
 var ribbons = ['', 'img/ribbons/recent_news.png','img/ribbons/recent_news.png', 'img/ribbons/recent_news.png'];
-var header = ['Welcome to SLAM Lab!', "ACRM Annual Conference", "Community Grants Program","Kathy's Story"];
+var header = ["Welcome to SLAM Lab!", "Newest Publication", "ACRM Annual Conference", "Community Grants Program"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
+		'Our recent publication explores potential neural connections between rhythm and grammar.'
     'Dr. Lee presents at ACRM Annual Conference!',
-    'Our newest experiment is being supported by a community grant from the Parkinson\'s Foundation',
-    'Our own extraordinary SLAMER, Kathy Guo is featured at OSU main page.'];
+    'Our newest experiment is being supported by a community grant from the Parkinson\'s Foundation.'];
 
 var j = 0;
 
