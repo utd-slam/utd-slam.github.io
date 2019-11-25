@@ -80,7 +80,7 @@ var ribbonLinks = ['', 'index.html#recent-events', 'index.html#recent-events','i
 var ribbons = ['', 'img/ribbons/recent_news.png','img/ribbons/recent_news.png', 'img/ribbons/recent_news.png'];
 var header = ["Welcome to SLAM Lab!", "Newest Publication", "ACRM Annual Conference", "Community Grants Program"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
-		'Our recent publication explores potential neural connections between rhythm and grammar.'
+		'Our recent publication explores potential neural connections between rhythm and grammar.',
     'Dr. Lee presents at ACRM Annual Conference!',
     'Our newest experiment is being supported by a community grant from the Parkinson\'s Foundation.'];
 
