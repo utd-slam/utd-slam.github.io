@@ -1,20 +1,25 @@
 TODO:
 
 11/25 updates
-Add news item: ALE paper published!
-Updates to publications: add ALE
+ALE paper published!
++ Add to main banner (needs testing!)
++ Add to Recent News (DONE!)
++ Add to Publications (DONE!)
++ Add to Projects/Rhythm and Speech Perception (DONE!)
 Updates to project page:
-+ Cochlea -> cochlear implant
-+ Add ALE to Rhythm & Speech
-+ Aphasia R21 submitted -> funded
-Updates to member page:
++ Cochlea -> cochlear implant (DONE!)
++ Aphasia R21 submitted -> funded (DONE!))
+
+Overhaul People page
++ Merge all people onto Firebase
 - Megan as alumni
 - Yue as alumni
 - Kristen as alumni
 + Kristina as undergrad
 + Alphabetize list
-Updates to sponsors:
-+ Reformat into sequential list
-General updates
+Index 
++ Our Team, show Yune + 3 random students, remove Sanghoon
++ Reformat sponsors into sequential list
+General/ongoing updates:
 + Link to osu-slam GitHub
 + Add Recruitment/Participate page
