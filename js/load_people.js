@@ -21,8 +21,10 @@ $(function() {
 function gotData(data){
     var undergraduate = new Array(10);
     var graduate = new Array(10);
+		var staff = new Array(10);
     var ugCount = 0;
     var gCount = 0;
+		var sCount = 0;
 
     var Student = makeStruct("name id bio img email phone social");
     var Social =  makeStruct("iconID link");
@@ -31,6 +33,7 @@ function gotData(data){
     // Get parent sections
     const undergradSection = document.getElementById('undergradstudents');
     const gradSection = document.getElementById('gradstudents');
+		const staffSection = document.getElementById('staff');
 
     var people = data.val();
     var ids = Object.keys(people);
@@ -51,10 +54,13 @@ function gotData(data){
         if(people[k].edulevel === 'undergrad'){
             undergraduate[parseInt(people[k].order)-1] = student;
             ugCount++;
-        } else {
+				} else if (people[k].edulevel === 'staff'){
+						staff[parseInt(people[k].order)-1] = student;
+						sCount++;
+        } else if (people[k].edulevel === 'grad'){
             graduate[parseInt(people[k].order)-1] = student;
             gCount++;
-        }
+				} 
 
     }
     for(var i = 0; i < ugCount; i++){
@@ -62,6 +68,9 @@ function gotData(data){
     }
     for(var i = 0; i < gCount; i++){
         renderStudent(graduate[i], gradSection);
+    }
+		for(var i = 0; i < sCount; i++){
+        renderStudent(staff[i], staffSection);
     }
 
     firebase.database().goOffline();
