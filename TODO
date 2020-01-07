@@ -1,25 +1,33 @@
 TODO:
+Index page
++ Fix front page so it randomly selects an RA, a grad student, and an undergrad
++ Find a better NIH Grant image that doesn't require resizing
++ Reformat sponsors into sequential list
++ Link to osu-slam GitHub
++ Add Recruitment/Participate page
+
+1/6/2020 updates
+Updated personel
++ Added newest alumni
++ Fixed typo with Moritz's name and files
++ Updated Firebase with alumni category
++ Updated Javascript with new Firebase classification
+Switched publications/ALE with main manuscript
 
 11/25 updates
 ALE paper published!
-+ Add to main banner (needs testing!)
-+ Add to Recent News (DONE!)
-+ Add to Publications (DONE!)
-+ Add to Projects/Rhythm and Speech Perception (DONE!)
++ Add to main banner (DONE)
++ Add to Recent News (DONE)
++ Add to Publications (DONE)
++ Add to Projects/Rhythm and Speech Perception (DONE)
 Updates to project page:
-+ Cochlea -> cochlear implant (DONE!)
-+ Aphasia R21 submitted -> funded (DONE!))
-
++ Cochlea -> cochlear implant (DONE)
++ Aphasia R21 submitted -> funded (DONE)
 Overhaul People page
-+ Merge all people onto Firebase
-- Megan as alumni
-- Yue as alumni
-- Kristen as alumni
-+ Kristina as undergrad
-+ Alphabetize list
-Index 
-+ Our Team, show Yune + 3 random students, remove Sanghoon
-+ Reformat sponsors into sequential list
-General/ongoing updates:
-+ Link to osu-slam GitHub
-+ Add Recruitment/Participate page
++ Merge all people onto Firebase (DONE)
+- Megan as alumni (DONE)
+- Yue as alumni (DONE)
+- Kristen as alumni (DONE)
++ Alphabetize list (DONE)
+Index
+- Remove Sanghoon (DONE)
