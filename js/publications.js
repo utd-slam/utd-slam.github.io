@@ -6,7 +6,7 @@ var Publication = makeStruct("title credit img link");
  * Newest publications at the TOP
  */
 
-allPublications.push(new Publication('Shared neural resources of rhythm and syntax: An ALE Meta-Analysis', 'Yune S. Lee, Matthew Heard, 2019. Neuropsychologia, In Press.', 'img/publications/close-up-photo-of-drum-set-995301.jpg', 'doc/Heard_Lee_ALE_preprint.pdf'));
+allPublications.push(new Publication('Shared neural resources of rhythm and syntax: An ALE Meta-Analysis', 'Yune S. Lee, Matthew Heard, 2019. Neuropsychologia, 107284.', 'img/publications/close-up-photo-of-drum-set-995301.jpg', 'doc/Heard_Lee_ALE_2019.pdf'));
  
 allPublications.push(new Publication('Music, the Brain, and Health: Speech and Language', 'YS Lee, C. Thaut, C. Santoni, 2019. Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/BrainMusicHealth.jpg', 'doc/Lee_neurologic_music_therapy2019.pdf'));
 
