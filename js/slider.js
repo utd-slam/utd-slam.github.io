@@ -75,14 +75,14 @@ function currentSlide(num){
 }
 
 //'img/header/japan.jpg',
-var imgs = ['img/header/fmri.jpg', 'img/header/heard_lee_ale_header.jpg', 'img/header/nih_figure_large.jpg', 'img/header/ddr_figure_large.jpg'];
+var imgs = ['img/header/fmri.jpg', 'img/header/sbir_shaded_v2.jpg', 'img/header/rhythm_syntax_children_shaded_v2.jpg', 'img/header/lee_talk_shaded.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
-var header = ["Welcome to SLAM Lab!", "Newest Publication", "NIH R21 Funding", "Magazine Feature"];
+var header = ["Welcome to SLAM Lab!", "NIH SBIR Funding", "Newest Publication", "Colloquium Talk"];
 var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
-		'Our recent publication explores potential neural connections between rhythm and grammar.',
-    'SLAM Lab was awarded an NIH R21 for our chronic aphasia project.',
-    'The Drum Dance Rehabilitation project was featured by the Ohio State Alumni Magazine.'];
+		'Our Aphasia Therapy project continues to be awarded NIH funding.',
+    'Dr. Lee\'s newest publication has been accepted by the Journal of Developmental Psychology.',
+    'Dr. Lee presented at the University of Toronto Music and Health Science Research Collaboratory.'];
 
 var j = 0;
 
