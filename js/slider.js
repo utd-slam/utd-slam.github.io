@@ -74,15 +74,15 @@ function currentSlide(num){
     }
 }
 
-//'img/header/japan.jpg',
-var imgs = ['img/header/fmri.jpg', 'img/header/sbir_shaded_v2.jpg', 'img/header/rhythm_syntax_children_shaded_v2.jpg', 'img/header/lee_talk_shaded.jpg']; 
+//TODO: Create header image for the move
+var imgs = ['img/header/fmri.jpg', 'img/header/utd_welcome.jpg', 'img/header/sbir_shaded_v2.jpg', 'img/header/rhythm_syntax_children_shaded_v2.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
-var header = ["Welcome to SLAM Lab!", "NIH SBIR Funding", "Newest Publication", "Colloquium Talk"];
-var text = ['We are the auditory neuroscience lab at the Ohio State University\'s Department of Speech & Hearing Science. We study the connection between speech, language, and music in the brain.',
-		'Our Aphasia Therapy project continues to be awarded NIH funding.',
-    'Dr. Lee\'s newest publication has been accepted by the Journal of Developmental Psychology.',
-    'Dr. Lee presented at the University of Toronto Music and Health Science Research Collaboratory.'];
+var header = ["Welcome to SLAM Lab!", "We're Moving!", "NIH SBIR Funding", "Newest Publication"];
+var text = ['We are the auditory neuroscience lab at the University of Texas Dallas\'s Department of Brain Health. We study the connection between speech, language, and music in the brain.',
+	'We have moved from The Ohio State University to the University of Texas Dallas.'
+	'Our Aphasia Therapy project continues to be awarded NIH funding.',
+    'Dr. Lee\'s newest publication has been accepted by the Journal of Developmental Psychology.'];
 
 var j = 0;
 
