@@ -79,7 +79,7 @@ var imgs = ['img/header/fmri.jpg', 'img/header/utd_welcome.jpg', 'img/header/sbi
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!", "We're Moving!", "NIH SBIR Funding", "Newest Publication"];
-var text = ['We are the auditory neuroscience lab at the University of Texas Dallas\'s Center for Brain Health. We study the connection between speech, language, and music in the brain.',
+var text = ['We are the auditory neuroscience lab at the University of Texas Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
 	'We have moved from The Ohio State University to the University of Texas Dallas.', 
 	'Our Aphasia Therapy project continues to be awarded NIH funding.',
     'Dr. Lee\'s newest publication has been accepted by the Journal of Developmental Psychology.'];
