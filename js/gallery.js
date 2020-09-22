@@ -6,19 +6,39 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'CBHVisit' album
+var cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg']; 
+var th_cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg']; 
+gallery.push(new Album('First Visit to Center for BrainHealth', cbhVisitLinks, th_cbhVisitLinks, Array(th_cbhVisitLinks.length).fill(''), 'September 18, 2020', 'cbhVisit', 'other')); 
+
+// Create 'CallierVisit' album
+var callierVisitLinks = ['img/gallery/callierVisit/1.jpg', 'img/gallery/callierVisit/2.jpg', 'img/gallery/callierVisit/3.jpg', 'img/gallery/callierVisit/4.jpg']; 
+var th_callierVisitLinks = ['img/gallery/callierVisit/1.jpg', 'img/gallery/callierVisit/2.jpg', 'img/gallery/callierVisit/3.jpg', 'img/gallery/callierVisit/4.jpg']; 
+gallery.push(new Album('First Visit to Callier Center Richardson', callierVisitLinks, th_callierVisitLinks, Array(th_callierVisitLinks.length).fill(''), 'August 21, 2020', 'callierVisit', 'other')); 
+
+// Create 'MoritzSMPC' album
+var moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg']; 
+var th_moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg']; 
+gallery.push(new Album('SMPC 2019 in New York, New York', moritzSMPCLinks, th_moritzSMPCLinks, Array(th_moritzSMPCLinks.length).fill(''), 'August 6, 2019', 'moritzSMPC', 'research')); 
+
+// Create 'HeardOHBM' album
+var heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg']; 
+var th_heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg']; 
+gallery.push(new Album('OHBM 2019 in Rome, Italy', heardOHBMLinks, th_heardOHBMLinks, Array(th_heardOHBMLinks.length).fill(''), 'June 10, 2019', 'heardOHBM', 'research')); 
+
 // Create 'KathyStory' album
 var kathyStoryLinks = ['img/gallery/kathyStory/1.jpeg', 'img/gallery/kathyStory/2.jpeg', 'img/gallery/kathyStory/3.jpeg'];
 var th_kathyStoryLinks = ['img/gallery/kathyStory/thumb/1.jpg', 'img/gallery/kathyStory/thumb/2.jpg', 'img/gallery/kathyStory/thumb/3.jpg'];
-gallery.push(new Album('Kathy Story Shooted at Chromedge Studios', kathyStoryLinks, th_kathyStoryLinks, Array(th_kathyStoryLinks.length).fill(''), 'March 11, 2019', 'kathyStory', 'other'));
+gallery.push(new Album('Kathy Story Filmed at Chromedge Studios', kathyStoryLinks, th_kathyStoryLinks, Array(th_kathyStoryLinks.length).fill(''), 'March 11, 2019', 'kathyStory', 'other'));
 
 // Create 'CogFest' album
-var cogfestLinks = ['img/gallery/cogfest/1.jpg', 'img/gallery/cogfest/2.jpg'];
-var th_cogfestLinks = ['img/gallery/cogfest/thumb/1.jpg', 'img/gallery/cogfest/thumb/2.jpg'];
+var cogfestLinks = ['img/gallery/cogfest/1.jpg'];
+var th_cogfestLinks = ['img/gallery/cogfest/thumb/1.jpg'];
 gallery.push(new Album('CogFest', cogfestLinks, th_cogfestLinks, Array(th_cogfestLinks.length).fill(''), 'March 25, 2019', 'cogfest', 'research'));
 
 // Create 'TBI Summit Evening Reception' album
-var tbiSummitLinks = ['img/gallery/tbi-summit-evening/1.jpg', 'img/gallery/tbi-summit-evening/2.jpg'];
-var th_tbiSummitLinks = ['img/gallery/tbi-summit-evening/thumb/1.jpg', 'img/gallery/tbi-summit-evening/thumb/2.jpg'];
+var tbiSummitLinks = ['img/gallery/tbi-summit-evening/1.jpg', 'img/gallery/tbi-summit-evening/2.jpg', 'img/gallery/tbi-summit-evening/3.jpg'];
+var th_tbiSummitLinks = ['img/gallery/tbi-summit-evening/thumb/1.jpg', 'img/gallery/tbi-summit-evening/thumb/2.jpg', 'img/gallery/tbi-summit-evening/thumb/3.jpg'];
 gallery.push(new Album('TBI Summit Evening Reception', tbiSummitLinks, th_tbiSummitLinks, Array(th_tbiSummitLinks.length).fill(''), 'March 13, 2019', 'tbi', 'research'));
 
  // Videos
