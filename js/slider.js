@@ -75,7 +75,7 @@ function currentSlide(num){
 }
 
 //TODO: Create header image for the move
-var imgs = ['img/header/fmri.jpg', 'img/header/rhythm_sim.jpg', 'img/header/utd_welcome_v2.jpg', 'img/header/sbir_shaded_v2.jpg']; 
+var imgs = ['img/header/splash_utd.jpg', 'img/header/rhythm_sim.jpg', 'img/header/utd_welcome_v2.jpg', 'img/header/sbir_shaded_v2.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!", "Newest Publication", "We're Moving!", "NIH SBIR Funding"];
