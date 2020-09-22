@@ -6,9 +6,9 @@ var Publication = makeStruct("title credit img link");
  * Newest publications at the TOP
  */
 
-allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune Lee, 2020. Psychology of Music', 'img/publications/rhythm_sim.jpg', '')); //TODO: Add text!
+allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune Lee, In Press. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/RhythmSimilarity_PDF_Watermark.pdf')); //TODO: Add final text!
 
-allPublications.push(new Publication('Rhythm and Syntax Processing in School-Age Children', 'Yune S. Lee, Sanghoon Ahn, Rachael Frush Holt, E. Glenn Schellenberg, 2020. Developmental Psychology', 'img/publications/rhythm_syntax_children.jpg', 'doc/rhythm_and_syntax_processing_children.pdf')); //TODO: Add final version!
+allPublications.push(new Publication('Rhythm and Syntax Processing in School-Age Children', 'Yune S. Lee, Sanghoon Ahn, Rachael Frush Holt, E. Glenn Schellenberg, 2020. Developmental Psychology', 'img/publications/rhythm_syntax_children.jpg', 'doc/rhythm_and_syntax_processing_children.pdf')); 
 
 allPublications.push(new Publication('Shared neural resources of rhythm and syntax: An ALE Meta-Analysis', 'Matthew Heard, Yune S. Lee, 2019. Neuropsychologia, 107284.', 'img/publications/close-up-photo-of-drum-set-995301.jpg', 'doc/Heard_Lee_ALE_2019.pdf'));
  

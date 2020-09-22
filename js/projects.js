@@ -6,7 +6,7 @@ var Project = makeStruct("title img modalID");
  * Newest projects at the TOP
  */
 
-allProjects.push(new Project('Rhythm Video Game Therapy for Chronic Aphasia', 'img/portfolio/drum.jpg', '#portfolioModal5'));
+allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
 
 allProjects.push(new Project('Music-Based Intervention Program for School-Age Children', 'img/portfolio/kids-girl-pencil-drawing-159823.jpg', '#portfolioModal4'));
 
