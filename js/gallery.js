@@ -19,7 +19,7 @@ gallery.push(new Album('First Visit to Callier Center Richardson', callierVisitL
 // Create 'MoritzSMPC' album
 var moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg']; 
 var th_moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg']; 
-gallery.push(new Album('SMPC 2019 in New York, New York', moritzSMPCLinks, th_moritzSMPCLinks, Array(th_moritzSMPCLinks.length).fill(''), 'August 6, 2019', 'moritzSMPC', 'research')); 
+gallery.push(new Album('SMPC 2019 in New York, New York', moritzSMPCLinks, th_moritzSMPCLinks, Array(th_moritzSMPCLinks.length).fill(''), 'August 7, 2019', 'moritzSMPC', 'research')); 
 
 // Create 'HeardOHBM' album
 var heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg']; 
