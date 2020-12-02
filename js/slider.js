@@ -78,7 +78,7 @@ function currentSlide(num){
 var imgs = ['img/header/splash_utd.jpg', 'img/header/rhythm_sim_v2.jpg', 'img/header/utd_welcome_v3.jpg', 'img/header/sbir_shaded_v2.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
-var header = ["Welcome to SLAM Lab!", "Newest Publication", "We're Moving!", "NIH SBIR Funding"];
+var header = ["Welcome to SLAM Lab!", "Newest Publication", "We Have Moved!", "NIH SBIR Funding"];
 var text = ['We are the auditory neuroscience lab at the University of Texas Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 'Our Lab has a new publication in the Music Psychology Journal.', 
 	'We have moved from The Ohio State University to the University of Texas Dallas.', 
 	'Our Aphasia Therapy project continues to be awarded NIH funding.'
