@@ -6,7 +6,7 @@ var Publication = makeStruct("title credit img link");
  * Newest publications at the TOP
  */
 
-allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune Lee, In Press. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/RhythmSimilarity_PDF_Watermark.pdf')); //TODO: Add final text!
+allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune Lee, 2020. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/RhythmSim_final.pdf')); //TODO: Add final text!
 
 allPublications.push(new Publication('Rhythm and Syntax Processing in School-Age Children', 'Yune S. Lee, Sanghoon Ahn, Rachael Frush Holt, E. Glenn Schellenberg, 2020. Developmental Psychology', 'img/publications/rhythm_syntax_children.jpg', 'doc/rhythm_and_syntax_processing_children.pdf')); 
 
