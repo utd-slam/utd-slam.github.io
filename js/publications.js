@@ -10,7 +10,7 @@ allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rh
 
 allPublications.push(new Publication('Rhythm and Syntax Processing in School-Age Children', 'Yune S. Lee, Sanghoon Ahn, Rachael Frush Holt, E. Glenn Schellenberg, 2020. Developmental Psychology', 'img/publications/rhythm_syntax_children.jpg', 'doc/rhythm_and_syntax_processing_children.pdf')); 
 
-allPublications.push(new Publication('Shared neural resources of rhythm and syntax: An ALE Meta-Analysis', 'Matthew Heard, Yune S. Lee, 2019. Neuropsychologia, 107284.', 'img/publications/close-up-photo-of-drum-set-995301.jpg', 'doc/Heard_Lee_ALE_2019.pdf'));
+allPublications.push(new Publication('Shared neural resources of rhythm and syntax: An ALE Meta-Analysis', 'Matthew Heard, Yune S. Lee, 2020. Neuropsychologia, 107284.', 'img/publications/close-up-photo-of-drum-set-995301.jpg', 'doc/Heard_Lee_ALE_2019.pdf'));
  
 allPublications.push(new Publication('Music, the Brain, and Health: Speech and Language', 'YS Lee, C. Thaut, C. Santoni, 2019. Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/BrainMusicHealth.jpg', 'doc/Lee_neurologic_music_therapy2019.pdf'));
 
