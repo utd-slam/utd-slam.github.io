@@ -12,7 +12,8 @@ allProjects.push(new Project('Music-Based Intervention Program for School-Age Ch
 
 allProjects.push(new Project('Drum Dance Rehabilitation for Parkinson\'s Disease', 'img/portfolio/emotional-50309_640.jpg', '#portfolioModal3'));
 
-allProjects.push(new Project('Changes in Neural Activity Following Cochlear Implant (CI)', 'img/portfolio/Synapse_in_brain.jpg', '#portfolioModal2'));
+/**allProjects.push(new Project('Changes in Neural Activity Following Cochlear Implant (CI)', 'img/portfolio/Synapse_in_brain.jpg', '#portfolioModal2'));
+*/
 
 allProjects.push(new Project('Rhythm and Speech Perception', 'img/portfolio/pexels-photo-28317.jpg', '#portfolioModal1'));
 
