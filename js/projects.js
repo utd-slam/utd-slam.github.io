@@ -7,14 +7,16 @@ var Project = makeStruct("title img modalID");
  * Newest projects at the TOP
  */
 
-allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
-
 allProjects.push(new Project('Music-Based Intervention Program for School-Age Children', 'img/portfolio/kids-girl-pencil-drawing-159823.jpg', '#portfolioModal4'));
 
-allProjects.push(new Project('Rhythm and Speech Perception', 'img/portfolio/pexels-photo-28317.jpg', '#portfolioModal1'));
+allProjects.push(new Project('Music and Language: Shared Temporal Processing', 'img/portfolio/temporalprocessing.jpg', '#portfolioModal1'));
+
+allProjects.push(new Project('Rhythm Priming and Neuromodulation', 'img/portfolio/rhythmpriming.jpg', '#portfolioModal6')); /**TODO: ADD PICTURE*/
+
+allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
 
 /**allProjects.push(new Project('Changes in Neural Activity Following Cochlear Implant (CI)', 'img/portfolio/Synapse_in_brain.jpg', '#portfolioModal2'));
-*/
+ */
 
 pastProjects.push(new Project('Drum Dance Rehabilitation for Parkinson\'s Disease', 'img/portfolio/emotional-50309_640.jpg', '#portfolioModal3'));
 

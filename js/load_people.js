@@ -54,13 +54,13 @@ function gotData(data){
         if(people[k].edulevel === 'undergrad'){
             undergraduate[parseInt(people[k].order)-1] = student;
             ugCount++;
-				} else if (people[k].edulevel === 'staff'){
-						staff[parseInt(people[k].order)-1] = student;
-						sCount++;
+		} else if (people[k].edulevel === 'staff'){
+			staff[parseInt(people[k].order)-1] = student;
+			sCount++;
         } else if (people[k].edulevel === 'grad'){
             graduate[parseInt(people[k].order)-1] = student;
             gCount++;
-				} 
+		} 
 
     }
     for(var i = 0; i < ugCount; i++){
