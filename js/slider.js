@@ -75,7 +75,7 @@ function currentSlide(num){
 }
 
 //TODO: Create header image for the move
-var imgs = ['img/header/Brain Performance Institute-evening_slider_v2.jpg', 
+var imgs = ['img/header/bpi_evening_slider_v2.jpg', 
 	'img/header/hybrid_ms_v2_header.jpg', 
 	'img/header/CVL_slider.jpg', 
 	'img/header/nih_music_and_health.jpg']; 
