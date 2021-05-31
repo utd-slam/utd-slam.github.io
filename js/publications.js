@@ -6,7 +6,7 @@ var Publication = makeStruct("title credit img link");
  * Newest publications at the TOP
  */
 
-allPublications.push(new Publication('Hybrid auditory fMRI: In pursuit of increasing data acquisition while decreasing the impact of scanner noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_proof.pdf')); 
+allPublications.push(new Publication('Hybrid auditory fMRI: In pursuit of increasing data acquisition while decreasing the impact of scanner noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_final.pdf')); 
 
 allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune S. Lee, 2020. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/Moritz_rhythmsim_final.pdf')); 
 
