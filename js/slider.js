@@ -75,21 +75,21 @@ function currentSlide(num){
 }
 
 //TODO: Create header image for the move
-var imgs = ['img/header/bpi_evening_slider_v2.jpg', 
+var imgs = ['img/header/Callier-Center_slider.jpg', 
 	'img/header/hybrid_ms_v2_header.jpg', 
 	'img/header/CVL_slider.jpg', 
-	'img/header/nih_music_and_health.jpg']; 
+	'img/header/bpi_evening_slider_v2.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!", 
 	"Newest Publication", 
 	"Center for Vital Longevity Talk", 
-	"Dr. Lee spoke at NIH Meeting"
+	"AWARE Grant"
 	];
 var text = ['We are the auditory neuroscience lab at the University of Texas Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
 	'The latest publication shares a new auditory neuroimaging strategy to combat the distortion of sounds produced by MRI scanners.', 
 	'Dr. Lee presented on "The Brain, Music, and Well-Being: The BMW Story".', 
-	'He updated the Music and Health Investigator Meeting about our NIH-funded projects.'
+	'The latest grant SLAM Lab has been given in order to evaluate the neurobiological mechanisms leading to improved cognitive and language function following therapy .'
     ];
 
 var j = 0;
