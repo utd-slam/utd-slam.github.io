@@ -6,6 +6,16 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+ // Create 'ARTMeeting' album
+var artMeetingLinks = ['img/gallery/artMeeting/1.jpg'];
+var th_artMeetingLinks = ['img/gallery/artMeeting/1.jpg'];
+gallery.push(new Album('Aphasia Rhythm Therapy (ART) Team Meeting', artMeetingLinks, th_artMeetingLinks, Array(th_artMeetingLinks.length).fill(''), 'June 2021', 'artMeeting', 'other'));
+
+// Create 'SHALunch'
+var shaLunchLinks = ['img/gallery/shaLunch/1.jpg'];
+var th_shaLunchLinks = ['img/gallery/shaLunch/1.jpg'];
+gallery.push(new Album('Lunch after Speech Hero App Brainstorming Session', shaLunchLinks, th_shaLunchLinks, Array(th_shaLunchLinks.length).fill(''), 'May 2021', 'shaLunch', 'other'));
+
 // Create 'CBHVisit' album
 var cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg']; 
 var th_cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg']; 
