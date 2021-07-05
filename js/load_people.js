@@ -22,7 +22,7 @@ function gotData(data){
     var undergraduate = new Array(10);
     var graduate = new Array(10);
 	var staff = new Array(10);
-    var postdoc = new Array(10);
+    var postdoctoral = new Array(10);
 
     var ugCount = 0;
     var gCount = 0;
@@ -37,7 +37,7 @@ function gotData(data){
     const undergradSection = document.getElementById('undergradstudents');
     const gradSection = document.getElementById('gradstudents');
 	const staffSection = document.getElementById('staff');
-    const postdocSection = document.getElementById('postdocs')
+    const postdocSection = document.getElementById('postdocresearchers')
 
     var people = data.val();
     var ids = Object.keys(people);
@@ -68,7 +68,7 @@ function gotData(data){
             gCount++;
 		} 
         else if (people[k].edulevel === 'postdoc'){
-            postdoc[parseInt(people[k].order)-1] = student;
+            postdoctoral[parseInt(people[k].order)-1] = student;
             pCount++;
         }
     }
@@ -83,7 +83,7 @@ function gotData(data){
         renderStudent(staff[i], staffSection);
     }
     for(var i = 0; i < pCount; i++){
-        renderStudent(postdoc[i], postdocSection);
+        renderStudent(postdoctoral[i], postdocSection)
     }
 
     firebase.database().goOffline();
