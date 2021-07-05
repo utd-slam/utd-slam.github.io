@@ -37,7 +37,7 @@ function gotData(data){
     const undergradSection = document.getElementById('undergradstudents');
     const gradSection = document.getElementById('gradstudents');
 	const staffSection = document.getElementById('staff');
-    const postdocSection = document.getElementById('postdocresearchers')
+    const postdocSection = document.getElementById('postdocresearchers');
 
     var people = data.val();
     var ids = Object.keys(people);
