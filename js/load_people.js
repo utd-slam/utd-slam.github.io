@@ -73,6 +73,9 @@ function gotData(data){
         }
     }
 
+    for(var i = 0; i < pCount; i++){
+        renderStudent(postdoctoral[i], postdocSection);
+    }
     for(var i = 0; i < ugCount; i++){
         renderStudent(undergraduate[i], undergradSection);
     }
@@ -82,9 +85,10 @@ function gotData(data){
 	for(var i = 0; i < sCount; i++){
         renderStudent(staff[i], staffSection);
     }
-    for(var i = 0; i < pCount; i++){
-        renderStudent(postdoctoral[i], postdocSection);
-    }
+    
+
+     
+
 
     firebase.database().goOffline();
 
