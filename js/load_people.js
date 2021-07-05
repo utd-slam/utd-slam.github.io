@@ -83,7 +83,7 @@ function gotData(data){
         renderStudent(staff[i], staffSection);
     }
     for(var i = 0; i < pCount; i++){
-        renderStudent(postdoctoral[i], postdocSection)
+        renderStudent(postdoctoral[i], postdocSection);
     }
 
     firebase.database().goOffline();
