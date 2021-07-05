@@ -21,10 +21,13 @@ $(function() {
 function gotData(data){
     var undergraduate = new Array(10);
     var graduate = new Array(10);
-		var staff = new Array(10);
+	var staff = new Array(10);
+    var postdoc = new Array(10);
+
     var ugCount = 0;
     var gCount = 0;
-		var sCount = 0;
+	var sCount = 0;
+    var pCount = 0;
 
     var Student = makeStruct("name id bio img email phone social");
     var Social =  makeStruct("iconID link");
@@ -33,7 +36,8 @@ function gotData(data){
     // Get parent sections
     const undergradSection = document.getElementById('undergradstudents');
     const gradSection = document.getElementById('gradstudents');
-		const staffSection = document.getElementById('staff');
+	const staffSection = document.getElementById('staff');
+    const postdocSection = document.getElementById('postdocs')
 
     var people = data.val();
     var ids = Object.keys(people);
@@ -54,23 +58,32 @@ function gotData(data){
         if(people[k].edulevel === 'undergrad'){
             undergraduate[parseInt(people[k].order)-1] = student;
             ugCount++;
-		} else if (people[k].edulevel === 'staff'){
+		} 
+        else if (people[k].edulevel === 'staff'){
 			staff[parseInt(people[k].order)-1] = student;
 			sCount++;
-        } else if (people[k].edulevel === 'grad'){
+        } 
+        else if (people[k].edulevel === 'grad'){
             graduate[parseInt(people[k].order)-1] = student;
             gCount++;
 		} 
-
+        else if (people[k].edulevel === 'postdoc'){
+            postdoc[parseInt(people[k].order)-1] = student;
+            pCount++;
+        }
     }
+
     for(var i = 0; i < ugCount; i++){
         renderStudent(undergraduate[i], undergradSection);
     }
     for(var i = 0; i < gCount; i++){
         renderStudent(graduate[i], gradSection);
     }
-		for(var i = 0; i < sCount; i++){
+	for(var i = 0; i < sCount; i++){
         renderStudent(staff[i], staffSection);
+    }
+    for(var i = 0; i < pCount; i++){
+        renderStudent(postdoc[i], postdocSection);
     }
 
     firebase.database().goOffline();
