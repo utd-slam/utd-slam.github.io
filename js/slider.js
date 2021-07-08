@@ -76,21 +76,19 @@ function currentSlide(num){
 
 //TODO: Create header image for the move
 var imgs = ['img/header/Callier-Center_slider.jpg', 
+    'img/header/FriendsofBrainHealth_Logo_slider.jpg',
 	'img/header/hybrid_ms_v2_header.jpg', 
-	'img/header/CVL_slider.jpg', 
-	'img/header/bpi_evening_slider_v2.jpg']; 
+	'img/header/CVL_slider.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
-var header = ["Welcome to SLAM Lab!", 
+var header = ["Welcome to SLAM Lab!",
+    "Friends of BrainHealth Award", 
 	"Newest Publication", 
-	"Center for Vital Longevity Talk", 
-	"AWARE Grant"
-	];
+	"Center for Vital Longevity Talk"];
 var text = ['We are the auditory neuroscience lab at the University of Texas Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
+    'Hyun is honored to receive the 2021 Friends of BrainHealth Visionary New Scientist Award. Leveraging this award, he will investigate neural underpinnings of rhythm-induced language enhancement for children with developmental language disorders. He will officially receive the award at the Friends of BrainHealth Luncheon on September 27th.',
 	'The latest publication shares a new auditory neuroimaging strategy to combat the distortion of sounds produced by MRI scanners.', 
-	'Dr. Lee presented on "The Brain, Music, and Well-Being: The BMW Story".', 
-	'The latest grant SLAM Lab has been given in order to evaluate the neurobiological mechanisms leading to improved cognitive and language function following therapy .'
-    ];
+	'Dr. Lee presented on "The Brain, Music, and Well-Being: The BMW Story".'];
 
 var j = 0;
 
