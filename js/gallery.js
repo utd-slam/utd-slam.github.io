@@ -9,7 +9,7 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
 // Create 'eegDataCollection-one' album
 var eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg' , 'img/gallery/eegDataCollection_one/2.jpg'];
 var th_eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg' , 'img/gallery/eegDataCollection_one/2.jpg'];
-gallery.push(new Album('First EEG Data Collection for Postdoctoral Researcher Jeahong Kim', eegDataCollection_oneLinks, th_eegDataCollection_oneLinks, Array(th_eegDataCollection_oneLinks.length).fill(''), 'August 2021', 'eegDataCollection_one' , 'other'));
+gallery.push(new Album('First EEG Data Collection by Jay and Hyun', eegDataCollection_oneLinks, th_eegDataCollection_oneLinks, Array(th_eegDataCollection_oneLinks.length).fill(''), 'August 2021', 'eegDataCollection_one' , 'other'));
 
 
  // Create 'ARTMeeting' album
