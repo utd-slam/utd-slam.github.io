@@ -6,6 +6,11 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'friendsOfBrainHealthLuncheon' album
+var friendsOfBrainHealthLuncheon_oneLinks = ['img/gallery/friendsOfBrainHealthLuncheon/1.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/2.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/3.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/4.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/5.jpg']; 
+var th_friendsOfBrainHealthLuncheon_oneLinks = ['img/gallery/friendsOfBrainHealthLuncheon/1.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/2.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/3.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/4.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/5.jpg'];
+gallery.push(new Album('Friends of BrainHealth Luncheon', friendsOfBrainHealthLuncheon_oneLinks, th_friendsOfBrainHealthLuncheon_oneLinks, Array(th_friendsOfBrainHealthLuncheon_oneLinks.length).fill(''), 'September 2021', 'friendsOfBrainHealthLuncheon', 'other'));
+
 // Create 'eegDataCollection-one' album
 var eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg' , 'img/gallery/eegDataCollection_one/2.jpg'];
 var th_eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg' , 'img/gallery/eegDataCollection_one/2.jpg'];
