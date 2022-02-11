@@ -76,19 +76,19 @@ function currentSlide(num){
 
 //TODO: Create header image for the move
 var imgs = ['img/header/Callier-Center_slider.jpg', 
+    'img/header/digisonic_slider.jpg',
     'img/header/FriendsofBrainHealth_Logo_slider.jpg',
-	'img/header/hybrid_ms_v2_header.jpg', 
-	'img/header/CVL_slider.jpg']; 
+	'img/header/hybrid_ms_v2_header.jpg']; 
 var ribbonLinks = ['', 'index.html#recent-events', '',''];
 var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
+    "Collaboration with Digisonic",
     "Friends of BrainHealth Award", 
-	"Newest Publication", 
-	"Center for Vital Longevity Talk"];
+	"Newest Publication"];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
+    'SLAM Lab has partnered with Digisonic with the aim to explore how both 2D and 3D binaural beats can lead to enhanced cognitive and sensory functioning using state-of-the-art neuroimaging methods.',
     'Doctoral student Hyun-Woong Kim is honored to receive the 2021 Friends of BrainHealth Visionary New Scientist Award. Leveraging this award, he will investigate neural underpinnings of rhythm-induced language enhancement for children with developmental language disorders. He will officially receive the award at the Friends of BrainHealth Luncheon on September 27th.',
-	'The latest publication shares a new auditory neuroimaging strategy to combat the distortion of sounds produced by MRI scanners.', 
-	'Dr. Lee presented on "The Brain, Music, and Well-Being: The BMW Story".'];
+	'The latest publication shares a new auditory neuroimaging strategy to combat the distortion of sounds produced by MRI scanners.'];
 
 var j = 0;
 
