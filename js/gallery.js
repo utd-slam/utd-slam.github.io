@@ -62,11 +62,13 @@ var tbiSummitLinks = ['img/gallery/tbi-summit-evening/1.jpg', 'img/gallery/tbi-s
 var th_tbiSummitLinks = ['img/gallery/tbi-summit-evening/thumb/1.jpg', 'img/gallery/tbi-summit-evening/thumb/2.jpg', 'img/gallery/tbi-summit-evening/thumb/3.jpg'];
 gallery.push(new Album('TBI Summit Evening Reception', tbiSummitLinks, th_tbiSummitLinks, Array(th_tbiSummitLinks.length).fill(''), 'March 13, 2019', 'tbi', 'research'));
 
+/*
  // Videos
  var videoLinks = ['https://www.youtube.com/watch?v=NKB4aVbtS9I&feature=youtu.be', 'https://youtu.be/JrsQw5tLWk4', 'https://www.youtube.com/watch?v=gId3gLocel4&feature=youtu.be', 'https://www.youtube.com/watch?v=g8FNi57MqgI'];
  var th_videoLinks = ['img/gallery/videos/thumb/aphasia_rhythm.JPG', 'img/gallery/videos/thumb/ddr_therapy.JPG', 'img/gallery/videos/thumb/mattm_talk.JPG', 'img/gallery/videos/thumb/kevieb_talk.JPG'];
  var th_videoLabels = ['Aphasia Rhythm Therapy', 'Drum Dance Rehab (DDR)', 'Human Perception of Rhythm Similarity', 'The Basic Aptitude of Music (BAM) Test'];
  gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, th_videoLabels, '2018-2019', 'video', 'research'));
+*/
 
  // Create 'SLAM Lab Party at Kevie's Part 2' album
  var party2Links = ['img/gallery/slam-lab-party2/20181020_185605.jpg', 'img/gallery/slam-lab-party2/20181020_192936.jpg', 'img/gallery/slam-lab-party2/20181020_194309.jpg', 'img/gallery/slam-lab-party2/20181020_211731.jpg', 'img/gallery/slam-lab-party2/20181020_211736.jpg', 'img/gallery/slam-lab-party2/20181020_211745.jpg', 'img/gallery/slam-lab-party2/20181020_215546.jpg'];
