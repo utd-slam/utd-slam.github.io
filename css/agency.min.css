@@ -910,3 +910,38 @@ hr {
 .accordion.active:after {
   content: "\2212"; /* Unicode character for "minus" sign (-) */
 }
+
+
+
+/* CSS for hidden text in featuredProjectModals "Associated Publications" */
+.textHider{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: inherit;
+  box-sizing: border-box;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: center;
+}
+
+.growable input:checked{color:red;}
+
+.textHider:hover{color:black;}
+
+.growable {
+    -moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    height: 0;
+    overflow: hidden;
+  }
