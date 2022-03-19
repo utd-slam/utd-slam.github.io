@@ -9,9 +9,15 @@ var Project = makeStruct("title img modalID");
 
 allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
 
-allProjects.push(new Project('Rhythm Priming and Neuromodulation', 'img/portfolio/rhythmpriming.jpg', '#portfolioModal6')); /**TODO: ADD PICTURE*/
+allProjects.push(new Project('Neural Mechanisms of Rhythm-Based Language Improvement', 'img/portfolio/rhythmpriming.jpg', '#portfolioModal6')); /**TODO: ADD PICTURE*/
 
-allProjects.push(new Project('Music and Language: Shared Temporal Processing', 'img/portfolio/temporalprocessing.jpg', '#portfolioModal1'));
+allProjects.push(new Project('Shared Brain Networks of Music and Language', 'img/portfolio/temporalprocessing.jpg', '#portfolioModal1'));
+
+allProjects.push(new Project('Genetic Mediators of Music and Language Connection', 'img/portfolio/DNA_Genotype.jpg', '#portfolioModal7'));
+
+allProjects.push(new Project('Using TACS to Change Language and Music Behaviors', 'img/portfolio/Record_Player.jpg', '#portfolioModal8'));
+
+allProjects.push(new Project('Neuromodulation through Auditory Stimulation', 'img/portfolio/Neuromodulation.jpg', '#portfolioModal9'));
 
 /* 
 allProjects.push(new Project('Music-Based Intervention Program for School-Age Children', 'img/portfolio/kids-girl-pencil-drawing-159823.jpg', '#portfolioModal4'));
