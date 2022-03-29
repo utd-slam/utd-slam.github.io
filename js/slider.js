@@ -24,7 +24,7 @@ function changeText()
     if(imgs[j] !== undefined){
         $("#home-header").css("background-image", url);
     }
-        addRibbon();
+        //addRibbon();
         updateDots();
         if(header[j] !== undefined && text[j] !== undefined){
             document.getElementById("slide-title").innerHTML = header[j];
@@ -38,6 +38,7 @@ function changeText()
         timer = setTimeout("changeText()", 6000);
 }
 
+/*
 function addRibbon()
 {
     if(j < ribbons.length){
@@ -53,6 +54,8 @@ function addRibbon()
         }
     }
 }
+*/
+
 
 function updateDots(){
     var dots = document.getElementsByClassName("dot");
@@ -76,19 +79,19 @@ function currentSlide(num){
 
 //TODO: Create header image for the move
 var imgs = ['img/header/Callier-Center_slider.jpg', 
-    'img/header/digisonic_slider.jpg',
-    'img/header/FriendsofBrainHealth_Logo_slider.jpg',
-	'img/header/hybrid_ms_v2_header.jpg']; 
-var ribbonLinks = ['', 'index.html#recent-events', '',''];
-var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
+    'img/header/hyun_new_publication_motor_rhythm_memory_children_slider.jpg',
+    'img/header/CBH_March_4_Lecture_slider.jpg',
+    'img/header/digisonic_slider.jpg']; 
+//var ribbonLinks = ['', 'index.html#recent-events', '',''];
+//var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
-    "Collaboration with Digisonic",
-    "Friends of BrainHealth Award", 
-	"Newest Publication"];
+    "Newest Publication",
+    "Frontiers of BrainHealth Lecture",
+    "Collaboration with Digisonic"];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
-    'SLAM Lab has partnered with Digisonic with the aim to explore how both 2D and 3D binaural beats can lead to enhanced cognitive and sensory functioning using state-of-the-art neuroimaging methods.',
-    'Doctoral student Hyun-Woong Kim is honored to receive the 2021 Friends of BrainHealth Visionary New Scientist Award. Leveraging this award, he will investigate neural underpinnings of rhythm-induced language enhancement for children with developmental language disorders. He will officially receive the award at the Friends of BrainHealth Luncheon on September 27th.',
-	'The latest publication shares a new auditory neuroimaging strategy to combat the distortion of sounds produced by MRI scanners.'];
+    'The latest publication provides new insight into children’s development of motor, rhythm, and memory skills.',
+    'On March 4, Dr. Lee unveiled the latest BMW (Brain, Music, & Wellbeing) story during the Center for BrainHealth\'s Fronteirs of BrainHealth lecture series.',
+    'SLAM Lab has partnered with Digisonic with the aim to explore how both 2D and 3D binaural beats can lead to enhanced cognitive and sensory functioning using state-of-the-art neuroimaging methods.'];
 
 var j = 0;
 

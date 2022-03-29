@@ -7,8 +7,8 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  */
 
  // Create 'cbh-lecture-and-dinner-3_4_22' album
-var cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg'];
-var th_cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg'];
+var cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
+var th_cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
 gallery.push(new Album('Center for BrainHealth Lecture and Lab Dinner', cbh_lecture_and_dinner_3_4_22_Links, th_cbh_lecture_and_dinner_3_4_22_Links, Array(th_cbh_lecture_and_dinner_3_4_22_Links.length).fill(''), 'March 2022', 'cbhLecture&dinner_3_4_22', 'other'));
 
 
