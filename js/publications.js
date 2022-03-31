@@ -8,7 +8,7 @@ var Publication = makeStruct("title credit img link");
 
 allPublications.push(new Publication('Sensorimotor and Working Memory Systems Jointly Support Development of Perceptual Rhythm Processing', 'Hyun-Woong Kim, Kyung Myun Lee, Yune S. Lee, 2022. Developmental Science', 'img/publications/hyun_new_publication_motor_rhythm_memory_children_publication.jpg', 'doc/Hyun_Developmental_Science_2022 _sensorimotor_working_memory_perception.pdf')); 
 
-allPublications.push(new Publication('Hybrid auditory fMRI: In pursuit of increasing data acquisition while decreasing the impact of scanner noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_final.pdf')); 
+allPublications.push(new Publication('Hybrid auditory fMRI: In pursuit of increasing data acquisition while decreasing the impact of scanner noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Journal of Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_final.pdf')); 
 
 allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune S. Lee, 2020. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/Moritz_rhythmsim_final.pdf')); 
 
