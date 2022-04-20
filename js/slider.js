@@ -79,19 +79,19 @@ function currentSlide(num){
 
 //TODO: Create header image for the move
 var imgs = ['img/header/Callier-Center_slider.jpg', 
+    'img/header/NSIF_sponsorship_slider.jpg',
     'img/header/hyun_new_publication_motor_rhythm_memory_children_slider.jpg',
-    'img/header/CBH_March_4_Lecture_slider.jpg',
-    'img/header/digisonic_slider.jpg']; 
+    'img/header/CBH_March_4_Lecture_slider.jpg']; 
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
+    "NSIF Sponsorship",
     "Newest Publication",
-    "Frontiers of BrainHealth Lecture",
-    "Collaboration with Digisonic"];
+    "Frontiers of BrainHealth Lecture"];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
+    'SLAM lab has been sponsored by NSIF  — an organization dedicated to pioneering at the forefront of neuroscience research. We are honored to recieve their patronage ino our future endeavors.',
     'The latest publication provides new insight into children’s development of motor, rhythm, and memory skills. Find the preprint on our <a href="https://utd-slam.github.io/publications.html">Publications</a> page.',
-    'On March 4, Dr. Lee unveiled the latest BMW (Brain, Music, & Wellbeing) story during the Center for BrainHealth\'s Fronteirs of BrainHealth lecture series.',
-    'SLAM Lab has partnered with Digisonic with the aim to explore how both 2D and 3D binaural beats can lead to enhanced cognitive and sensory functioning using state-of-the-art neuroimaging methods.'];
+    'On March 4, Dr. Lee unveiled the latest BMW (Brain, Music, & Wellbeing) story during the Center for BrainHealth\'s Fronteirs of BrainHealth lecture series.'];
 
 var j = 0;
 
