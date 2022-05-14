@@ -78,7 +78,7 @@ function currentSlide(num){
 }
 
 //TODO: Create header image for the move
-var imgs = ['img/header/Callier-Center_slider.jpg', 
+var imgs = ['img/header/group_photo_04_2022.jpg', 
     'img/header/NSIF_sponsorship_slider.jpg',
     'img/header/hyun_new_publication_motor_rhythm_memory_children_slider.jpg',
     'img/header/CBH_March_4_Lecture_slider.jpg']; 
