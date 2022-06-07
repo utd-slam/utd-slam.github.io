@@ -79,19 +79,19 @@ function currentSlide(num){
 
 //TODO: Create header image for the move
 var imgs = ['img/header/group_photo_04_2022.jpg', 
+    'img/header/AWARE_grant_renewal_slider.jpg',
     'img/header/NSIF_sponsorship_slider.jpg',
-    'img/header/hyun_new_publication_motor_rhythm_memory_children_slider.jpg',
-    'img/header/CBH_March_4_Lecture_slider.jpg']; 
+    'img/header/hyun_new_publication_motor_rhythm_memory_children_slider.jpg']; 
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
+    "AWARE Funding Renewal",
     "NSIF Sponsorship",
-    "Newest Publication",
-    "Frontiers of BrainHealth Lecture"];
+    "Newest Publication"];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
+    'SLAM Lab has received a $20,000 renewal from AWARE Dallas for our research in improving cognition and language function in Alzheimer\'s.',
     'SLAM lab has been sponsored by NSIF  — an organization dedicated to pioneering at the forefront of neuroscience research. We are honored to recieve their patronage ino our future endeavors.',
-    'The latest publication provides new insight into children’s development of motor, rhythm, and memory skills. Find the preprint on our <a href="https://utd-slam.github.io/publications.html">Publications</a> page.',
-    'On March 4, Dr. Lee unveiled the latest BMW (Brain, Music, & Wellbeing) story during the Center for BrainHealth\'s Fronteirs of BrainHealth lecture series.'];
+    'The latest publication provides new insight into children’s development of motor, rhythm, and memory skills. Find the preprint on our <a href="https://utd-slam.github.io/publications.html">Publications</a> page.'];
 
 var j = 0;
 
