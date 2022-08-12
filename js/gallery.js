@@ -6,6 +6,11 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'SMPC_2022' album
+var SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg','img/gallery/SMPC_2022/2.jpg','img/gallery/SMPC_2022/3.jpg','img/gallery/SMPC_2022/4.jpg','img/gallery/SMPC_2022/5.jpg','img/gallery/SMPC_2022/6.jpg',];
+var th_SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg','img/gallery/SMPC_2022/2.jpg','img/gallery/SMPC_2022/3.jpg','img/gallery/SMPC_2022/4.jpg','img/gallery/SMPC_2022/5.jpg','img/gallery/SMPC_2022/6.jpg',];
+gallery.push(new Album('Society for Music Perception and Cognition 2022 Conference', SMPC_2022_Links, th_SMPC_2022_Links, Array(th_SMPC_2022_Links.length).fill(''), 'August 2022', 'SMPC_2022_Links', 'other'));
+
  // Create 'cbh-lecture-and-dinner-3_4_22' album
 var cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
 var th_cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
