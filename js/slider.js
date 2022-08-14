@@ -79,19 +79,19 @@ function currentSlide(num){
 
 //TODO: Create header image for the move
 var imgs = ['img/header/group_photo_04_2022.jpg', 
+    'img/header/SMPC_2022_Combined_slider.jpg',
     'img/header/FriendsofBrainHealth_Logo_slider.jpg',
-    'img/header/AWARE_grant_renewal_slider.jpg',
-    'img/header/NSIF_sponsorship_slider.jpg']; 
+    'img/header/AWARE_grant_renewal_slider.jpg']; 
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
+    "SMPC 2022 Conference",
     "Friends of BrainHealth Grant",
-    "AWARE Funding Renewal",
-    "NSIF Sponsorship"];
+    "AWARE Funding Renewal"];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp; Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
+    'Slammers Hyun-Woong Kim and Jenna Happe present their latest work at the Society for Music Perception and Cognition 2022 Conference this August!',
     'Congratulations to SLAM postdocs, Drs. Jea Hong Kim and Amy Berglund-Barazza for winning the Friends of BrainHealth training grant.',
-    'SLAM Lab has received a $20,000 renewal from AWARE Dallas for our research in improving cognition and language function in Alzheimer\'s.',
-    'SLAM lab has been sponsored by NSIF  — an organization dedicated to pioneering at the forefront of neuroscience research. We are honored to recieve their patronage ino our future endeavors.'];
+    'SLAM Lab has received a $20,000 renewal from AWARE Dallas for our research in improving cognition and language function in Alzheimer\'s.'];
 
 var j = 0;
 
