@@ -23,11 +23,13 @@ function gotData(data){
     var graduate = new Array(10);
 	var staff = new Array(10);
     var postdoctoral = new Array(10);
+    var affiliate = new Array(10);
 
     var ugCount = 0;
     var gCount = 0;
 	var sCount = 0;
     var pCount = 0;
+    var affCount =0;
 
     var Student = makeStruct("name id bio img email phone social");
     var Social =  makeStruct("iconID link");
@@ -38,6 +40,7 @@ function gotData(data){
     const gradSection = document.getElementById('gradstudents');
 	const staffSection = document.getElementById('staff');
     const postdocSection = document.getElementById('postdocresearchers');
+    const affiliateSection = document.getElementById('labaffiliates');
 
     var people = data.val();
     var ids = Object.keys(people);
@@ -71,6 +74,10 @@ function gotData(data){
             postdoctoral[parseInt(people[k].order)-1] = student;
             pCount++;
         }
+        else if (people[k].edulevel === 'affiliate'){
+            affiliate[parseInt(people[k].order)-1] = student;
+            affCount++;
+        }
     }
 
     for(var i = 0; i < pCount; i++){
@@ -78,6 +85,9 @@ function gotData(data){
     }
     for(var i = 0; i < ugCount; i++){
         renderStudent(undergraduate[i], undergradSection);
+    }
+    for(var i = 0; i < affCount; i++){
+        renderStudent(affiliate[i], affiliateSection);
     }
     for(var i = 0; i < gCount; i++){
         renderStudent(graduate[i], gradSection);
