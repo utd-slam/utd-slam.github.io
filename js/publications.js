@@ -6,7 +6,7 @@ var Publication = makeStruct("title credit img link");
  * Newest publications at the TOP
  */
 
-allPublications.push(new Publication('Hemispheric Dissociations in Regions Supporting Auditory Sentence Comprehension in Older Adults', 'Yune Sang Lee, Chad S. Rogers, Murray Grossman, Arthur Wingfield, Jonathan E. Peelle, 2022. Aging Brain', 'img/publications/Lee_2022_Aging_Brain.jpg', 'doc/Lee_etal2022_proof.pdf'))
+allPublications.push(new Publication('Hemispheric Dissociations in Regions Supporting Auditory Sentence Comprehension in Older Adults', 'Yune Sang Lee, Chad S. Rogers, Murray Grossman, Arthur Wingfield, Jonathan E. Peelle, 2022. Aging Brain', 'img/publications/Lee_2022_Aging_Brain.jpg', 'doc/Lee_2022_Hemispheric_Dissociations.pdf'))
 
 allPublications.push(new Publication('Sensorimotor and Working Memory Systems Jointly Support Development of Perceptual Rhythm Processing', 'Hyun-Woong Kim, Kyung Myun Lee, Yune S. Lee, 2022. Developmental Science', 'img/publications/hyun_new_publication_motor_rhythm_memory_children_publication.jpg', 'doc/Hyun_Developmental_Science_2022 _sensorimotor_working_memory_perception.pdf')); 
 
