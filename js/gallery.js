@@ -6,6 +6,12 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'Dallas_Museum_2022' album
+
+var Dallas_Museum_2022_Links = ['img/gallery/Dallas_Museum_2022/1.jpg','img/gallery/Dallas_Museum_2022/2.jpg','img/gallery/Dallas_Museum_2022/3.jpg','img/gallery/Dallas_Museum_2022/4.jpg','img/gallery/Dallas_Museum_2022/5.jpg','img/gallery/Dallas_Museum_2022/6.jpg','img/gallery/Dallas_Museum_2022/7.jpg','img/gallery/Dallas_Museum_2022/8.jpg','img/gallery/Dallas_Museum_2022/9.jpg','img/gallery/Dallas_Museum_2022/10.jpg','img/gallery/Dallas_Museum_2022/11.jpg','img/gallery/Dallas_Museum_2022/12.jpg','img/gallery/Dallas_Museum_2022/13.jpg','img/gallery/Dallas_Museum_2022/14.jpg','img/gallery/Dallas_Museum_2022/15jpg'];
+var th_Dallas_Museum_2022_Links = ['img/gallery/Dallas_Museum_2022/1.jpg','img/gallery/Dallas_Museum_2022/2.jpg','img/gallery/Dallas_Museum_2022/3.jpg','img/gallery/Dallas_Museum_2022/4.jpg','img/gallery/Dallas_Museum_2022/5.jpg','img/gallery/Dallas_Museum_2022/6.jpg','img/gallery/Dallas_Museum_2022/7.jpg','img/gallery/Dallas_Museum_2022/8.jpg','img/gallery/Dallas_Museum_2022/9.jpg','img/gallery/Dallas_Museum_2022/10.jpg','img/gallery/Dallas_Museum_2022/11.jpg','img/gallery/Dallas_Museum_2022/12.jpg','img/gallery/Dallas_Museum_2022/13.jpg','img/gallery/Dallas_Museum_2022/14.jpg','img/gallery/Dallas_Museum_2022/15jpg'];
+gallery.push(new Album('SLAM Lab Summer Activity 2022', Dallas_Museum_2022_Links, th_Dallas_Museum_2022_Links, Array(th_Dallas_Museum_2022_Links.length).fill(''), 'July 2022', 'Dallas_Museum_2022_Links', 'other'));
+
 // Create 'SMPC_2022' album
 var SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg','img/gallery/SMPC_2022/2.jpg','img/gallery/SMPC_2022/3.jpg','img/gallery/SMPC_2022/4.jpg','img/gallery/SMPC_2022/5.jpg','img/gallery/SMPC_2022/6.jpg','img/gallery/SMPC_2022/7.jpg'];
 var th_SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg','img/gallery/SMPC_2022/2.jpg','img/gallery/SMPC_2022/3.jpg','img/gallery/SMPC_2022/4.jpg','img/gallery/SMPC_2022/5.jpg','img/gallery/SMPC_2022/6.jpg','img/gallery/SMPC_2022/7.jpg'];
