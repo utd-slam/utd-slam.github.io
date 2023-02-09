@@ -6,40 +6,56 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'Dec_2022_Lab_Dinner' album
+var Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
+var th_Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
+gallery.push(new Album('December 2022 Lab Holiday Dinner', Dec_2022_Lab_Dinner_Links, th_Dec_2022_Lab_Dinner_Links, Array(th_Dec_2022_Lab_Dinner_Links.length).fill(''), 'December 2022', 'th_Dec_2022_Lab_Dinner_Links', 'other'));
+
+// Create 'Katie_G_and_Katherine_W_Graduation' album
+var Katie_G_and_Katherine_W_Graduation_Links = ['img/gallery/Katie_G_and_Katherine_W_Graduation/1.png', 'img/gallery/Katie_G_and_Katherine_W_Graduation/2.png'];
+var th_Katie_G_and_Katherine_W_Graduation_Links = ['img/gallery/Katie_G_and_Katherine_W_Graduation/1.png', 'img/gallery/Katie_G_and_Katherine_W_Graduation/2.png'];
+gallery.push(new Album('Katie Ginter and Katherine Wood Graduation', Katie_G_and_Katherine_W_Graduation_Links, th_Katie_G_and_Katherine_W_Graduation_Links, Array(th_Katie_G_and_Katherine_W_Graduation_Links.length).fill(''), 'December 2022', 'Katie_G_and_Katherine_W_Graduation_Links', 'other'));
+
+// Cretae 'Matthew_H_Dissertation_Proposal_Defense' album
+var Matthew_H_Dissertation_Proposal_Defense_Links = ['img/gallery/Matthew_H_Dissertation_Proposal_Defense/1.png'];
+var th_Matthew_H_Dissertation_Proposal_Defense_Links = ['img/gallery/Matthew_H_Dissertation_Proposal_Defense/1.png'];
+gallery.push(new Album('Matthew Heard Disseration Proposal Defense', Matthew_H_Dissertation_Proposal_Defense_Links, th_Matthew_H_Dissertation_Proposal_Defense_Links, Array(th_Matthew_H_Dissertation_Proposal_Defense_Links.length).fill(''), 'December 2022', 'Matthew_H_Dissertation_Proposal_Defense_Links', 'other'));
+
+
 // Create 'AWARE_Dallas_Event_2022' album
-var AWARE_Dallas_Event_2022_Links = ['img/gallery/2022_AWARE_Dallas_Event/1.jpg','img/gallery/2022_AWARE_Dallas_Event/2.jpg','img/gallery/2022_AWARE_Dallas_Event/3.jpg','img/gallery/2022_AWARE_Dallas_Event/4.jpg','img/gallery/2022_AWARE_Dallas_Event/5.jpg','img/gallery/2022_AWARE_Dallas_Event/6.jpg'];
-var th_AWARE_Dallas_Event_2022_Links = ['img/gallery/2022_AWARE_Dallas_Event/1.jpg','img/gallery/2022_AWARE_Dallas_Event/2.jpg','img/gallery/2022_AWARE_Dallas_Event/3.jpg','img/gallery/2022_AWARE_Dallas_Event/4.jpg','img/gallery/2022_AWARE_Dallas_Event/5.jpg','img/gallery/2022_AWARE_Dallas_Event/6.jpg'];
+var AWARE_Dallas_Event_2022_Links = ['img/gallery/2022_AWARE_Dallas_Event/1.jpg', 'img/gallery/2022_AWARE_Dallas_Event/2.jpg', 'img/gallery/2022_AWARE_Dallas_Event/3.jpg', 'img/gallery/2022_AWARE_Dallas_Event/4.jpg', 'img/gallery/2022_AWARE_Dallas_Event/5.jpg', 'img/gallery/2022_AWARE_Dallas_Event/6.jpg'];
+var th_AWARE_Dallas_Event_2022_Links = ['img/gallery/2022_AWARE_Dallas_Event/1.jpg', 'img/gallery/2022_AWARE_Dallas_Event/2.jpg', 'img/gallery/2022_AWARE_Dallas_Event/3.jpg', 'img/gallery/2022_AWARE_Dallas_Event/4.jpg', 'img/gallery/2022_AWARE_Dallas_Event/5.jpg', 'img/gallery/2022_AWARE_Dallas_Event/6.jpg'];
 gallery.push(new Album('2022 AWARE Dallas Event', AWARE_Dallas_Event_2022_Links, th_AWARE_Dallas_Event_2022_Links, Array(th_AWARE_Dallas_Event_2022_Links.length).fill(''), 'August 2022', 'AWARE_Dallas_Event_2022_Links', 'other'));
 
 // Create 'Dallas_Museum_2022' album
-var Dallas_Museum_2022_Links = ['img/gallery/Dallas_Museum_2022/1.jpg','img/gallery/Dallas_Museum_2022/2.jpg','img/gallery/Dallas_Museum_2022/3.jpg','img/gallery/Dallas_Museum_2022/4.jpg','img/gallery/Dallas_Museum_2022/5.jpg','img/gallery/Dallas_Museum_2022/6.jpg','img/gallery/Dallas_Museum_2022/7.jpg','img/gallery/Dallas_Museum_2022/8.jpg','img/gallery/Dallas_Museum_2022/9.jpg','img/gallery/Dallas_Museum_2022/10.jpg','img/gallery/Dallas_Museum_2022/11.jpg','img/gallery/Dallas_Museum_2022/12.jpg','img/gallery/Dallas_Museum_2022/13.jpg','img/gallery/Dallas_Museum_2022/14.jpg','img/gallery/Dallas_Museum_2022/15jpg'];
-var th_Dallas_Museum_2022_Links = ['img/gallery/Dallas_Museum_2022/1.jpg','img/gallery/Dallas_Museum_2022/2.jpg','img/gallery/Dallas_Museum_2022/3.jpg','img/gallery/Dallas_Museum_2022/4.jpg','img/gallery/Dallas_Museum_2022/5.jpg','img/gallery/Dallas_Museum_2022/6.jpg','img/gallery/Dallas_Museum_2022/7.jpg','img/gallery/Dallas_Museum_2022/8.jpg','img/gallery/Dallas_Museum_2022/9.jpg','img/gallery/Dallas_Museum_2022/10.jpg','img/gallery/Dallas_Museum_2022/11.jpg','img/gallery/Dallas_Museum_2022/12.jpg','img/gallery/Dallas_Museum_2022/13.jpg','img/gallery/Dallas_Museum_2022/14.jpg','img/gallery/Dallas_Museum_2022/15jpg'];
+var Dallas_Museum_2022_Links = ['img/gallery/Dallas_Museum_2022/1.jpg', 'img/gallery/Dallas_Museum_2022/2.jpg', 'img/gallery/Dallas_Museum_2022/3.jpg', 'img/gallery/Dallas_Museum_2022/4.jpg', 'img/gallery/Dallas_Museum_2022/5.jpg', 'img/gallery/Dallas_Museum_2022/6.jpg', 'img/gallery/Dallas_Museum_2022/7.jpg', 'img/gallery/Dallas_Museum_2022/8.jpg', 'img/gallery/Dallas_Museum_2022/9.jpg', 'img/gallery/Dallas_Museum_2022/10.jpg', 'img/gallery/Dallas_Museum_2022/11.jpg', 'img/gallery/Dallas_Museum_2022/12.jpg', 'img/gallery/Dallas_Museum_2022/13.jpg', 'img/gallery/Dallas_Museum_2022/14.jpg', 'img/gallery/Dallas_Museum_2022/15jpg'];
+var th_Dallas_Museum_2022_Links = ['img/gallery/Dallas_Museum_2022/1.jpg', 'img/gallery/Dallas_Museum_2022/2.jpg', 'img/gallery/Dallas_Museum_2022/3.jpg', 'img/gallery/Dallas_Museum_2022/4.jpg', 'img/gallery/Dallas_Museum_2022/5.jpg', 'img/gallery/Dallas_Museum_2022/6.jpg', 'img/gallery/Dallas_Museum_2022/7.jpg', 'img/gallery/Dallas_Museum_2022/8.jpg', 'img/gallery/Dallas_Museum_2022/9.jpg', 'img/gallery/Dallas_Museum_2022/10.jpg', 'img/gallery/Dallas_Museum_2022/11.jpg', 'img/gallery/Dallas_Museum_2022/12.jpg', 'img/gallery/Dallas_Museum_2022/13.jpg', 'img/gallery/Dallas_Museum_2022/14.jpg', 'img/gallery/Dallas_Museum_2022/15jpg'];
 gallery.push(new Album('SLAM Lab Summer Activity 2022', Dallas_Museum_2022_Links, th_Dallas_Museum_2022_Links, Array(th_Dallas_Museum_2022_Links.length).fill(''), 'July 2022', 'Dallas_Museum_2022_Links', 'other'));
 
 // Create 'SMPC_2022' album
-var SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg','img/gallery/SMPC_2022/2.jpg','img/gallery/SMPC_2022/3.jpg','img/gallery/SMPC_2022/4.jpg','img/gallery/SMPC_2022/5.jpg','img/gallery/SMPC_2022/6.jpg','img/gallery/SMPC_2022/7.jpg'];
-var th_SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg','img/gallery/SMPC_2022/2.jpg','img/gallery/SMPC_2022/3.jpg','img/gallery/SMPC_2022/4.jpg','img/gallery/SMPC_2022/5.jpg','img/gallery/SMPC_2022/6.jpg','img/gallery/SMPC_2022/7.jpg'];
+var SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg', 'img/gallery/SMPC_2022/2.jpg', 'img/gallery/SMPC_2022/3.jpg', 'img/gallery/SMPC_2022/4.jpg', 'img/gallery/SMPC_2022/5.jpg', 'img/gallery/SMPC_2022/6.jpg', 'img/gallery/SMPC_2022/7.jpg'];
+var th_SMPC_2022_Links = ['img/gallery/SMPC_2022/1.jpg', 'img/gallery/SMPC_2022/2.jpg', 'img/gallery/SMPC_2022/3.jpg', 'img/gallery/SMPC_2022/4.jpg', 'img/gallery/SMPC_2022/5.jpg', 'img/gallery/SMPC_2022/6.jpg', 'img/gallery/SMPC_2022/7.jpg'];
 gallery.push(new Album('Society for Music Perception and Cognition 2022 Conference', SMPC_2022_Links, th_SMPC_2022_Links, Array(th_SMPC_2022_Links.length).fill(''), 'August 2022', 'SMPC_2022_Links', 'other'));
 
 
- // Create 'cbh-lecture-and-dinner-3_4_22' album
-var cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
-var th_cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg' , 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
+// Create 'cbh-lecture-and-dinner-3_4_22' album
+var cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
+var th_cbh_lecture_and_dinner_3_4_22_Links = ['img/gallery/cbh-lecture-and-dinner-3_4_22/1.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/2.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/3.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/4.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/5.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/6.jpg', 'img/gallery/cbh-lecture-and-dinner-3_4_22/7.jpg'];
 gallery.push(new Album('Center for BrainHealth Lecture and Lab Dinner', cbh_lecture_and_dinner_3_4_22_Links, th_cbh_lecture_and_dinner_3_4_22_Links, Array(th_cbh_lecture_and_dinner_3_4_22_Links.length).fill(''), 'March 2022', 'cbhLecture&dinner_3_4_22', 'other'));
 
 
 // Create 'friendsOfBrainHealthLuncheon' album
-var friendsOfBrainHealthLuncheon_oneLinks = ['img/gallery/friendsOfBrainHealthLuncheon/1.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/2.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/3.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/4.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/5.jpg']; 
-var th_friendsOfBrainHealthLuncheon_oneLinks = ['img/gallery/friendsOfBrainHealthLuncheon/1.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/2.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/3.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/4.jpg' , 'img/gallery/friendsOfBrainHealthLuncheon/5.jpg'];
+var friendsOfBrainHealthLuncheon_oneLinks = ['img/gallery/friendsOfBrainHealthLuncheon/1.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/2.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/3.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/4.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/5.jpg'];
+var th_friendsOfBrainHealthLuncheon_oneLinks = ['img/gallery/friendsOfBrainHealthLuncheon/1.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/2.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/3.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/4.jpg', 'img/gallery/friendsOfBrainHealthLuncheon/5.jpg'];
 gallery.push(new Album('Friends of BrainHealth Luncheon', friendsOfBrainHealthLuncheon_oneLinks, th_friendsOfBrainHealthLuncheon_oneLinks, Array(th_friendsOfBrainHealthLuncheon_oneLinks.length).fill(''), 'September 2021', 'friendsOfBrainHealthLuncheon', 'other'));
 
 // Create 'eegDataCollection-one' album
-var eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg' , 'img/gallery/eegDataCollection_one/2.jpg'];
-var th_eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg' , 'img/gallery/eegDataCollection_one/2.jpg'];
-gallery.push(new Album('First EEG Data Collection by Jay and Hyun', eegDataCollection_oneLinks, th_eegDataCollection_oneLinks, Array(th_eegDataCollection_oneLinks.length).fill(''), 'August 2021', 'eegDataCollection_one' , 'other'));
+var eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg', 'img/gallery/eegDataCollection_one/2.jpg'];
+var th_eegDataCollection_oneLinks = ['img/gallery/eegDataCollection_one/1.jpg', 'img/gallery/eegDataCollection_one/2.jpg'];
+gallery.push(new Album('First EEG Data Collection by Jay and Hyun', eegDataCollection_oneLinks, th_eegDataCollection_oneLinks, Array(th_eegDataCollection_oneLinks.length).fill(''), 'August 2021', 'eegDataCollection_one', 'other'));
 
 
- // Create 'ARTMeeting' album
+// Create 'ARTMeeting' album
 var artMeetingLinks = ['img/gallery/artMeeting/1.jpg'];
 var th_artMeetingLinks = ['img/gallery/artMeeting/1.jpg'];
 gallery.push(new Album('Aphasia Rhythm Therapy (ART) Team Meeting', artMeetingLinks, th_artMeetingLinks, Array(th_artMeetingLinks.length).fill(''), 'June 2021', 'artMeeting', 'other'));
@@ -50,24 +66,24 @@ var th_shaLunchLinks = ['img/gallery/shaLunch/1.jpg'];
 gallery.push(new Album('Lunch after Speech Hero App Brainstorming Session', shaLunchLinks, th_shaLunchLinks, Array(th_shaLunchLinks.length).fill(''), 'May 2021', 'shaLunch', 'other'));
 
 // Create 'CBHVisit' album
-var cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg']; 
-var th_cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg']; 
-gallery.push(new Album('First Visit to Center for BrainHealth', cbhVisitLinks, th_cbhVisitLinks, Array(th_cbhVisitLinks.length).fill(''), 'September 18, 2020', 'cbhVisit', 'other')); 
+var cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg'];
+var th_cbhVisitLinks = ['img/gallery/cbhVisit/1.jpg', 'img/gallery/cbhVisit/2.jpg', 'img/gallery/cbhVisit/3.jpg', 'img/gallery/cbhVisit/4.jpg', 'img/gallery/cbhVisit/5.jpg'];
+gallery.push(new Album('First Visit to Center for BrainHealth', cbhVisitLinks, th_cbhVisitLinks, Array(th_cbhVisitLinks.length).fill(''), 'September 18, 2020', 'cbhVisit', 'other'));
 
 // Create 'CallierVisit' album
-var callierVisitLinks = ['img/gallery/callierVisit/1.jpg', 'img/gallery/callierVisit/2.jpg', 'img/gallery/callierVisit/3.jpg', 'img/gallery/callierVisit/4.jpg']; 
-var th_callierVisitLinks = ['img/gallery/callierVisit/1.jpg', 'img/gallery/callierVisit/2.jpg', 'img/gallery/callierVisit/3.jpg', 'img/gallery/callierVisit/4.jpg']; 
-gallery.push(new Album('First Visit to Callier Center Richardson', callierVisitLinks, th_callierVisitLinks, Array(th_callierVisitLinks.length).fill(''), 'August 21, 2020', 'callierVisit', 'other')); 
+var callierVisitLinks = ['img/gallery/callierVisit/1.jpg', 'img/gallery/callierVisit/2.jpg', 'img/gallery/callierVisit/3.jpg', 'img/gallery/callierVisit/4.jpg'];
+var th_callierVisitLinks = ['img/gallery/callierVisit/1.jpg', 'img/gallery/callierVisit/2.jpg', 'img/gallery/callierVisit/3.jpg', 'img/gallery/callierVisit/4.jpg'];
+gallery.push(new Album('First Visit to Callier Center Richardson', callierVisitLinks, th_callierVisitLinks, Array(th_callierVisitLinks.length).fill(''), 'August 21, 2020', 'callierVisit', 'other'));
 
 // Create 'MoritzSMPC' album
-var moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg']; 
-var th_moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg']; 
-gallery.push(new Album('SMPC 2019 in New York, New York', moritzSMPCLinks, th_moritzSMPCLinks, Array(th_moritzSMPCLinks.length).fill(''), 'August 7, 2019', 'moritzSMPC', 'research')); 
+var moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg'];
+var th_moritzSMPCLinks = ['img/gallery/moritzSMPC/1.jpg'];
+gallery.push(new Album('SMPC 2019 in New York, New York', moritzSMPCLinks, th_moritzSMPCLinks, Array(th_moritzSMPCLinks.length).fill(''), 'August 7, 2019', 'moritzSMPC', 'research'));
 
 // Create 'HeardOHBM' album
-var heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg']; 
-var th_heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg']; 
-gallery.push(new Album('OHBM 2019 in Rome, Italy', heardOHBMLinks, th_heardOHBMLinks, Array(th_heardOHBMLinks.length).fill(''), 'June 10, 2019', 'heardOHBM', 'research')); 
+var heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg'];
+var th_heardOHBMLinks = ['img/gallery/heardOHBM/1.jpg', 'img/gallery/heardOHBM/2.jpg'];
+gallery.push(new Album('OHBM 2019 in Rome, Italy', heardOHBMLinks, th_heardOHBMLinks, Array(th_heardOHBMLinks.length).fill(''), 'June 10, 2019', 'heardOHBM', 'research'));
 
 // Create 'KathyStory' album
 var kathyStoryLinks = ['img/gallery/kathyStory/1.jpeg', 'img/gallery/kathyStory/2.jpeg', 'img/gallery/kathyStory/3.jpeg'];
@@ -92,10 +108,10 @@ gallery.push(new Album('TBI Summit Evening Reception', tbiSummitLinks, th_tbiSum
  gallery.push(new Album('Lab Videos', videoLinks, th_videoLinks, th_videoLabels, '2018-2019', 'video', 'research'));
 */
 
- // Create 'SLAM Lab Party at Kevie's Part 2' album
- var party2Links = ['img/gallery/slam-lab-party2/20181020_185605.jpg', 'img/gallery/slam-lab-party2/20181020_192936.jpg', 'img/gallery/slam-lab-party2/20181020_194309.jpg', 'img/gallery/slam-lab-party2/20181020_211731.jpg', 'img/gallery/slam-lab-party2/20181020_211736.jpg', 'img/gallery/slam-lab-party2/20181020_211745.jpg', 'img/gallery/slam-lab-party2/20181020_215546.jpg'];
- var th_party2Links = ['img/gallery/slam-lab-party2/thumb/20181020_185605.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_192936.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_194309.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211731.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211736.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211745.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_215546.jpg',];
- gallery.push(new Album('SLAM Lab Party at Kevie\'s Part 2', party2Links, th_party2Links, Array(th_party2Links.length).fill(''), 'October 20, 2018', 'party2', 'other'));
+// Create 'SLAM Lab Party at Kevie's Part 2' album
+var party2Links = ['img/gallery/slam-lab-party2/20181020_185605.jpg', 'img/gallery/slam-lab-party2/20181020_192936.jpg', 'img/gallery/slam-lab-party2/20181020_194309.jpg', 'img/gallery/slam-lab-party2/20181020_211731.jpg', 'img/gallery/slam-lab-party2/20181020_211736.jpg', 'img/gallery/slam-lab-party2/20181020_211745.jpg', 'img/gallery/slam-lab-party2/20181020_215546.jpg'];
+var th_party2Links = ['img/gallery/slam-lab-party2/thumb/20181020_185605.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_192936.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_194309.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211731.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211736.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_211745.jpg', 'img/gallery/slam-lab-party2/thumb/20181020_215546.jpg',];
+gallery.push(new Album('SLAM Lab Party at Kevie\'s Part 2', party2Links, th_party2Links, Array(th_party2Links.length).fill(''), 'October 20, 2018', 'party2', 'other'));
 
 // Create 'SLAM Lab Party at Kevie's' album
 var partyLinks = ['img/gallery/slam-lab-party/2.jpg', 'img/gallery/slam-lab-party/3.jpg', 'img/gallery/slam-lab-party/4.jpg', 'img/gallery/slam-lab-party/5.jpg', 'img/gallery/slam-lab-party/6.jpg', 'img/gallery/slam-lab-party/7.jpg', 'img/gallery/slam-lab-party/8.jpg', 'img/gallery/slam-lab-party/9.jpg', 'img/gallery/slam-lab-party/10.jpg', 'img/gallery/slam-lab-party/11.jpg', 'img/gallery/slam-lab-party/12.jpg'];
@@ -116,9 +132,9 @@ gallery.push(new Album('HumCog Summer Institute', humcog18Links, th_humcog18Link
 */
 // Create 'Rock Climbing' album
 var rockclLinks = ["img/gallery/rock-climbing/20180423_144050.jpg", "img/gallery/rock-climbing/20180423_144339.jpg", "img/gallery/rock-climbing/20180423_144433.jpg", "img/gallery/rock-climbing/20180423_144504.jpg", "img/gallery/rock-climbing/20180423_144642.jpg", "img/gallery/rock-climbing/20180423_144739.jpg", "img/gallery/rock-climbing/20180423_150346_HDR.jpg", "img/gallery/rock-climbing/20180423_150403.jpg",
-"img/gallery/rock-climbing/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/20180423_151824.jpg", "img/gallery/rock-climbing/20180423_151855_HDR.jpg", "img/gallery/rock-climbing/20180423_152018.jpg", "img/gallery/rock-climbing/20180423_152035.jpg", "img/gallery/rock-climbing/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/20180423_152656.jpg", "img/gallery/rock-climbing/20180423_152815.jpg", "img/gallery/rock-climbing/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/20180423_153932.jpg"];
+    "img/gallery/rock-climbing/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/20180423_151824.jpg", "img/gallery/rock-climbing/20180423_151855_HDR.jpg", "img/gallery/rock-climbing/20180423_152018.jpg", "img/gallery/rock-climbing/20180423_152035.jpg", "img/gallery/rock-climbing/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/20180423_152656.jpg", "img/gallery/rock-climbing/20180423_152815.jpg", "img/gallery/rock-climbing/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/20180423_153932.jpg"];
 var th_rockclLinks = ["img/gallery/rock-climbing/thumb/20180423_144050.jpg", "img/gallery/rock-climbing/thumb/20180423_144339.jpg", "img/gallery/rock-climbing/thumb/20180423_144433.jpg", "img/gallery/rock-climbing/thumb/20180423_144504.jpg", "img/gallery/rock-climbing/thumb/20180423_144642.jpg", "img/gallery/rock-climbing/thumb/20180423_144739.jpg", "img/gallery/rock-climbing/thumb/20180423_150346_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_150403.jpg", "img/gallery/rock-climbing/thumb/20180423_151134_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_151153_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_151824.jpg", "img/gallery/rock-climbing/thumb/20180423_151855_HDR.jpg",
-"img/gallery/rock-climbing/thumb/20180423_152018.jpg", "img/gallery/rock-climbing/thumb/20180423_152035.jpg", "img/gallery/rock-climbing/thumb/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152656.jpg", "img/gallery/rock-climbing/thumb/20180423_152815.jpg", "img/gallery/rock-climbing/thumb/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_153932.jpg"];
+    "img/gallery/rock-climbing/thumb/20180423_152018.jpg", "img/gallery/rock-climbing/thumb/20180423_152035.jpg", "img/gallery/rock-climbing/thumb/20180423_152249_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152428_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_152656.jpg", "img/gallery/rock-climbing/thumb/20180423_152815.jpg", "img/gallery/rock-climbing/thumb/20180423_153616_HDR.jpg", "img/gallery/rock-climbing/thumb/20180423_153932.jpg"];
 gallery.push(new Album('Rock Climbing', rockclLinks, th_rockclLinks, Array(th_rockclLinks.length).fill(''), 'April 23, 2018', 'rockcl', 'other'));
 
 // Create 'fNIRS Demo Experiment' album
@@ -155,7 +171,7 @@ gallery.push(new Album('COSI Rhythm and Speech Perception Lab', cosiLinks, th_co
  * End defining gallery albums
  */
 
-$(function() {
+$(function () {
     updateDropdowns();
 });
 
@@ -164,7 +180,7 @@ var otherActivities = false;    // Load other lab activities
 
 function updateDropdowns() {
     // Check which types of albums to load
-    if(document.getElementById('all').selected == true){
+    if (document.getElementById('all').selected == true) {
         researchActivities = true;
         otherActivities = true;
     } else if (document.getElementById('research').selected == true) {
@@ -193,11 +209,11 @@ function updateDropdowns() {
     // Add dropdown options
     for (var i = 0; i < gallery.length; i++) {
         var album = gallery[i];
-        if((researchActivities && album.type == 'research') || (otherActivities && album.type == 'other')){
+        if ((researchActivities && album.type == 'research') || (otherActivities && album.type == 'other')) {
             var el = document.createElement("option");
             el.textContent = album.title;
             el.value = album.title;
-            el.setAttribute('id', i+1);
+            el.setAttribute('id', i + 1);
             select.appendChild(el);
         }
     }
@@ -210,12 +226,12 @@ function loadGallery() {
     $('.tz-gallery').remove();
 
     var base = document.getElementById('gallery').children;
-    for (var i = 0; i < gallery.length; i++){
+    for (var i = 0; i < gallery.length; i++) {
         var album = gallery[i];
         var allSelected = document.getElementById(0) && document.getElementById(0).selected == true;
         var displayCondition = allSelected && ((researchActivities && album.type == 'research') || (otherActivities && album.type == 'other'));
 
-        if( displayCondition || (document.getElementById(i+1) && document.getElementById(i+1).selected == true)){
+        if (displayCondition || (document.getElementById(i + 1) && document.getElementById(i + 1).selected == true)) {
             addHeader(album.title, album.time, base[0]);
             setupGallery(album.id, base[0]);
 
@@ -232,15 +248,15 @@ function addHeader(header, subheader, parent) {
     var newDiv = document.createElement("div");
     newDiv.className += 'row tz-header';
 
-        var headerText = document.createElement("h2");
-        headerText.textContent = header;
-        newDiv.appendChild(headerText);
+    var headerText = document.createElement("h2");
+    headerText.textContent = header;
+    newDiv.appendChild(headerText);
 
-        if(subheader.length > 0){
-            var subheaderText = document.createElement("h4");
-            subheaderText.textContent = subheader;
-            newDiv.appendChild(subheaderText);
-        }
+    if (subheader.length > 0) {
+        var subheaderText = document.createElement("h4");
+        subheaderText.textContent = subheader;
+        newDiv.appendChild(subheaderText);
+    }
 
     parent.appendChild(newDiv);
 }
@@ -251,9 +267,9 @@ function setupGallery(id, parent) {
     gallery.setAttribute('id', id);
     gallery.setAttribute('style', 'padding-top: 240px; margin-top: -200px;');
 
-        var row = document.createElement("div");
-        row.className += 'row';
-        gallery.appendChild(row);
+    var row = document.createElement("div");
+    row.className += 'row';
+    gallery.appendChild(row);
 
     parent.appendChild(gallery);
 }
@@ -262,28 +278,28 @@ function insertThumbnail(link, thumbnailLink, thumbnailText, galleryID) {
     var newCol = document.createElement("div");
     newCol.className += 'col-sm-6 col-md-4';
 
-        var thumbnail = document.createElement("div");
-        thumbnail.className += 'thumbnail';
+    var thumbnail = document.createElement("div");
+    thumbnail.className += 'thumbnail';
 
-            var newLink = document.createElement("a");
-            newLink.className += 'lightbox';
-            newLink.setAttribute('href', link);
+    var newLink = document.createElement("a");
+    newLink.className += 'lightbox';
+    newLink.setAttribute('href', link);
 
-                var newImg = document.createElement("img");
-                newImg.setAttribute('src', thumbnailLink);
-                newLink.appendChild(newImg);
+    var newImg = document.createElement("img");
+    newImg.setAttribute('src', thumbnailLink);
+    newLink.appendChild(newImg);
 
-            thumbnail.appendChild(newLink);
+    thumbnail.appendChild(newLink);
 
-            if(thumbnailText.length > 0){
-                var thumbLabel = document.createElement("h4");
-                thumbLabel.textContent = thumbnailText;
-                thumbLabel.setAttribute('style', 'padding: 25px; text-transform: none; text-align: center; height: 100px;');
+    if (thumbnailText.length > 0) {
+        var thumbLabel = document.createElement("h4");
+        thumbLabel.textContent = thumbnailText;
+        thumbLabel.setAttribute('style', 'padding: 25px; text-transform: none; text-align: center; height: 100px;');
 
-                thumbnail.appendChild(thumbLabel);
-            }
+        thumbnail.appendChild(thumbLabel);
+    }
 
-        newCol.appendChild(thumbnail);
+    newCol.appendChild(thumbnail);
 
     var parent = document.getElementById(galleryID).children;
     parent[0].appendChild(newCol);
