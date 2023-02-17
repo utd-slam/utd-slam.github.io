@@ -5,19 +5,20 @@ var Publication = makeStruct("title credit img link");
  * Add publications
  * Newest publications at the TOP
  */
+allPublications.push(new Publication('Beta and Gamma Binaural Beats Enhance Auditory Sentence Comprehension', 'Hyun-Woong Kim, Jenna Happe, Yune Sang Lee, 2023. Psychological Research', 'img/publications/Jenna_Hyun_Binaural_Beats_Publication_publication.jpg', 'doc/Beta_and_gamma_binaural_beats_enhance_auditory_sen.pdf'))
 
 allPublications.push(new Publication('Hemispheric Dissociations in Regions Supporting Auditory Sentence Comprehension in Older Adults', 'Yune Sang Lee, Chad S. Rogers, Murray Grossman, Arthur Wingfield, Jonathan E. Peelle, 2022. Aging Brain', 'img/publications/Lee_2022_Aging_Brain.jpg', 'doc/Lee_2022_Hemispheric_Dissociations.pdf'))
 
-allPublications.push(new Publication('Sensorimotor and Working Memory Systems Jointly Support Development of Perceptual Rhythm Processing', 'Hyun-Woong Kim, Kyung Myun Lee, Yune S. Lee, 2022. Developmental Science', 'img/publications/hyun_new_publication_motor_rhythm_memory_children_publication.jpg', 'doc/Hyun_Developmental_Science_2022 _sensorimotor_working_memory_perception.pdf')); 
+allPublications.push(new Publication('Sensorimotor and Working Memory Systems Jointly Support Development of Perceptual Rhythm Processing', 'Hyun-Woong Kim, Kyung Myun Lee, Yune S. Lee, 2022. Developmental Science', 'img/publications/hyun_new_publication_motor_rhythm_memory_children_publication.jpg', 'doc/Hyun_Developmental_Science_2022 _sensorimotor_working_memory_perception.pdf'));
 
-allPublications.push(new Publication('Hybrid Auditory fMRI: In Pursuit of Increasing Data Acquisition While Decreasing the Impact of Scanner Noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Journal of Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_final.pdf')); 
+allPublications.push(new Publication('Hybrid Auditory fMRI: In Pursuit of Increasing Data Acquisition While Decreasing the Impact of Scanner Noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Journal of Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_final.pdf'));
 
-allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune S. Lee, 2020. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/Moritz_rhythmsim_final.pdf')); 
+allPublications.push(new Publication('Invariance of Edit-Distance to Tempo in Rhythm Similarity', 'Matthew Moritz, Matthew Heard, Hyun-Woong Kim, Yune S. Lee, 2020. Psychology of Music', 'img/publications/rhythm_sim.jpg', 'doc/Moritz_rhythmsim_final.pdf'));
 
-allPublications.push(new Publication('Rhythm and Syntax Processing in School-Age Children', 'Yune S. Lee, Sanghoon Ahn, Rachael Frush Holt, E. Glenn Schellenberg, 2020. Developmental Psychology', 'img/publications/rhythm_syntax_children.jpg', 'doc/Lee_etal_DevPsy_final.pdf')); 
+allPublications.push(new Publication('Rhythm and Syntax Processing in School-Age Children', 'Yune S. Lee, Sanghoon Ahn, Rachael Frush Holt, E. Glenn Schellenberg, 2020. Developmental Psychology', 'img/publications/rhythm_syntax_children.jpg', 'doc/Lee_etal_DevPsy_final.pdf'));
 
 allPublications.push(new Publication('Shared Neural Resources of Rhythm and Syntax: An Ale Meta-Analysis', 'Matthew Heard, Yune S. Lee, 2020. Neuropsychologia, 107284.', 'img/publications/close-up-photo-of-drum-set-995301.jpg', 'doc/Heard_Lee_ALE_2019.pdf'));
- 
+
 allPublications.push(new Publication('Music, the Brain, and Health: Speech and Language', 'YS Lee, C. Thaut, C. Santoni, 2019. Oxford Handbook on Music and the Brain, Chapter 29. Oxford University Press.', 'img/publications/BrainMusicHealth.jpg', 'doc/Lee_neurologic_music_therapy2019.pdf'));
 
 allPublications.push(new Publication('Impact of Subtle Hearing Loss on the Cognition of Young Adults', 'Yune S. Lee, 2018. The Hearing Journal, 71(10), 30.', 'img/publications/young-adults.jpg', 'doc/Impact_of_Subtle_Hearing_Loss_on_the_Cognition_of.pdf'));
@@ -48,7 +49,7 @@ allPublications.push(new Publication('Neural and Behavioral Correlates of Audito
 
 /* End of add publications */
 
-$(function() {
+$(function () {
     var base = document.getElementById('publication').children;
     var newRow;
 
@@ -61,39 +62,39 @@ $(function() {
         var newCol = document.createElement("div");
         newCol.className += 'col-md-4 col-sm-6 portfolio-item';
 
-            var publicationLink = document.createElement("a");
-            publicationLink.href = allPublications[i].link;
-            newCol.appendChild(publicationLink);
+        var publicationLink = document.createElement("a");
+        publicationLink.href = allPublications[i].link;
+        newCol.appendChild(publicationLink);
 
-            var image = document.createElement('img');
-            image.setAttribute('src', allPublications[i].img);
-            image.className += 'img-responsive';
-            publicationLink.appendChild(image);
+        var image = document.createElement('img');
+        image.setAttribute('src', allPublications[i].img);
+        image.className += 'img-responsive';
+        publicationLink.appendChild(image);
 
-            var newText = document.createElement("div");
-            newText.className += 'portfolio-caption';
+        var newText = document.createElement("div");
+        newText.className += 'portfolio-caption';
 
-                var newTitle = document.createElement("h4");
-                newTitle.textContent = allPublications[i].title;
-                newText.appendChild(newTitle);
+        var newTitle = document.createElement("h4");
+        newTitle.textContent = allPublications[i].title;
+        newText.appendChild(newTitle);
 
-                var newSubheading = document.createElement("h3");
-                newSubheading.className += 'text-muted section-subheading';
-                newSubheading.setAttribute('style', 'margin-bottom:0;');
+        var newSubheading = document.createElement("h3");
+        newSubheading.className += 'text-muted section-subheading';
+        newSubheading.setAttribute('style', 'margin-bottom:0;');
 
-                var text = allPublications[i].credit + ' ';
-                newSubheading.textContent = text;
+        var text = allPublications[i].credit + ' ';
+        newSubheading.textContent = text;
 
-                    var link = document.createElement("a");
-                    link.setAttribute('href', allPublications[i].link);
-                    var download = document.createElement("i");
-                    download.className += 'fa fa-download';
-                    link.appendChild(download);
-                    newSubheading.appendChild(link);
+        var link = document.createElement("a");
+        link.setAttribute('href', allPublications[i].link);
+        var download = document.createElement("i");
+        download.className += 'fa fa-download';
+        link.appendChild(download);
+        newSubheading.appendChild(link);
 
-                newText.appendChild(newSubheading);
+        newText.appendChild(newSubheading);
 
-            newCol.appendChild(newText);
+        newCol.appendChild(newText);
 
         newRow.appendChild(newCol);
     }

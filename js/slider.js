@@ -18,24 +18,23 @@ var timer = 0;
         setTimeout("changeImage()", 5000);
 }*/
 
-function changeText()
-{
+function changeText() {
     var url = 'url(' + imgs[j] + ')';
-    if(imgs[j] !== undefined){
+    if (imgs[j] !== undefined) {
         $("#home-header").css("background-image", url);
     }
-        //addRibbon();
-        updateDots();
-        if(header[j] !== undefined && text[j] !== undefined){
-            document.getElementById("slide-title").innerHTML = header[j];
-            document.getElementById("slide-text").innerHTML = text[j];
-        }
-        j++;
+    //addRibbon();
+    updateDots();
+    if (header[j] !== undefined && text[j] !== undefined) {
+        document.getElementById("slide-title").innerHTML = header[j];
+        document.getElementById("slide-text").innerHTML = text[j];
+    }
+    j++;
 
-        if(j >= header.length){
-            j = 0;
-        }
-        timer = setTimeout("changeText()", 6000);
+    if (j >= header.length) {
+        j = 0;
+    }
+    timer = setTimeout("changeText()", 6000);
 }
 
 /*
@@ -57,43 +56,43 @@ function addRibbon()
 */
 
 
-function updateDots(){
+function updateDots() {
     var dots = document.getElementsByClassName("dot");
-     for (i = 0; i < dots.length; i++) {
-         dots[i].className = dots[i].className.replace(" active", "");
-     }
-     dots[j].className += " active";
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    dots[j].className += " active";
 }
 
-function currentSlide(num){
-    if(timer){
+function currentSlide(num) {
+    if (timer) {
         clearTimeout(timer);
         timer = 0;
     }
     var n = parseInt(num);
-    if(n >= 0 && n < header.length){
+    if (n >= 0 && n < header.length) {
         j = n;
         changeText();
     }
 }
 
 //TODO: Create header image for the move
-var imgs = ['img/header/group_photo_04_2022.jpg', 
-            'img/header/Hyun_Katie_SNL_Conference_slider.jpg',
-            'img/header/Jenna_Table_Talk_slider.jpg',
-            'img/header/Visionary_New_Scientist_Award_slider.jpg'
-    ]; 
+var imgs = ['img/header/group_photo_04_2022.jpg',
+    'img/header/Jenna_Hyun_Binaural_Beats_Publication_Slider.jpg',
+    'img/header/Hyun_Katie_SNL_Conference_slider.jpg',
+    'img/header/Jenna_Table_Talk_slider.jpg'
+];
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
+    "New Publication",
     "SNL Conference",
-    "Table Talk",
-    "Visionary New Scientist Award"];
-var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.', 
-            'Slammers Hyun-Woong Kim and Katie Ginter gave their poster presentations at this year\'s Society for the Neurobiology of Language (SNL) Conference.',
-            'Slammer Jenna Happe gave a talk with the Alzheimer\'s Association about aging and music.',
-            'Postdocs Amy Berglund-Barraza and Jeahong Kim received the Friends of Brainhealth Visionary New Scientist award!'
-    ];
+    "Table Talk",];
+var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
+    'The lab’s latest publication studying the effects of binaural beats on language processing ability in young adults has been accepted for publication in Psychological Research.  Find the preprint on our <a href="https://utd-slam.github.io/publications.html">Publications</a> page.',
+    'Slammers Hyun-Woong Kim and Katie Ginter gave their poster presentations at this year\'s Society for the Neurobiology of Language (SNL) Conference.',
+    'Slammer Jenna Happe gave a talk with the Alzheimer\'s Association about aging and music.',
+];
 
 var j = 0;
 
