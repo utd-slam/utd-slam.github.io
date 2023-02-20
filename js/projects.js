@@ -7,7 +7,8 @@ var Project = makeStruct("title img modalID");
  * Newest projects at the TOP
 */
 
-allProjects.push(new Project('tacs Study', 'img/studies/tacsPlacholder.jpg', '#studyModal1'));
+allProjects.push(new Project('Alzheimer’s and Music Study', 'img/flyers/Alzheimer_ and_Music_Study_flyer.png', '#studyModal1'));
+//img/studies/tacsPlacholder.jpg
 
 
 /*  ***THESE ARE GENERAL PROJECTS THAT DO NOT DESCRIBE SPECIFIC STUDIES***
