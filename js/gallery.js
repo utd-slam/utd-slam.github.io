@@ -6,6 +6,17 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'Feb_2023_Lab_Dinner' album
+var Feb_2023_Lab_Dinner_Links = ['img/gallery/Feb_2023_Lab_Dinner/1.jpg'];
+var th_Feb_2023_Lab_Dinner_Links = ['img/gallery/Feb_2023_Lab_Dinner/1.jpg'];
+gallery.push(new Album('February 2023 Lab Dinner', Feb_2023_Lab_Dinner_Links, th_Feb_2023_Lab_Dinner_Links, Array(th_Feb_2023_Lab_Dinner_Links.length).fill(''), 'February 2023', 'th_Feb_2023_Lab_Dinner_Links', 'other'));
+
+// Create 'Dec_2022_Lab_Dinner' album
+var Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
+var th_Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
+gallery.push(new Album('December 2022 Lab Holiday Dinner', Dec_2022_Lab_Dinner_Links, th_Dec_2022_Lab_Dinner_Links, Array(th_Dec_2022_Lab_Dinner_Links.length).fill(''), 'December 2022', 'th_Dec_2022_Lab_Dinner_Links', 'other'));
+
+
 // Create 'Dec_2022_Lab_Dinner' album
 var Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
 var th_Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
