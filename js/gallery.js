@@ -17,11 +17,6 @@ var th_Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
 gallery.push(new Album('December 2022 Lab Holiday Dinner', Dec_2022_Lab_Dinner_Links, th_Dec_2022_Lab_Dinner_Links, Array(th_Dec_2022_Lab_Dinner_Links.length).fill(''), 'December 2022', 'th_Dec_2022_Lab_Dinner_Links', 'other'));
 
 
-// Create 'Dec_2022_Lab_Dinner' album
-var Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
-var th_Dec_2022_Lab_Dinner_Links = ['img/gallery/Dec_2022_Lab_Dinner/1.png'];
-gallery.push(new Album('December 2022 Lab Holiday Dinner', Dec_2022_Lab_Dinner_Links, th_Dec_2022_Lab_Dinner_Links, Array(th_Dec_2022_Lab_Dinner_Links.length).fill(''), 'December 2022', 'th_Dec_2022_Lab_Dinner_Links', 'other'));
-
 // Create 'Katie_G_and_Katherine_W_Graduation' album
 var Katie_G_and_Katherine_W_Graduation_Links = ['img/gallery/Katie_G_and_Katherine_W_Graduation/1.png', 'img/gallery/Katie_G_and_Katherine_W_Graduation/2.png'];
 var th_Katie_G_and_Katherine_W_Graduation_Links = ['img/gallery/Katie_G_and_Katherine_W_Graduation/1.png', 'img/gallery/Katie_G_and_Katherine_W_Graduation/2.png'];
