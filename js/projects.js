@@ -7,11 +7,15 @@ var Project = makeStruct("title img modalID");
  * Newest projects at the TOP
 */
 
+
 allProjects.push(new Project('Alzheimer’s and Music Study', 'img/flyers/Alzheimer_ and_Music_Study_flyer.png', '#studyModal1'));
 
 allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Functioning in Patients with Alzheimer\'s Disease: A Clinical Trial', 'img/flyers/TheraBeat_Alzheimers_Disease_CR _flyer.png', '#studyModal2'));
 
 allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Functioning for Promoting Healthy Aging Study', 'img/flyers/HealthyFlyer_V3_Callier.png', '#studyModal3'));
+
+allProjects.push(new Project('Home-based Intervention for Chronic Aphasia', 'img/flyers/aphasia_flyer_short_v17.jpg', '#studyModal4'));
+
 
 
 /*  ***THESE ARE GENERAL PROJECTS THAT DO NOT DESCRIBE SPECIFIC STUDIES***
