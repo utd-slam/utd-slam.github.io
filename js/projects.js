@@ -16,7 +16,9 @@ allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Func
 
 allProjects.push(new Project('Home-based Intervention for Chronic Aphasia', 'img/flyers/aphasia_flyer_short_v17.jpg', '#studyModal4'));
 
+allProjects.push(new Project('Neurostimulation and Behavior Study', 'img/flyers/SLAM_Neurostim_flyer_v2.png', '#studyModal5'));
 
+allProjects.push(new Project('Neurostimulation and Language Study', 'img/flyers/Neurostimulation_Language.jpg', '#studyModal6'));
 
 /*  ***THESE ARE GENERAL PROJECTS THAT DO NOT DESCRIBE SPECIFIC STUDIES***
 allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
