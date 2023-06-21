@@ -34,7 +34,7 @@ function changeText() {
     if (j >= header.length) {
         j = 0;
     }
-    timer = setTimeout("changeText()", 6000);
+    timer = setTimeout("changeText()", 12000);
 }
 
 /*
