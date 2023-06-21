@@ -10,7 +10,7 @@ var Project = makeStruct("title img modalID");
 
 allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Functioning in Patients with Alzheimer\'s Disease: A Clinical Trial', 'img/flyers/TheraBeat_Alzheimers_Disease_CR _flyer.png', '#studyModal1'));
 
-allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Functioning in Patients with Mild Cognitive Impairment: A Clinical Trial', 'img/flyers/Behavioral.png', '#studyModal2'));
+allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Functioning in Patients with Mild Cognitive Impairment: A Clinical Trial', 'img/flyers/MCI.jpg', '#studyModal2'));
 
 allProjects.push(new Project('Home-based Intervention for Chronic Aphasia', 'img/flyers/aphasia_flyer_short_v17.jpg', '#studyModal3'));
 
@@ -18,6 +18,7 @@ allProjects.push(new Project('Neurostimulation and Behavior Study', 'img/flyers/
 
 allProjects.push(new Project('Neurostimulation and Language Study', 'img/flyers/Neurostimulation_Language.jpg', '#studyModal5'));
 
+allProjects.push(new Project('Speech, Language and Music Study', 'img/flyers/Behavioral.png', '#studyModal6'));
 /*  ***THESE ARE GENERAL PROJECTS THAT DO NOT DESCRIBE SPECIFIC STUDIES***
 allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
 
