@@ -80,18 +80,18 @@ function currentSlide(num) {
 var imgs = ['img/header/group_photo_04_2022.jpg',
     'img/header/Jenna_Hyun_Binaural_Beats_Publication_Slider.jpg',
     'img/header/Hyun_Katie_SNL_Conference_slider.jpg',
-    'img/header/Jenna_Table_Talk_slider.jpg'
+    'img/header/Congrats_Carole.jpg'
 ];
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
     "New Publication",
     "SNL Conference",
-    "Table Talk",];
+    "New Grant",];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
     'The lab’s latest publication studying the effects of binaural beats on language processing ability in young adults has been accepted for publication in Psychological Research.  Find the preprint on our <a href="https://utd-slam.github.io/publications.html">Publications</a> page.',
     'Slammers Hyun-Woong Kim and Katie Ginter gave their poster presentations at this year\'s Society for the Neurobiology of Language (SNL) Conference.',
-    'Slammer Jenna Happe gave a talk with the Alzheimer\'s Association about aging and music.',
+    'Slammer Carole Leung, in partnership with Dallas Independent School District and the Dallas Symphony Orchestra, receives grant to investigate the neurodevelopmental effects of rigorous music engagement in socioeconomically underserved children.',
 ];
 
 var j = 0;
