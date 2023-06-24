@@ -87,11 +87,11 @@ var imgs = ['img/header/group_photo_04_2022.jpg',
 var header = ["Welcome to SLAM Lab!",
     "New Publication",
     "SNL Conference",
-    "New Grant",];
+    "Friends of BrainHealth Grant",];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
     'The lab’s latest publication studying the effects of binaural beats on language processing ability in young adults has been accepted for publication in Psychological Research.  Find the preprint on our <a href="https://utd-slam.github.io/publications.html">Publications</a> page.',
     'Slammers Hyun-Woong Kim and Katie Ginter gave their poster presentations at this year\'s Society for the Neurobiology of Language (SNL) Conference.',
-    'Slammer Carole Leung, in partnership with Dallas Independent School District and the Dallas Symphony Orchestra, receives grant to investigate the neurodevelopmental effects of rigorous music engagement in socioeconomically underserved children.',
+    'Slammer Carole Leung, in partnership with Dallas Independent School District and the Dallas Symphony Orchestra, receives Friends of BrainHealth Grant to investigate the neurodevelopmental effects of rigorous music engagement in socioeconomically underserved children.',
 ];
 
 var j = 0;
