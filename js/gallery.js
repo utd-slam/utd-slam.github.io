@@ -6,6 +6,16 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 
+// Create 'DSO_Summer_Camp' album
+var DSO_Summer_Camp_Links = ['img/gallery/DSO_Summer_Camp/1.jpg', 'img/gallery/DSO_Summer_Camp/2.jpg', 'img/gallery/DSO_Summer_Camp/3.jpg', 'img/gallery/DSO_Summer_Camp/4.jpg'];
+var th_DSO_Summer_Camp_Links = ['img/gallery/DSO_Summer_Camp/1.jpg', 'img/gallery/DSO_Summer_Camp/2.jpg', 'img/gallery/DSO_Summer_Camp/3.jpg', 'img/gallery/DSO_Summer_Camp/4.jpg'];
+gallery.push(new Album('DSO Summer Camp', DSO_Summer_Camp_Links, th_DSO_Summer_Camp_Links, Array(th_DSO_Summer_Camp_Links.length).fill(''), 'July 2023', 'th_DSO_Summer_Camp_Links', 'other'));
+
+// Create 'Portable_EEG_System_Workshop' album
+var EEG_Workshop_Links = ['img/gallery/EEG_Workshop/1.jpg', 'img/gallery/EEG_Workshop/2.jpg', 'img/gallery/EEG_Workshop/3.jpg'];
+var th_EEG_Workshop_Links = ['img/gallery/EEG_Workshop/1.jpg', 'img/gallery/EEG_Workshop/2.jpg', 'img/gallery/EEG_Workshop/3.jpg'];
+gallery.push(new Album('Portable EEG System Workshop', EEG_Workshop_Links, th_EEG_Workshop_Links, Array(th_EEG_Workshop_Links.length).fill(''), 'July 2023', 'th_EEG_Workshop_Links', 'other'));
+
 // Create 'Feb_2023_Lab_Dinner' album
 var Feb_2023_Lab_Dinner_Links = ['img/gallery/Feb_2023_Lab_Dinner/1.jpg'];
 var th_Feb_2023_Lab_Dinner_Links = ['img/gallery/Feb_2023_Lab_Dinner/1.jpg'];
