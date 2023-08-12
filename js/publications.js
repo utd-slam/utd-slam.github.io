@@ -7,9 +7,9 @@ var Publication = makeStruct("title credit img link");
  */
 allPublications.push(new Publication('Beta and Gamma Binaural Beats Enhance Auditory Sentence Comprehension', 'Hyun-Woong Kim, Jenna Happe, Yune Sang Lee, 2023. Psychological Research', 'img/publications/Jenna_Hyun_Binaural_Beats_Publication_publication.jpg', 'doc/Beta_and_gamma_binaural_beats_enhance_auditory_sen.pdf'))
 
-allPublications.push(new Publication('Hemispheric Dissociations in Regions Supporting Auditory Sentence Comprehension in Older Adults', 'Yune Sang Lee, Chad S. Rogers, Murray Grossman, Arthur Wingfield, Jonathan E. Peelle, 2022. Aging Brain', 'img/publications/Lee_2022_Aging_Brain.jpg', 'doc/Lee_2022_Hemispheric_Dissociations.pdf'))
+allPublications.push(new Publication('Sensorimotor and Working Memory Systems Jointly Support Development of Perceptual Rhythm Processing', 'Hyun-Woong Kim, Kyung Myun Lee, Yune S. Lee, 2023. Developmental Science', 'img/publications/hyun_new_publication_motor_rhythm_memory_children_publication.jpg', 'doc/Hyun_Developmental_Science_2022 _sensorimotor_working_memory_perception.pdf'));
 
-allPublications.push(new Publication('Sensorimotor and Working Memory Systems Jointly Support Development of Perceptual Rhythm Processing', 'Hyun-Woong Kim, Kyung Myun Lee, Yune S. Lee, 2022. Developmental Science', 'img/publications/hyun_new_publication_motor_rhythm_memory_children_publication.jpg', 'doc/Hyun_Developmental_Science_2022 _sensorimotor_working_memory_perception.pdf'));
+allPublications.push(new Publication('Hemispheric Dissociations in Regions Supporting Auditory Sentence Comprehension in Older Adults', 'Yune Sang Lee, Chad S. Rogers, Murray Grossman, Arthur Wingfield, Jonathan E. Peelle, 2022. Aging Brain', 'img/publications/Lee_2022_Aging_Brain.jpg', 'doc/Lee_2022_Hemispheric_Dissociations.pdf'))
 
 allPublications.push(new Publication('Hybrid Auditory fMRI: In Pursuit of Increasing Data Acquisition While Decreasing the Impact of Scanner Noise', 'Matthew Heard, Xiangrui Li, Yune S. Lee, 2021. Journal of Neuroscience Methods', 'img/publications/hybrid_ms_v2_publication.jpg', 'doc/Heard_hybrid_final.pdf'));
 
