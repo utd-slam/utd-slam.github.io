@@ -12,7 +12,7 @@ allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Func
 
 allProjects.push(new Project('Efficacy of a Novel Sound Therapy on Language Functioning in Patients with Mild Cognitive Impairment: A Clinical Trial', 'img/flyers/MCI.jpg', '#studyModal2'));
 
-allProjects.push(new Project('Home-based Intervention for Chronic Aphasia', 'img/flyers/aphasia_flyer_short_v17.jpg', '#studyModal3'));
+allProjects.push(new Project('Impact of Music Engagement on the Development of Underserved Children', 'img/flyers/DSO.pdf', '#studyModal3'));
 
 allProjects.push(new Project('Neurostimulation and Behavior Study', 'img/flyers/SLAM_Neurostim_flyer_v2.png', '#studyModal4'));
 
