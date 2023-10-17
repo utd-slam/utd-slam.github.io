@@ -5,7 +5,7 @@ var Publication = makeStruct("title credit img link");
  * Add publications
  * Newest publications at the TOP
  */
-allPublications.push(new Publication('No influence of regular rhythmic priming on grammaticality judgment and sentence comprehension in English-speaking children', 'Hyun-Woong Kim, Katie E McLaren, Yune Sang Lee, 2023. Psychological Research', 'img/publications/HeadphoneBoy.jpg', 'doc/Kim23.pdf'))
+allPublications.push(new Publication('No influence of regular rhythmic priming on grammaticality judgment and sentence comprehension in English-speaking children', 'Hyun-Woong Kim, Katie E McLaren, Yune Sang Lee, 2023. Journal of Experimental Child Psychology', 'img/publications/HeadphoneBoy.jpg', 'doc/Kim23.pdf'))
 
 allPublications.push(new Publication('Beta and Gamma Binaural Beats Enhance Auditory Sentence Comprehension', 'Hyun-Woong Kim, Jenna Happe, Yune Sang Lee, 2023. Psychological Research', 'img/publications/Jenna_Hyun_Binaural_Beats_Publication_publication.jpg', 'doc/Beta_and_gamma_binaural_beats_enhance_auditory_sen.pdf'))
 
