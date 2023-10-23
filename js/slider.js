@@ -80,18 +80,18 @@ function currentSlide(num) {
 var imgs = ['img/header/group_photo_04_2022.jpg',
     'img/header/MattDissertation.jpg',
     'img/header/Hyun_Katie_SNL_Conference_slider.jpg',
-    'img/header/Congrats_Carole.jpg'
+    'img/header/PBS.png'
 ];
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
     "Dr. Heard Dissertation",
     "SNL Conference",
-    "Friends of BrainHealth Grant",];
+    "DSO Project PBS Episode",];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
     'After a successful dissertation defense, slammer Matt Heard is officially a doctor of philosophy. Congratulations, Dr. Heard!',
     'Slammers Hyun-Woong Kim and Katie Ginter gave their poster presentations at this year\'s Society for the Neurobiology of Language (SNL) Conference.',
-    'Slammer Carole Leung, in partnership with Dallas Independent School District and the Dallas Symphony Orchestra, receives Friends of BrainHealth Grant to investigate the neurodevelopmental effects of rigorous music engagement in socioeconomically underserved children.',
+    "In partnership with the Dallas Symphony Orchestra, slammer Carole Leung's project is featured in the filming of a PBS episode.",
 ];
 
 var j = 0;
