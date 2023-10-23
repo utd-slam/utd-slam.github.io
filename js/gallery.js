@@ -5,6 +5,10 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * Begin defining gallery albums
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
+// Create 'DSO_PBS_Episode' album
+var DSO_PBS_Episode_Links = ['img/gallery/PBS/1.jpg', 'img/gallery/PBS/2.jpg', 'img/gallery/PBS/3.jpg', 'img/gallery/PBS/4.jpg', 'img/gallery/PBS/5.jpg', 'img/gallery/PBS/6.jpg', 'img/gallery/PBS/7.jpg', 'img/gallery/PBS/8.jpg', 'img/gallery/PBS/9.jpg', 'img/gallery/PBS/10.jpg'];
+var th_DSO_PBS_Episode_Links = ['img/gallery/PBS/1.jpg', 'img/gallery/PBS/2.jpg', 'img/gallery/PBS/3.jpg', 'img/gallery/PBS/4.jpg', 'img/gallery/PBS/5.jpg', 'img/gallery/PBS/6.jpg', 'img/gallery/PBS/7.jpg', 'img/gallery/PBS/8.jpg', 'img/gallery/PBS/9.jpg', 'img/gallery/PBS/10.jpg'];
+gallery.push(new Album('DSO PBS Episode', DSO_PBS_Episode_Links, th_DSO_PBS_Episode_Links, Array(th_DSO_Summer_Camp_Links.length).fill(''), 'July 2023', 'th_DSO_Summer_Camp_Links', 'other'));
 
 // Create 'DSO_Summer_Camp' album
 var DSO_Summer_Camp_Links = ['img/gallery/DSO_Summer_Camp/1.jpg', 'img/gallery/DSO_Summer_Camp/2.jpg', 'img/gallery/DSO_Summer_Camp/3.jpg', 'img/gallery/DSO_Summer_Camp/4.jpg'];
