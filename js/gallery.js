@@ -6,8 +6,8 @@ var Album = makeStruct("title links thumbLinks thumbLabel time id type");
  * If you are adding a new album, define everything after this comment. Most Recent entries at the top.
  */
 // Create 'DSO_PBS_Episode' album
-var DSO_PBS_Episode_Links = ['img/gallery/PBS/1.jpg', 'img/gallery/PBS/2.jpg', 'img/gallery/PBS/3.jpg', 'img/gallery/PBS/4.jpg', 'img/gallery/PBS/5.jpg', 'img/gallery/PBS/6.jpg', 'img/gallery/PBS/7.jpg', 'img/gallery/PBS/8.jpg', 'img/gallery/PBS/9.jpg', 'img/gallery/PBS/10.jpg'];
-var th_DSO_PBS_Episode_Links = ['img/gallery/PBS/1.jpg', 'img/gallery/PBS/2.jpg', 'img/gallery/PBS/3.jpg', 'img/gallery/PBS/4.jpg', 'img/gallery/PBS/5.jpg', 'img/gallery/PBS/6.jpg', 'img/gallery/PBS/7.jpg', 'img/gallery/PBS/8.jpg', 'img/gallery/PBS/9.jpg', 'img/gallery/PBS/10.jpg'];
+var DSO_PBS_Episode_Links = ['img/gallery/pbs/1.jpg', 'img/gallery/pbs/2.jpg', 'img/gallery/pbs/3.jpg', 'img/gallery/pbs/4.jpg', 'img/gallery/pbs/5.jpg', 'img/gallery/pbs/6.jpg', 'img/gallery/pbs/7.jpg', 'img/gallery/pbs/8.jpg', 'img/gallery/pbs/9.jpg', 'img/gallery/pbs/10.jpg'];
+var th_DSO_PBS_Episode_Links = ['img/gallery/pbs/1.jpg', 'img/gallery/pbs/2.jpg', 'img/gallery/pbs/3.jpg', 'img/gallery/pbs/4.jpg', 'img/gallery/pbs/5.jpg', 'img/gallery/pbs/6.jpg', 'img/gallery/pbs/7.jpg', 'img/gallery/pbs/8.jpg', 'img/gallery/pbs/9.jpg', 'img/gallery/pbs/10.jpg'];
 gallery.push(new Album('DSO PBS Episode', DSO_PBS_Episode_Links, th_DSO_PBS_Episode_Links, Array(th_DSO_PBS_Episode_Links.length).fill(''), 'October 2023', 'th_DSO_PBS_Episode_Links', 'other'));
 
 // Create 'DSO_Summer_Camp' album
