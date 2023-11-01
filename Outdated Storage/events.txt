@@ -1,3 +1,4 @@
+// NOTE: This is an old page that was removed due to lack of updates and outdated information. To add it back, change this file back to HTML and load it in navigation.html
 // <!DOCTYPE html>
 <html lang="en">
 

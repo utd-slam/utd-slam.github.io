@@ -77,7 +77,7 @@ function currentSlide(num) {
 }
 
 //TODO: Create header image for the move
-var imgs = ['img/header/group_photo_04_2022.jpg',
+var imgs = ['img/header/LabPhoto23.jpg',
     'img/header/MattDissertation.jpg',
     'img/header/CaroleAward.jpg',
     'img/header/PBS.jpg'
