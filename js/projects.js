@@ -19,6 +19,8 @@ allProjects.push(new Project('Neurostimulation and Behavior Study', 'img/flyers/
 allProjects.push(new Project('Neurostimulation and Language Study', 'img/flyers/Neurostimulation_Language.jpg', '#studyModal5'));
 
 allProjects.push(new Project('Speech, Language and Music Study', 'img/flyers/Behavioral.png', '#studyModal6'));
+
+allProjects.push(new Project('Speech, Language and Music Study', 'img/flyers/BB_Study.png', '#studyModal7'));
 /*  ***THESE ARE GENERAL PROJECTS THAT DO NOT DESCRIBE SPECIFIC STUDIES***
 allProjects.push(new Project('Video Game Therapy for Chronic Aphasia', 'img/portfolio/aphasia.jpg', '#portfolioModal5'));
 
