@@ -78,20 +78,21 @@ function currentSlide(num) {
 
 //TODO: Create header image for the move
 var imgs = ['img/header/LabPhoto23.jpg',
+    'img/header/BBComprehension2023.jpg',
     'img/header/MattDissertation.jpg',
     'img/header/CaroleAward.jpg',
-    'img/header/PBS.jpg'
 ];
 //var ribbonLinks = ['', 'index.html#recent-events', '',''];
 //var ribbons = ['', 'img/ribbons/recent_news.png','', ''];
 var header = ["Welcome to SLAM Lab!",
+    "New Binaural Beat Publication",
     "Dr. Heard Dissertation",
     "Carole Leung: Visionary New Scientist",
-    "DSO Project PBS Episode",];
+];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
+    "The lab's most recent <a href='https://utd-slam.github.io/publications.html'>publication</a> by slammers Jeahong Kim and Hyun-Woong Kim reveals enhanced auditory sentence comprehension after beta or gamma binaural beat stimulation.",
     'After a successful dissertation defense, slammer Matt Heard is officially a doctor of philosophy. Congratulations, Dr. Heard!',
     "Slammer Carole Leung is recognized with the Visionary New Scientist Award from the Center for Brain Health. Congratulations, Carole!",
-    "In partnership with the Dallas Symphony Orchestra, slammer Carole Leung's project is featured in the filming of a PBS episode.",
 ];
 
 var j = 0;
