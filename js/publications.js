@@ -5,7 +5,7 @@ var Publication = makeStruct("title credit img link");
  * Add publications
  * Newest publications at the TOP
  */
-allPublications.push(new Publication('Neural consequences of binaural beat stimulation on auditory sentence comprehension: an EEG study', 'Jeahong Kim, Hyun-Woong Kim, Yune Sang Lee, 2023. Journal of Experimental Child Psychology', 'img/publications/BBComprehension2023.jpeg', 'doc/BBComprehension2023.pdf'))
+allPublications.push(new Publication('Neural consequences of binaural beat stimulation on auditory sentence comprehension: an EEG study', 'Jeahong Kim, Hyun-Woong Kim, Yune Sang Lee, 2023. Cerebral Cortex', 'img/publications/BBComprehension2023.jpeg', 'doc/BBComprehension2023.pdf'))
 
 allPublications.push(new Publication('No influence of regular rhythmic priming on grammaticality judgment and sentence comprehension in English-speaking children', 'Hyun-Woong Kim, Katie E McLaren, Yune Sang Lee, 2023. Journal of Experimental Child Psychology', 'img/publications/HeadphoneBoy.jpg', 'doc/Kim23.pdf'))
 
