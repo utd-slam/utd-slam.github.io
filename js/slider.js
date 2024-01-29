@@ -90,7 +90,7 @@ var header = ["Welcome to SLAM Lab!",
     "Carole Leung: Visionary New Scientist",
 ];
 var text = ['We are the auditory neuroscience lab at The University of Texas at Dallas Department of Speech, Language, &amp;        Hearing in the School of Behavioral and Brain Sciences. We study the connection between speech, language, and music in the brain.',
-    "The lab's most recent <a href='https://utd-slam.github.io/publications.html'>publication</a> by slammers Jeahong Kim and Hyun-Woong Kim reveals enhanced auditory sentence comprehension after beta or gamma binaural beat stimulation.",
+    "Recently featured in a <a href='https://neurosciencenews.com/binaural-beat-language-25390/#:~:text=A%20growing%20literature%20has%20shown,frequencies%20enhanced%20auditory%20sentence%20comprehension.'>neurosciencenews.com article</a>, the lab's most recent publication by slammers Jeahong Kim and Hyun-Woong Kim reveals <a href='https://utd-slam.github.io/publications.html'>enhanced auditory sentence comprehension after beta or gamma binaural beat stimulation.</a>",
     'After a successful dissertation defense, slammer Matt Heard is officially a doctor of philosophy. Congratulations, Dr. Heard!',
     "Slammer Carole Leung is recognized with the Visionary New Scientist Award from the Center for Brain Health. Congratulations, Carole!",
 ];
